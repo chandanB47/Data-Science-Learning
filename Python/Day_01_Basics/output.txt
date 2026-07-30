@@ -1,0 +1,30 @@
+I am Chandan B, My age is 26 years old, I live in Bengaluru and I am Learning Data Science.
+
+
+100 <class 'int'>
+0.45 <class 'float'>
+Hello <class 'str'>
+True <class 'bool'>
+
+
+Enter first number: 50
+Enter second number: 4.5
+Addition: 54.5
+Subtraction: 45.5
+Multiplication: 225.0
+Division: 11.11111111111111
+
+
+
+Original value: 500 | Type: <class 'str'>
+Converted value: 500 | Type: <class 'int'>
+Result after adding 250: 750
+
+
+
+Enter your name: Chandan B
+Enter your birth year: 2000
+Hello Chandan B, you are approximately 26 years old in 2026.
+
+
+
