@@ -1,0 +1,128 @@
+----- Numeric Data Types -----
+26 <class 'int'>
+-10 <class 'int'>
+1499.5 <class 'float'>
+12.5 <class 'float'>
+(3+4j) <class 'complex'>
+
+----- Arithmetic Operators -----
+Addition: 29
+Subtraction: 21
+Multiplication: 100
+Division: 6.25
+Floor Division: 6
+Modulus: 1
+Exponent: 390625
+
+----- Division -----
+Normal Division: 3.4
+Floor Division: 3
+
+----- Quotient and Remainder -----
+Quotient: 3
+Remainder: 2
+
+----- Exponent -----
+5 power 2: 25
+
+----- String to Integer -----
+Before: 1500 <class 'str'>
+After: 1500 <class 'int'>
+Total: 2000
+
+----- String to Float -----
+Before: 249.50 <class 'str'>
+After: 249.5 <class 'float'>
+
+----- Float to Integer -----
+Original: 999.99
+Converted: 999
+
+----- Integer to Float -----
+Integer: 250 <class 'int'>
+Float: 250.0 <class 'float'>
+
+----- Number to String -----
+Before: 500 <class 'int'>
+After: 500 <class 'str'>
+
+----- Multiple Conversions -----
+250 <class 'int'>
+250.0 <class 'float'>
+250.0 <class 'str'>
+
+----- Implicit Conversion -----
+Integer: 10
+Float: 2.5
+Result: 12.5
+Result Type: <class 'float'>
+
+----- Explicit Conversion -----
+Before: 100 <class 'str'>
+After: 100 <class 'int'>
+
+----- User Input -----
+Enter first number: 250
+Enter second number: 300
+Addition: 550.0
+Subtraction: -50.0
+Multiplication: 75000.0
+Division: 0.8333333333333334
+
+----- Bill Calculator -----
+Enter product name: laptop
+Enter product price: 35000
+Enter quantity: 15
+Product: laptop
+Quantity: 15
+Total Bill: ₹525000.00
+
+----- Celsius to Fahrenheit -----
+Enter temperature in Celsius: 33
+Celsius: 33.00
+Fahrenheit: 91.40
+
+----- Average Calculator -----
+Enter first number: 4500
+Enter second number: 500
+Enter third number: 700
+Average: 1900.00
+
+----- Salary Calculator -----
+Enter basic salary: 25000
+Enter bonus percentage: 9
+Basic Salary: ₹25000.00
+Bonus: ₹2250.00
+Total Salary: ₹27250.00
+
+----- Seconds Converter -----
+Enter total seconds: 5678
+Hours: 1
+Minutes: 34
+Seconds: 38
+
+----- Swap Numbers -----
+Before:
+a = 10
+b = 20
+After:
+a = 20
+b = 10
+
+----- Decimal String Conversion -----
+Original: 250.50 <class 'str'>
+Converted: 250.5 <class 'float'>
+
+----- Shopping Bill -----
+Enter product name: mobile
+Enter product price: 34500
+Enter quantity: 12
+Enter discount percentage: 20
+
+----- BILL -----
+Product: mobile
+Quantity: 12
+Price: ₹34500.00
+Subtotal: ₹414000.00
+Discount: ₹82800.00
+Final Total: ₹331200.00
