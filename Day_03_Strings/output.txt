@@ -1,0 +1,75 @@
+Name: Chandan B
+City: Bengaluru
+Course: Data Science
+Type: <class 'str'>
+
+Multiline String:
+Python
+SQL
+Power BI
+Machine Learning
+
+Length: 6
+
+--- Indexing ---
+First character: P
+Second character: y
+Last character: n
+Second last: o
+
+--- Slicing ---
+Pyt
+Pyth
+thon
+hon
+
+--- Step ---
+Pto
+Reverse: nohtyP
+
+Full Name: Chandan B
+Python Python Python 
+
+--- Case Methods ---
+PYTHON DATA SCIENCE
+python data science
+Python Data Science
+Python data science
+
+--- Strip ---
+Original:    Chandan B   
+strip(): Chandan B
+lstrip(): Chandan B   
+rstrip():    Chandan B
+
+Original: I am learning Python
+Replaced: I am learning Data Science
+
+Python position: 0
+Data position: 21
+Java position: -1
+
+Number of a: 3
+Number of n: 2
+
+--- Membership ---
+True
+False
+True
+
+Starts with sales: True
+CSV file: True
+
+Skills: ['Python', 'SQL', 'Power BI', 'Excel']
+Joined: Python | SQL | Power BI | Excel
+
+--- Checking Methods ---
+True
+True
+True
+False
+
+My name is Chandan, I am 26 years old and I am learning Data Science.
+Price: ₹1500
+Quantity: 3
+Total: ₹4500
