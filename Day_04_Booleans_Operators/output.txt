@@ -1,0 +1,58 @@
+=== Boolean Values ===
+True
+False
+<class 'bool'>
+
+=== bool() ===
+True
+False
+False
+True
+False
+True
+
+=== Comparison Operators ===
+False
+True
+True
+False
+True
+False
+
+=== Arithmetic Operators ===
+19
+11
+60
+3.75
+3
+3
+50625
+
+=== Assignment Operators ===
+15
+12
+24
+
+=== Logical Operators ===
+True
+True
+False
+
+=== Membership Operators ===
+True
+False
+True
+
+=== Identity Operators ===
+True
+False
+True
+
+=== Operator Precedence ===
+20
+
+=== Eligibility ===
+Enter age: 26
+True
+
+===== Day 04 Completed =====
