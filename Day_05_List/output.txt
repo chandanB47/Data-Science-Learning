@@ -1,0 +1,84 @@
+========== DAY 05 - PYTHON LISTS ==========
+
+1. Creating Lists
+Fruits : ['Apple', 'Banana', 'Orange']
+Numbers: [10, 20, 30, 40, 50]
+Student: ['Chandan', 26, 89.5, True]
+
+2. Accessing Elements
+First Fruit : Apple
+Second Fruit: Banana
+Last Fruit  : Orange
+
+3. List Slicing
+[20, 30, 40]
+[10, 20, 30]
+[30, 40, 50]
+[50, 40, 30, 20, 10]
+
+4. Updating List
+['Apple', 'Mango', 'Orange']
+
+5. append()
+['Apple', 'Mango', 'Orange', 'Kiwi']
+
+6. insert()
+['Apple', 'Mango', 'Grapes', 'Orange', 'Kiwi']
+
+7. extend()
+['Apple', 'Mango', 'Grapes', 'Orange', 'Kiwi', 'Pineapple', 'Papaya']
+
+8. remove()
+['Mango', 'Grapes', 'Orange', 'Kiwi', 'Pineapple', 'Papaya']
+
+9. pop()
+Removed: Papaya
+['Mango', 'Grapes', 'Orange', 'Kiwi', 'Pineapple']
+
+10. clear()
+['Red', 'Blue', 'Green']
+[]
+
+11. count()
+3
+
+12. index()
+0
+
+13. sort()
+Ascending : [65, 70, 85, 90, 95]
+Descending: [95, 90, 85, 70, 65]
+
+14. reverse()
+[65, 70, 85, 90, 95]
+
+15. copy()
+Original: [65, 70, 85, 90, 95]
+Copy    : [65, 70, 85, 90, 95]
+
+16. Membership
+True
+False
+True
+
+17. Loop
+Mango
+Grapes
+Orange
+Kiwi
+Pineapple
+
+18. Length
+5
+
+19. Nested List
+[['Chandan', 26], ['Rahul', 24], ['Kiran', 25]]
+['Chandan', 26]
+Rahul
+
+20. Student Marks
+Marks : [85, 72, 95, 66, 88]
+Highest: 95
+Lowest : 66
+Total  : 406
+Average: 81.2
