@@ -1,0 +1,66 @@
+========== DAY 06 - PYTHON TUPLES ==========
+
+1. Creating Tuples
+('Apple', 'Banana', 'Orange')
+(10, 20, 30, 40, 50)
+('Chandan', 26, 89.5, True)
+
+2. Length
+3
+
+3. Indexing
+Apple
+Banana
+Orange
+
+4. Slicing
+(20, 30, 40)
+(10, 20, 30)
+(30, 40, 50)
+(50, 40, 30, 20, 10)
+
+5. Membership
+True
+False
+
+6. Loop
+Apple
+Banana
+Orange
+
+7. count()
+3
+
+8. index()
+1
+
+9. Tuple Packing
+('Chandan', 26, 'Bengaluru')
+
+10. Tuple Unpacking
+Chandan
+26
+Bengaluru
+
+11. Nested Tuple
+(('Chandan', 26), ('Rahul', 24), ('Kiran', 25))
+('Chandan', 26)
+Rahul
+
+12. Tuple to List
+['Apple', 'Banana', 'Orange']
+['Apple', 'Banana', 'Orange', 'Kiwi']
+
+13. List to Tuple
+('Apple', 'Banana', 'Orange', 'Kiwi')
+
+14. Immutability
+Tuples cannot be modified after creation.
+
+15. Student Data
+Marks : (92, 88, 95)
+Highest : 95
+Lowest : 88
+Average : 91.66666666666667
+
+========== DAY 06 COMPLETED ==========
