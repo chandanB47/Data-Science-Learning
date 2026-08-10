@@ -1,0 +1,103 @@
+========== DAY 08 - PYTHON DICTIONARIES ==========
+
+1. Creating Dictionary
+{'name': 'Chandan', 'age': 26, 'city': 'Bengaluru', 'course': 'Data Science'}
+
+2. Accessing Values
+Chandan
+26
+Data Science
+
+3. get()
+Chandan
+None
+
+4. Adding Items
+{'name': 'Chandan', 'age': 26, 'city': 'Bengaluru', 'course': 'Data Science', 'email': 'chandan@example.com'}
+
+5. Updating Values
+{'name': 'Chandan', 'age': 27, 'city': 'Bengaluru', 'course': 'Data Science', 'email': 'chandan@example.com'}
+
+6. update()
+{'name': 'Chandan', 'age': 27, 'city': 'Bengaluru', 'course': 'Data Science - GEN AI', 'email': 'chandan@example.com', 'experience': 'Beginner'}
+
+7. keys()
+dict_keys(['name', 'age', 'city', 'course', 'email', 'experience'])
+
+8. values()
+dict_values(['Chandan', 27, 'Bengaluru', 'Data Science - GEN AI', 'chandan@example.com', 'Beginner'])
+
+9. items()
+dict_items([('name', 'Chandan'), ('age', 27), ('city', 'Bengaluru'), ('course', 'Data Science - GEN AI'), ('email', 'chandan@example.com'), ('experience', 'Beginner')])
+
+10. Membership
+True
+False
+
+11. Loop Through Keys
+name
+age
+city
+course
+email
+experience
+
+12. Loop Through Values
+Chandan
+27
+Bengaluru
+Data Science - GEN AI
+chandan@example.com
+Beginner
+
+13. Loop Through Items
+name : Chandan
+age : 27
+city : Bengaluru
+course : Data Science - GEN AI
+email : chandan@example.com
+experience : Beginner
+
+14. pop()
+Removed: Beginner
+{'name': 'Chandan', 'age': 27, 'city': 'Bengaluru', 'course': 'Data Science - GEN AI', 'email': 'chandan@example.com'}
+
+15. popitem()
+Removed: ('email', 'chandan@example.com')
+{'name': 'Chandan', 'age': 27, 'city': 'Bengaluru', 'course': 'Data Science - GEN AI'}
+
+16. copy()
+Original: {'name': 'Chandan', 'age': 27, 'city': 'Bengaluru', 'course': 'Data Science - GEN AI'}
+Copy: {'name': 'Chandan', 'age': 27, 'city': 'Bengaluru', 'course': 'Data Science - GEN AI'}
+
+17. clear()
+Before: {'name': 'Rahul', 'age': 25}
+After: {}
+
+18. Different Data Types
+{'name': 'Chandan', 'age': 26, 'salary': 50000.5, 'skills': ['Python', 'SQL'], 'active': True}
+
+19. Nested Dictionary
+{'student1': {'name': 'Chandan', 'age': 26, 'course': 'Data Science'}, 'student2': {'name': 'Rahul', 'age': 24, 'course': 'Python'}, 'student3': {'name': 'Kiran', 'age': 25, 'course': 'SQL'}}
+Chandan
+Python
+
+20. Student Marks
+Python: 85
+SQL: 90
+Highest: 90
+Lowest: 78
+Average: 85.25
+
+21. Practical Data Record
+employee_id: 101
+name: Chandan
+department: Data Science
+salary: 50000
+skills: ['Python', 'SQL', 'Power BI']
+active: True
+
+22. Two Lists to Dictionary
+{'name': 'Chandan', 'age': 26, 'city': 'Bengaluru'}
+
+========== DAY 08 COMPLETED ==========
