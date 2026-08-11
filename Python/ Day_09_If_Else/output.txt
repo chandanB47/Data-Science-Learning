@@ -1,0 +1,60 @@
+1. Simple IF
+You are an adult
+
+2. IF / ELSE
+Not eligible to vote
+
+3. IF / ELIF / ELSE
+Grade A
+
+4. Number Check
+Negative
+
+5. Even / Odd
+Odd
+
+6. AND
+Eligible for loan
+
+7. OR
+Weekend
+
+8. NOT
+Please login
+
+9. Nested IF
+Eligible to vote
+
+10. String Condition
+Python course selected
+
+11. Membership
+Skill found
+
+12. Truthy / Falsy
+List is empty
+
+13. Discount
+Original Amount: 6000
+Discount: 600.0
+Final Amount: 5400.0
+
+14. User Input
+Enter your age: 26
+You are eligible
+
+15. Login
+Enter username: chandan
+Enter password: 123@mad
+Invalid Credentials
+
+16. Employee Bonus
+Enter salary: 56000
+Enter performance (good/bad): good
+Bonus: 5600.0
+Final Salary: 61600.0
+
+17. Conditional Expression
+Adult
+
+========== DAY 09 COMPLETED ==========
