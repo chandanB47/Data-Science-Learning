@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1001,
+        "name": "chandan",
+        "age": 26,
+        "course": "pyhton",
+        "marks": 69.0,
+        "skills": [
+            "Python",
+            "Excel",
+            "SQL"
+        ]
+    },
+    {
+        "id": 1002,
+        "name": "rahul",
+        "age": 34,
+        "course": "sql",
+        "marks": 56.0,
+        "skills": [
+            "Python",
+            "Excel",
+            "SQL"
+        ]
+    },
+    {
+        "id": 1003,
+        "name": "nani",
+        "age": 27,
+        "course": "excel",
+        "marks": 56.0,
+        "skills": [
+            "Python",
+            "Excel",
+            "SQL"
+        ]
+    }
+]
