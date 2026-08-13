@@ -1,0 +1,175 @@
+==================================================
+        STUDENT MANAGEMENT SYSTEM
+==================================================
+
+1. Add Student
+2. View Students
+3. Search Student
+4. Student Result
+5. Display Skills
+6. Exit
+
+Enter Your Choice: 1
+
+========== ADD STUDENT ==========
+Enter Student ID: 1001
+Student ID already exists.
+Enter a different Student ID: 1002
+Enter Student Name: rahul
+Enter Student Age: 34
+Enter Course: sql
+Enter Marks: 56
+
+Student Added Successfully!
+{'id': 1002, 'name': 'rahul', 'age': 34, 'course': 'sql', 'marks': 56.0, 'skills': {'Python', 'Excel', 'SQL'}}
+==================================================
+        STUDENT MANAGEMENT SYSTEM
+==================================================
+
+1. Add Student
+2. View Students
+3. Search Student
+4. Student Result
+5. Display Skills
+6. Exit
+
+Enter Your Choice: 1
+
+========== ADD STUDENT ==========
+Enter Student ID: 1003
+Enter Student Name: nani
+Enter Student Age: 27
+Enter Course: excel
+Enter Marks: 56
+
+Student Added Successfully!
+{'id': 1003, 'name': 'nani', 'age': 27, 'course': 'excel', 'marks': 56.0, 'skills': {'Python', 'Excel', 'SQL'}}
+==================================================
+        STUDENT MANAGEMENT SYSTEM
+==================================================
+
+1. Add Student
+2. View Students
+3. Search Student
+4. Student Result
+5. Display Skills
+6. Exit
+
+Enter Your Choice: 2
+
+========== VIEW STUDENTS ==========
+
+Student ID: 1001
+Name: chandan
+Age: 26
+Course: pyhton
+Marks: 69.0
+
+Student ID: 1002
+Name: rahul
+Age: 34
+Course: sql
+Marks: 56.0
+
+Student ID: 1003
+Name: nani
+Age: 27
+Course: excel
+Marks: 56.0
+==================================================
+        STUDENT MANAGEMENT SYSTEM
+==================================================
+
+1. Add Student
+2. View Students
+3. Search Student
+4. Student Result
+5. Display Skills
+6. Exit
+
+Enter Your Choice: 3
+
+========== SEARCH STUDENT ==========
+Enter Student ID to Search: 1001
+
+Student Found!
+Student ID: 1001
+Name: chandan
+Age: 26
+Course: pyhton
+Marks: 69.0
+==================================================
+        STUDENT MANAGEMENT SYSTEM
+==================================================
+
+1. Add Student
+2. View Students
+3. Search Student
+4. Student Result
+5. Display Skills
+6. Exit
+
+Enter Your Choice: 3
+
+========== SEARCH STUDENT ==========
+Enter Student ID to Search: 1004
+
+Student Not Found.
+==================================================
+        STUDENT MANAGEMENT SYSTEM
+==================================================
+
+1. Add Student
+2. View Students
+3. Search Student
+4. Student Result
+5. Display Skills
+6. Exit
+
+Enter Your Choice: 4
+
+========== STUDENT RESULT ==========
+Enter Student ID: 1002
+
+Student Result
+-------------------------
+Student ID: 1002
+Name: rahul
+Course: sql
+Marks: 56.0
+Grade: D
+==================================================
+        STUDENT MANAGEMENT SYSTEM
+==================================================
+
+1. Add Student
+2. View Students
+3. Search Student
+4. Student Result
+5. Display Skills
+6. Exit
+
+Enter Your Choice: 5
+
+========== DISPLAY SKILLS ==========
+Enter Student ID: 1003
+
+Student: nani
+Skills:
+- Python
+- Excel
+- SQL
+==================================================
+        STUDENT MANAGEMENT SYSTEM
+==================================================
+
+1. Add Student
+2. View Students
+3. Search Student
+4. Student Result
+5. Display Skills
+6. Exit
+
+Enter Your Choice: 6
+
+Thank you for using Student Management System
