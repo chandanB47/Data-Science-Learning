@@ -1,0 +1,25 @@
+Welcome to Python Functions
+Hello Chandan
+Hello Rahul
+
+Student Information
+Name: Chandan
+Age: 26
+Course: Data Science
+
+Addition: 30
+
+Calculation Results
+Addition: 30
+Subtraction: 10
+Multiplication: 200
+
+Welcome Chandan
+
+Welcome Guest
+
+Enter a number: 45
+Square: 2025
+
+Enter marks: 100
+Result: Pass
