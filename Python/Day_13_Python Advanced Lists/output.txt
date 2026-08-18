@@ -1,0 +1,26 @@
+First Student: Chandan
+Last Student: Amit
+
+Slicing
+[20, 30, 40]
+[10, 20, 30]
+[30, 40, 50]
+[50, 40, 30, 20, 10]
+
+After append: ['Apple', 'Banana', 'Mango']
+After insert: ['Apple', 'Orange', 'Banana', 'Mango']
+After extend: ['Apple', 'Orange', 'Banana', 'Mango', 'Grapes', 'Pineapple']
+After remove: ['Apple', 'Orange', 'Mango', 'Grapes', 'Pineapple']
+After pop: ['Apple', 'Mango', 'Grapes', 'Pineapple']
+Removed Item: Orange
+
+Count of 10: 3
+Index of 30: 3
+Sorted: [10, 10, 10, 20, 30]
+Reversed: [30, 20, 10, 10, 10]
+
+Original: [10, 20, 30]
+Copied: [10, 20, 30, 40]
+
+Student: Chandan
+Marks: 85
