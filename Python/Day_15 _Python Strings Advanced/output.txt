@@ -1,0 +1,35 @@
+=== 1. ADVANCED SLICING & REVERSING ===
+Every 2nd char: DtSine06
+Reversed: 6202ecneicSataD
+Sub-slice [-4:]: 2026
+
+=== 2. WHITESPACE & CHARACTER STRIPPING ===
+Raw: '  ###User_101###  \n'
+Cleaned: User_101
+
+=== 3. SPLIT AND JOIN ===
+Tokens: ['2026-08-20', 'Production', 'Error', '500']
+Joined Path: var/log/nginx/access.log
+
+=== 4. SEARCHING & VALIDATION ===
+Starts with ERROR/CRITICAL: True
+Find 'database': index 14
+Count of 'e': 3
+
+=== 5. F-STRINGS & FORMAT SPECIFIERS ===
+Metric: ACCURACY   | Score: 94.58% | Records: 1,500,000
+
+========================================
+PRACTICE SOLUTIONS (Q1 - Q10)
+========================================
+Q1 Is 'RaceCar' a palindrome?: True
+Q2 Extracted Domain: datacompany.org
+Q3 Sanitized Title: Data Science And Machine Learning
+Q4 Count of 'fox': 2
+Q5 Valid Extension?: True
+Q6 Masked Card: ************8819
+Q7 URL Slug: 10-tips-for-clean-code-in-2026
+Q8 Clean Endpoint: api.github.com
+Q9 Total Quantity: 118
+Q10 Parsed Log Record:
+ {'timestamp': '2026-08-20 14:32:01', 'level': 'CRITICAL', 'ip': '192.168.1.105', 'message': 'Database connection pool exhausted'}
