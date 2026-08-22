@@ -1,0 +1,27 @@
+=== 1. SAFE RETRIEVAL & DEFAULT VALUES ===
+Salary: Not Disclosed
+Updated Profile: {'id': 101, 'username': 'alex99', 'role': 'Analyst', 'status': 'Active'}
+
+=== 2. DICTIONARY MERGING ===
+Merged Config: {'theme': 'dark', 'notifications': True, 'timeout': 60}
+
+=== 3. DICTIONARY COMPREHENSION ===
+Filtered Temperatures (>65°F): {'Tokyo': 77.0, 'New York': 71.6}
+
+=== 4. NESTED DICTIONARIES ===
+Sara's Skills: ['Python', 'SQL', 'Pandas']
+
+========================================
+PRACTICE SOLUTIONS (Q1 - Q10)
+========================================
+Q1 Char Frequency: {'d': 1, 'a': 2, 't': 1, 'e': 3, 'n': 3, 'g': 2, 'i': 2, 'r': 1}
+Q2 Inverted Dict: {'Alice': 101, 'Bob': 102, 'Charlie': 103}
+Q3 High-Performing Stores: {'Store_A': 45000, 'Store_C': 67000}
+Q4 Extracted GPAs: {'Aman': 3.8, 'Priya': 3.2, 'Rohan': 3.9}
+Q5 Aggregated Expenses: {'travel': 2000, 'hardware': 3500, 'software': 1400, 'marketing': 2400}
+Q6 Grouped by Initial: {'A': ['Anna', 'Alice'], 'B': ['Bob', 'Brian'], 'C': ['Charlie'], 'D': ['David']}
+Q7 In-Stock Items: {'apples': 50, 'oranges': 12}
+Q8 Top Player: Player2 (95 pts)
+Q9 Updated Port: 9000
+Q10 Flattened Payload:
+ {'user': 'jdoe', 'meta_device': 'mobile', 'meta_ip': '10.0.0.1', 'active': True}
