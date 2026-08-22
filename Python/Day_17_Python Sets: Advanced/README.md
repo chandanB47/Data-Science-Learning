@@ -23,6 +23,4 @@ In Data Science, sets are widely used for deduplication, tracking unique identif
 
 ---
 
-skills.update(["NumPy", "Git", "SQL"])
-print(skills)
-# Output: {'Python', 'SQL', 'Pandas', 'NumPy', 'Git'}
+
