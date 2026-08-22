@@ -22,6 +22,4 @@ The goal is to master safe value extraction, dictionary views, merging technique
 * Grouping, aggregating, and flattening structured records
 
 ---
-user.setdefault("role", "Admin")  # Does not overwrite existing "Analyst"
-print(user)
-# Output: {'id': 101, 'name': 'Alex', 'role': 'Analyst', 'status': 'Active'}
+
