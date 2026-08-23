@@ -1,0 +1,32 @@
+=== 1. TUPLE CREATION & TRAILING COMMA ===
+not_a_tuple type: <class 'str'>
+real_tuple type:  <class 'tuple'>
+
+=== 2. TUPLE IMMUTABILITY & DICT KEYS ===
+Lookup by coordinate tuple: San Francisco
+
+=== 3. STAR UNPACKING (*REST) ===
+First Day: 1200
+Middle Days: [1450, 1100, 1800, 1350]
+Last Day: 2100
+
+=== 4. NESTED UNPACKING ===
+Dataset: Iris_Dataset | Dimensions: 150x4 | Classes Count: 3
+
+=== 5. NAMEDTUPLES ===
+NamedTuple record: Observation(timestamp='2026-08-23 12:00:00', sensor_id='SENSOR_A', reading=24.8)
+Reading from SENSOR_A: 24.8°C
+
+========================================
+PRACTICE SOLUTIONS (Q1 - Q10)
+========================================
+Q1 Swapped: x = 20, y = 10
+Q2 Min: 68, Max: 82, Normal Range: [70, 72, 75, 79, 80]
+Q3 Stats -> Min: 8, Max: 45, Average: 23.33
+Q4 Single element is tuple?: True
+Q5 Caught Expected Exception: 'tuple' object does not support item assignment
+Q6 Unpacked: Emp_101 | Dept: Sales (North America) | Total Comp: $97,000
+Q7 Extracted Log: Date = 2026-08-23, Error = DB_CONN_TIMEOUT
+Q8 Count of 20: 3, First Index of 40: 4
+Q9 Student 105 Fall 2026 GPA: 3.92
+Q10 Qualifying NY Users (>23): ['Alice', 'Diana']
