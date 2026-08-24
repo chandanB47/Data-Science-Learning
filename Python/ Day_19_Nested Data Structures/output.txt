@@ -1,0 +1,29 @@
+=== 1. CHAINED INDEXING & TRAVERSAL ===
+Priya's Algo Score: 92
+
+=== 2. SHALLOW VS DEEP COPYING ===
+Original Modules: ['Python', 'SQL']
+Cloned Modules:   ['Python', 'SQL', 'Pandas']
+
+=== 3. NESTED COMPREHENSIONS ===
+All Extracted Products: ['Laptop', 'Mouse', 'Monitor', 'Keyboard']
+
+=== 4. FLATTENING HIERARCHIES ===
+Flat User Record: {'user_id': 'U100', 'name': 'Rohan Sharma', 'city': 'Bengaluru', 'country': 'India'}
+
+========================================
+PRACTICE SOLUTIONS (Q1 - Q10)
+========================================
+Q1 s2 Marks: 94
+Q2 Original DB Host: 10.0.0.1 | Dev DB Host: localhost
+Q3 All Products: ['TV', 'Radio', 'Chair', 'Table', 'Bed']
+Q4 Customer Totals: {'Alice': 165, 'Bob': 475, 'Charlie': 80}
+Q5 Top Performers (>4.5 Rating): ['Anil', 'Vikram']
+Q6 Developer to Skills Mapping: {'Dev1': ['Python', 'SQL'], 'Dev2': ['Python', 'Docker'], 'Dev3': ['SQL', 'Docker']}
+Q7 Total Employees across departments: 8
+Q8 Extracted Pincode: 560001, Missing Value: N/A
+Q9 Normalized Telemetry: [{'sensor_id': 'S1', 'timestamp': 1700001, 'temperature': 24.5, 'humidity': 60}, {'sensor_id': 'S2', 'timestamp': 1700002, 'temperature': 26.1, 'humidity': 55}]
+Q10 Normalized Order Line Items:
+  {'order_id': 'ORD-9821', 'customer_name': 'Meera Patel', 'customer_tier': 'Gold', 'item_name': 'Wireless Keyboard', 'quantity': 1, 'final_price': 45.0, 'status': 'Shipped'}
+  {'order_id': 'ORD-9821', 'customer_name': 'Meera Patel', 'customer_tier': 'Gold', 'item_name': 'USB-C Cable', 'quantity': 2, 'final_price': 30.0, 'status': 'Shipped'}
+  {'order_id': 'ORD-9821', 'customer_name': 'Meera Patel', 'customer_tier': 'Gold', 'item_name': 'Ergonomic Mouse', 'quantity': 1, 'final_price': 68.0, 'status': 'Shipped'}
