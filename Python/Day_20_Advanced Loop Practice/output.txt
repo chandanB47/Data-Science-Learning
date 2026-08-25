@@ -1,0 +1,54 @@
+=== 1. BREAK, CONTINUE & PASS ===
+Filtered output: [1, 2, 4, 5, 7, 8, 10]
+
+=== 2. FOR-ELSE SEARCH PATTERN ===
+47 is PRIME
+49 is composite (divisible by 7)
+
+=== 3. ZIP & ENUMERATE ===
+Dept: Analytics    | Headcount: 12
+Dept: Engineering  | Headcount: 45
+Dept: Design       | Headcount: 8
+
+Indexed Menu:
+1. Analytics
+2. Engineering
+3. Design
+
+=== 4. NESTED MATRIX TRANSPOSE ===
+Original Matrix: [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+Transposed Matrix: [[1, 4, 7], [2, 5, 8], [3, 6, 9]]
+
+========================================
+PRACTICE SOLUTIONS (Q1 - Q10)
+========================================
+Q1 47 is prime
+Q2 Paired Cohort:
+   Student: Aman | Score: 88
+   Student: Sara | Score: 92
+   Student: Rohan | Score: 79
+Q3 Skip & Stop Result: [1, 2, 4, 5, 7, 8, 10, 11, 13, 14, 16]
+Q4 Schema Map:
+   Column 1: id
+   Column 2: timestamp
+   Column 3: target
+   Column 4: prediction
+Q5 Transposed 3x3: [[10, 40, 70], [20, 50, 80], [30, 60, 90]]
+Q6 Department Skills:
+   [DS] -> Python
+   [DS] -> SQL
+   [DevOps] -> Docker
+   [DevOps] -> K8s
+Q7 Centered Pyramid:
+       *
+      ***
+     *****
+    *******
+   *********
+Q8 Consecutive Deduplicated: [1, 2, 3, 4, 5, 1]
+Q9 Simulating Network Calls:
+   Attempting connection... (3 retries left)
+   Attempting connection... (2 retries left)
+   Attempting connection... (1 retries left)
+   Connection established successfully.
+Q10 Transaction Audit Results: {101: 'VALID', 102: 'CORRUPT', 103: 'VALID'}
