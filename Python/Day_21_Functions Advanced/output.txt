@@ -1,0 +1,30 @@
+=== 1. POSITIONAL VS KEYWORD ARGUMENTS ===
+Positional: http://localhost:8080 (Secure: False)
+Keyword:    https://api.cloud.io:443 (Secure: True)
+
+=== 2. MUTABLE DEFAULT ARGUMENT FIX ===
+Batch 1 (Accumulated): [('T101', 250.0), ('T102', 400.0)]
+Batch 2 (Independent): [('T201', 99.0)]
+
+=== 3. POSITIONAL-ONLY & KEYWORD-ONLY ENFORCEMENT ===
+Config: {'dataset': 'Customer_Churn', 'epochs': 50, 'lr': 0.005, 'verbose': True}
+
+=== 4. MULTI-VALUE RETURNS & TYPE HINTS ===
+Low: 79.5 | High: 95.0 | Average: 87.8
+
+========================================
+PRACTICE SOLUTIONS (Q1 - Q10)
+========================================
+Q1 Positional: John Doe [User]
+Q1 Keyword:    Jane Smith [Admin]
+Q1 Mixed:      Alice Brown [Moderator]
+Q2 Independent logs -> l1: ['First'] | l2: ['Second']
+Q3 Metric Evaluation: ACCURACY: 0.75
+Q4 Converted Currency: 12487.5
+Q5 Bounds: X[1, 8] | Y[3, 15]
+Q6 Normalized Scale: [20.0, 40.0, 100.0]
+Q7 Split Metadata: {'data_len': 4, 'target_len': 4, 'test_size': 0.25, 'shuffle': False, 'seed': 42}
+Q8 Audit Record: {'action': 'DELETE_RECORD', 'timestamp': '2026-08-26 09:56:00'}
+Q9 Discounted Price: 102.0
+Q10 Sanitized Dataset: [{'USER': 'Alice', 'SCORE': 95}, {'USER': 'Bob', 'SCORE': 0}, {'USER': 'Charlie', 'SCORE': 80}]
+Q10 Execution Stats:   {'initial_records': 3, 'retained_records': 3, 'dropped_rows': 0, 'imputed_values': 1}
