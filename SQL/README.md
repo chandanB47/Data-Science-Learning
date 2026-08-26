@@ -11,7 +11,7 @@ A structured, hands-on repository documenting daily SQL concepts, real-world dat
 | **01** | DBMS vs RDBMS & SQL Fundamentals | ACID properties, Relational models, Sub-languages overview | [Day 01](./Day_01_DBMS%20Fundamentals/) | ✅ Completed |
 | **02** | DDL (Data Definition Language) | `CREATE`, `ALTER`, `DROP`, `TRUNCATE`, `RENAME` | [Day 02](./Day_02_DDL_Commands/) | ✅ Completed |
 | **03** | Constraints & Data Integrity | `PRIMARY KEY`, `FOREIGN KEY`, `UNIQUE`, `NOT NULL`, `CHECK` |[Day 03](./Day_03_Constraints/) | ✅ Completed|
-| **04** | DML (Data Manipulation Language) | `INSERT`, `UPDATE`, `DELETE`, Bulk insertions | `Day 04` | ⏳ Planned |
+| **04** | DML (Data Manipulation Language) | `INSERT`, `UPDATE`, `DELETE`, Bulk insertions | [Day 04](./Day_04_DML_Commands/) |  ✅ Completed |
 | **05** | DQL & Basic Querying | `SELECT`, `DISTINCT`, Aliasing, Arithmetic operations | `Day 05` | ⏳ Planned |
 | **06** | Filtering & Pattern Matching | `WHERE`, `LIKE`, `IN`, `BETWEEN`, Wildcards | `Day 06` | ⏳ Planned |
 | **07** | Sorting & Pagination | `ORDER BY` (ASC/DESC), `LIMIT`, `OFFSET` | `Day 07` | ⏳ Planned |
