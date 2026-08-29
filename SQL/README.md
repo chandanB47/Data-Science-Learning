@@ -13,7 +13,7 @@ A structured, hands-on repository documenting daily SQL concepts, real-world dat
 | **03** | Constraints & Data Integrity | `PRIMARY KEY`, `FOREIGN KEY`, `UNIQUE`, `NOT NULL`, `CHECK` |[Day 03](./Day_03_Constraints/) | ✅ Completed|
 | **04** | DML (Data Manipulation Language) | `INSERT`, `UPDATE`, `DELETE`, Bulk insertions | [Day 04](./Day_04_DML_Commands/) |  ✅ Completed |
 | **05** | DQL & Basic Querying | `SELECT`, `DISTINCT`, Aliasing, Arithmetic operations | [Day 05](./Day_05_DQL_Queries/) |  ✅ Completed |
-| **06** | Filtering & Pattern Matching | `WHERE`, `LIKE`, `IN`, `BETWEEN`, Wildcards | `Day 06` | ⏳ Planned |
+| **06** | Filtering & Pattern Matching | `WHERE`, `LIKE`, `IN`, `BETWEEN`, Wildcards |[Day 06](./Day_06_Filtering_Patterns/) | ✅ Completed |
 | **07** | Sorting & Pagination | `ORDER BY` (ASC/DESC), `LIMIT`, `OFFSET` | `Day 07` | ⏳ Planned |
 | **08** | String & Scalar Functions | `CONCAT`, `SUBSTRING`, `LENGTH`, `TRIM`, `REPLACE` | `Day 08` | ⏳ Planned |
 | **09** | Date & Time Operations | `CURRENT_DATE`, `DATEADD`, `DATEDIFF`, `EXTRACT` | `Day 09` | ⏳ Planned |
