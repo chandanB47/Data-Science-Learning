@@ -1,0 +1,39 @@
+=== 1. BASIC & MULTI-ARGUMENT LAMBDAS ===
+Sum (15 + 27): 42
+Linear Equation (m=3, x=5, c=10): 25
+
+=== 2. TERNARY CONDITIONS IN LAMBDAS ===
+Score 85 (thresh 80): ANOMALY
+Score 75 (thresh 80): NORMAL
+
+=== 3. CUSTOM SORTING WITH LAMBDA KEYS ===
+Ranked by Score:
+  Anil: 96 pts
+  Sneha: 92 pts
+  Vikram: 85 pts
+
+=== 4. MULTI-LEVEL SORTING ===
+Sorted by Experience (asc) then Score (desc): [{'name': 'Anil', 'experience': 3, 'score': 96}, {'name': 'Sneha', 'experience': 5, 'score': 92}, {'name': 'Vikram', 'experience': 8, 'score': 85}]
+
+=== 5. LAMBDA FACTORIES (CLOSURES) ===
+4 squared: 16
+4 cubed:   64
+
+========================================
+PRACTICE SOLUTIONS (Q1 - Q10)
+========================================
+Q1 Triangle Area (b=10, h=6): 30.0
+Q2 Capped 125: 100
+Q2 Capped 85:  85
+Q3 Coordinates sorted by Y: [(5, 2), (4, 4), (0, 7), (1, 9)]
+Q4 Products sorted by Price: ['P2', 'P1', 'P3']
+Q5 Case-Insensitive Words: ['Apple', 'banana', 'cherry', 'Date']
+Q6 Multiplier -> Double 14: 28 | Triple 14: 42
+Q7 Ranked Students (Grade desc, Age asc): [('Sara', 94, 20), ('Priya', 94, 22), ('Rohan', 88, 19), ('Aman', 88, 20)]
+Q8 Sorted Cities (Length, Alphabetical): ['Oslo', 'Rome', 'Paris', 'Tokyo', 'Berlin', 'London']
+Q9 Chronologically Sorted Dates: ['15-01-2025', '10-08-2026', '23-08-2026', '04-12-2026']
+Q10 Ranked Models by F1-Score:
+  {'rank': 1, 'model': 'XGBoost', 'f1': 0.93}
+  {'rank': 2, 'model': 'LightGBM', 'f1': 0.91}
+  {'rank': 3, 'model': 'RandomForest', 'f1': 0.86}
+  {'rank': 4, 'model': 'LogisticReg', 'f1': 0.8}
