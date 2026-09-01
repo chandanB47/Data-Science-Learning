@@ -1,0 +1,27 @@
+=== 1. DATA TRANSFORMATION WITH MAP ===
+Celsius:    [0, 15, 25, 37, 100]
+Fahrenheit: [32.0, 59.0, 77.0, 98.6, 212.0]
+Line Totals: [99.98, 62.5, 32.0]
+
+=== 2. SUBSETTING WITH FILTER ===
+Original Scores: [85, 42, 90, 58, 73, 31, 99]
+Passing Scores:  [85, 90, 73, 99]
+Clean Records (No Falsy): ['valid', 'user_42', 'admin']
+
+=== 3. AGGREGATION WITH REDUCE ===
+Cumulative Product of [2, 3, 4, 5]: 120
+Sum with initial seed 50: 64
+
+========================================
+PRACTICE SOLUTIONS (Q1 - Q10)
+========================================
+Q1 Word Lengths: [4, 7, 6, 7]
+Q2 Vector Dot Product: 70
+Q3 Non-Empty Strings: ['alpha', 'beta', 'gamma']
+Q4 Salaries > 60,000: [72000, 120000, 95000]
+Q5 Product of [2, 4, 6, 8]: 384
+Q6 Max via reduce: 93
+Q7 Common Elements across Sets: {3, 4}
+Q8 Clean Integer IDs: [101, 204, 305]
+Q9 Category Counts via Reduce: {'A': 3, 'B': 2, 'C': 1}
+Q10 Final Revenue (Completed + 18% Tax): $1,628.40
