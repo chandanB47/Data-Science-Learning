@@ -15,7 +15,7 @@ A structured, hands-on repository documenting daily SQL concepts, real-world dat
 | **05** | DQL & Basic Querying | `SELECT`, `DISTINCT`, Aliasing, Arithmetic operations | [Day 05](./Day_05_DQL_Queries/) |  ✅ Completed |
 | **06** | Filtering & Pattern Matching | `WHERE`, `LIKE`, `IN`, `BETWEEN`, Wildcards |[Day 06](./Day_06_Filtering_Patterns/) | ✅ Completed |
 | **07** | Sorting & Pagination | `ORDER BY` (ASC/DESC), `LIMIT`, `OFFSET` | [Day 07](./Day_07_Sorting_Pagination/) |  ✅ Completed |
-| **08** | String & Scalar Functions | `CONCAT`, `SUBSTRING`, `LENGTH`, `TRIM`, `REPLACE` | `Day 08` | ⏳ Planned |
+| **08** | String & Scalar Functions | `CONCAT`, `SUBSTRING`, `LENGTH`, `TRIM`, `REPLACE` | [Day 08](./Day_08_String_Functions/) |  ✅ Completed |
 | **09** | Date & Time Operations | `CURRENT_DATE`, `DATEADD`, `DATEDIFF`, `EXTRACT` | `Day 09` | ⏳ Planned |
 | **10** | Aggregate Functions | `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`, `NULL` handling | `Day 10` | ⏳ Planned |
 | **11** | Grouping Data | `GROUP BY` single & multi-column aggregation | `Day 11` | ⏳ Planned |
