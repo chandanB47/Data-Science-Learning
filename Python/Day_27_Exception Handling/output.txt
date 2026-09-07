@@ -1,0 +1,59 @@
+=== 1. TRY - EXCEPT - ELSE - FINALLY ===
+[ELSE] Batch calculation executed successfully.
+[FINALLY] Resource check and execution logged.
+Run 1 (Valid): 5.0
+[EXCEPT] Caught calculation error: division by zero
+[FINALLY] Resource check and execution logged.
+
+Run 2 (Invalid): 0
+
+=== 2. CATCHING MULTIPLE SPECIFIC EXCEPTIONS ===
+Result A: 98
+[ERROR] Key 'metrics' not found in payload.
+Result B: None
+[ERROR] Index 10 is out of range.
+Result C: None
+[ERROR] Conversion failed: invalid literal for int() with base 10: 'invalid'
+Result D: None
+
+=== 3. CUSTOM DOMAIN EXCEPTIONS ===
+{'user': 'Alice', 'status': 'REGISTERED'}
+[VALIDATION FAILED] User 'Bob' is underage (15).
+
+========================================
+PRACTICE SOLUTIONS (Q1 - Q10)
+========================================
+Q1 safe_int('123'): 123
+Q1 safe_int('corrupt', default=-1): -1
+Q1 safe_int(None): 0
+Q2 Pct Change (100 -> 150): 50.0
+Q2 Pct Change (0 -> 50): 0.0
+Q3 Caught custom error: Missing mandatory user credential: 'email'
+Q4 Successful Query:
+   [DB] Connection opened.
+   [DB] Query processed successfully.
+   [DB] Connection closed reliably.
+Q4 Failed Query:
+   [DB] Connection opened.
+   [DB] Connection closed reliably.
+   Handled upstream: Connection lost during query.
+Q5 Good: Intro
+Q5 Index issue: Extraction failed (IndexError)
+Q5 Key issue: Extraction failed (KeyError)
+   [LOG] Intercepted invalid metric, forwarding up stack...
+Q6 Caught reraised exception at caller level.
+Q7 LR valid: Learning rate set to 0.01
+Q7 LR invalid handled: Learning rate must be strictly between 0.0 and 1.0. Given: 1.5
+Q8 Withdrawal error: Insufficient funds: withdrawal of $250 exceeds balance $100.
+Q9 Valid mean: 20.0
+Q9 Empty list mean: 0.0
+Q9 Corrupted list mean: None
+Q10 Ingestion Audit Summary:
+   Valid Records Ingested: 2
+     {'tx_id': 'T1', 'amount': 150.5}
+     {'tx_id': 'T6', 'amount': 450.0}
+   Corrupted Records Flagged: 4
+     {'raw_item': {'tx_id': 'T2', 'amount': '-20.00'}, 'error_type': 'NegativeAmountError', 'reason': 'Negative transaction amount (-20.0)'}
+     {'raw_item': {'tx_id': 'T3'}, 'error_type': 'KeyError', 'reason': '"Missing \'amount\' value"'}
+     {'raw_item': {'amount': '80.00'}, 'error_type': 'KeyError', 'reason': '"Missing \'tx_id\' identifier"'}
+     {'raw_item': {'tx_id': 'T5', 'amount': 'N/A'}, 'error_type': 'ValueError', 'reason': "could not convert string to float: 'N/A'"}
