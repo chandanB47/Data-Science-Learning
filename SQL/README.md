@@ -16,7 +16,7 @@ A structured, hands-on repository documenting daily SQL concepts, real-world dat
 | **06** | Filtering & Pattern Matching | `WHERE`, `LIKE`, `IN`, `BETWEEN`, Wildcards |[Day 06](./Day_06_Filtering_Patterns/) | ✅ Completed |
 | **07** | Sorting & Pagination | `ORDER BY` (ASC/DESC), `LIMIT`, `OFFSET` | [Day 07](./Day_07_Sorting_Pagination/) |  ✅ Completed |
 | **08** | String & Scalar Functions | `CONCAT`, `SUBSTRING`, `LENGTH`, `TRIM`, `REPLACE` | [Day 08](./Day_08_String_Functions/) |  ✅ Completed |
-| **09** | Date & Time Operations | `CURRENT_DATE`, `DATEADD`, `DATEDIFF`, `EXTRACT` | `Day 09` | ⏳ Planned |
+| **09** | Date & Time Operations | `CURRENT_DATE`, `DATEADD`, `DATEDIFF`, `EXTRACT` | [Day 09](./Day_09_DateTime_Functions/) | ✅ Completed |
 | **10** | Aggregate Functions | `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`, `NULL` handling | `Day 10` | ⏳ Planned |
 | **11** | Grouping Data | `GROUP BY` single & multi-column aggregation | `Day 11` | ⏳ Planned |
 | **12** | Filtering Aggregations | `HAVING` clause vs `WHERE` clause execution flow | `Day 12` | ⏳ Planned |
