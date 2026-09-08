@@ -6,8 +6,8 @@ A structured, hands-on repository documenting daily SQL concepts, real-world dat
 
 ## 🗓️ 30-Day Day-Wise Curriculum
 
-| Day | Topic / Focus Area | Key Concepts Covered | Resource Link | Status |
-| :---: | :--- | :--- | :---: | :---: |
+| Day | Topic / Focus Area | Key Concepts Covered | Resource Link | Status    |
+| :---: | :--- | :--- | :---: | :------: |
 | **01** | DBMS vs RDBMS & SQL Fundamentals | ACID properties, Relational models, Sub-languages overview | [Day 01](./Day_01_DBMS%20Fundamentals/) | ✅ Completed |
 | **02** | DDL (Data Definition Language) | `CREATE`, `ALTER`, `DROP`, `TRUNCATE`, `RENAME` | [Day 02](./Day_02_DDL_Commands/) | ✅ Completed |
 | **03** | Constraints & Data Integrity | `PRIMARY KEY`, `FOREIGN KEY`, `UNIQUE`, `NOT NULL`, `CHECK` |[Day 03](./Day_03_Constraints/) | ✅ Completed|
@@ -17,7 +17,7 @@ A structured, hands-on repository documenting daily SQL concepts, real-world dat
 | **07** | Sorting & Pagination | `ORDER BY` (ASC/DESC), `LIMIT`, `OFFSET` | [Day 07](./Day_07_Sorting_Pagination/) |  ✅ Completed |
 | **08** | String & Scalar Functions | `CONCAT`, `SUBSTRING`, `LENGTH`, `TRIM`, `REPLACE` | [Day 08](./Day_08_String_Functions/) |  ✅ Completed |
 | **09** | Date & Time Operations | `CURRENT_DATE`, `DATEADD`, `DATEDIFF`, `EXTRACT` | [Day 09](./Day_09_DateTime_Functions/) | ✅ Completed |
-| **10** | Aggregate Functions | `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`, `NULL` handling | `Day 10` | ⏳ Planned |
+| **10** | Aggregate Functions | `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`, `NULL` handling | [Day 10](./Day_10_Aggregations/) |  ✅ Completed |
 | **11** | Grouping Data | `GROUP BY` single & multi-column aggregation | `Day 11` | ⏳ Planned |
 | **12** | Filtering Aggregations | `HAVING` clause vs `WHERE` clause execution flow | `Day 12` | ⏳ Planned |
 | **13** | Inner Joins & Relational Mapping | Multi-table `INNER JOIN`, FK integrity checks | `Day 13` | ⏳ Planned |
