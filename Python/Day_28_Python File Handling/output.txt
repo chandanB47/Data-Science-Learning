@@ -1,0 +1,43 @@
+=== 1. WRITING & APPENDING WITH CONTEXT MANAGER ===
+File created at: D:\OneDrive\Desktop\Data Science Course Files\GitHub Repo\Python Basics\day28_sample.txt
+Appended new log entry.
+
+=== 2. READING TECHNIQUES & STREAMING ===
+Streaming line-by-line:
+  Line 1: timestamp,level,event
+  Line 2: 2026-09-08 10:00:01,INFO,Service started
+  Line 3: 2026-09-08 10:00:05,WARNING,High memory usage
+  Line 4: 2026-09-08 10:00:12,ERROR,Database timeout
+
+=== 3. FILE CURSOR CONTROL (TELL & SEEK) ===
+Initial position: 0
+Read line: 'timestamp,level,event'
+Position after 1st line: 23
+Position after seek(0): 0
+Reread line: 'timestamp,level,event'
+
+========================================
+PRACTICE SOLUTIONS (Q1 - Q10)
+========================================
+Q1 Notes file created successfully.
+Q2 Total lines in q1_notes.txt: 3
+Q3 Filtered 1 error line(s) into q3_errors.txt.
+Q4 Word Frequency in sample log: {'timestamp': 1, 'level': 1, 'event': 1, '2026': 3, '09': 3, '08': 3, '10': 3, '00': 3, '01': 1, 'info': 1, 'service': 1, 'started': 1, '05': 1, 'warning': 1, 'high': 1, 'memory': 1, 'usage': 1, '12': 1, 'error': 1, 'database': 1, 'timeout': 1}
+Q5 Successfully appended note to existing file.
+Q5 Caught expected error: Cannot append to non-existent target: non_existent_file.txt
+Q6 Read 20 bytes: 'timestamp,level,even' | Offset: 20 | Reread from byte 0: 'timestamp,level,event'
+Q7 Attempt 1 (create): Created successfully
+Q7 Attempt 2 (collision): File already exists. Aborted creation to prevent overwrite.
+Q8 Cleaned file created with 3 non-empty rows.
+Q9 Streaming chunks of 32 characters:
+   Chunk 1 [32 chars]: 'timestamp,level,event\n2026-09-08'
+   Chunk 2 [32 chars]: ' 10:00:01,INFO,Service started\n2'
+   Chunk 3 [32 chars]: '026-09-08 10:00:05,WARNING,High '
+   Chunk 4 [32 chars]: 'memory usage\n2026-09-08 10:00:12'
+   Chunk 5 [24 chars]: ',ERROR,Database timeout\n'
+
+Q10 Log Analysis Complete:
+   Processed 5 requests | Success: 3 | Errors: 2 | Avg Latency: 206.0 ms
+   Summary written to 'report.txt'.
+
+Temporary practice files cleaned up.
