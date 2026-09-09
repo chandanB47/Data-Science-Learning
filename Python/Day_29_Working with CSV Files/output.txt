@@ -1,0 +1,51 @@
+=== 1. WRITING & READING WITH CSV.READER / CSV.WRITER ===
+File written successfully.
+
+Reading with csv.reader:
+Header: ['tx_id', 'customer', 'amount', 'city']
+  Row: ['T1001', 'Meera', '250.75', 'Bengaluru']
+  Row: ['T1002', 'Alex', '120.00', 'New York, NY']
+  Row: ['T1003', 'Karan', '850.50', 'Mumbai']
+
+=== 2. USING CSV.DICTREADER & CSV.DICTWRITER ===
+Reading with csv.DictReader:
+  Aman | Dept: Analytics | Salary: $75000
+  Priya | Dept: Engineering | Salary: $95000
+  Rohan | Dept: Marketing | Salary: $52000
+  Sara | Dept: Analytics | Salary: $82000
+
+=== 3. CUSTOM DELIMITERS (TSV FORMAT) ===
+  TSV Row: ['epoch', 'loss', 'accuracy']
+  TSV Row: ['1', '0.65', '0.72']
+  TSV Row: ['2', '0.42', '0.88']
+
+========================================
+PRACTICE SOLUTIONS (Q1 - Q10)
+========================================
+Q1 Total data rows in transactions: 3
+Q2 Extracted Headers: ['tx_id', 'customer', 'amount', 'city']
+Q3 Extracted 'city' column: ['Bengaluru', 'New York, NY', 'Mumbai']
+Q4 Successfully converted CSV to TSV.
+Q5 Appended record E105 to employees CSV.
+Q6 Salary Aggregation: Total = $375,000.0 
+                                          ert Average =$75,000.0
+Q7 Verification of Quoted CSV:
+   name,full_address
+   Company HQ,"100 Tech Park, Building A, Bengaluru"
+   Branch Office,"Suite 404, 5th Avenue, New York, NY"
+Q8 Sanitized headers: ['user_id', 'first_name', 'account_balance']
+Q9 Imputed Data Content:
+   id,score
+   1,85
+   2,0
+   3,92
+   4,0
+
+Q10 ETL Complete: Exported 4 qualified employees to 'q10_filtered_employees.csv':
+   emp_id,name,department,salary,tax_bracket
+   E101,Aman,Analytics,75000.00,Medium
+   E102,Priya,Engineering,95000.00,High
+   E104,Sara,Analytics,82000.00,High
+   E105,Kavita,Design,71000.00,Medium
+
+Temporary practice CSV files cleaned up.
