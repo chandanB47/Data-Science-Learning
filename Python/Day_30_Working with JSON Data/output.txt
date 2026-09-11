@@ -1,0 +1,73 @@
+=== 1. JSON LOADS & DUMPS (IN-MEMORY) ===
+Serialized JSON String:
+ {
+  "baseline_score": null,
+  "experiment_id": "EXP-2026-09",
+  "features": [
+    "age",
+    "income",
+    "credit_history"
+  ],
+  "hyperparameters": {
+    "criterion": "gini",
+    "max_depth": 12,
+    "n_estimators": 100
+  },
+  "is_production_ready": false,
+  "model_type": "RandomForest"
+}
+
+Decoded Type: <class 'dict'>
+Hyperparameters max_depth: 12
+
+=== 2. JSON FILE OPERATIONS (DUMP & LOAD) ===
+JSON file persisted at: D:\OneDrive\Desktop\Data Science Course Files\GitHub Repo\Python Basics\day30_config.json
+Loaded Model Type from Disk: RandomForest
+
+=== 3. HANDLING NON-SERIALIZABLE OBJECTS ===
+Custom Encoded JSON:
+ {
+  "checkpoint": "epoch_50",
+  "timestamp": "2026-09-11 10:30:00",
+  "classes": [
+    "benign",
+    "malignant"
+  ]
+}
+
+========================================
+PRACTICE SOLUTIONS (Q1 - Q10)
+========================================
+Q1 Model: XGBoost | Accuracy: 0.94
+Q2 Sorted & Formatted JSON:
+ {
+    "a_metric": 50,
+    "nested": {
+        "x": 1,
+        "y": 2
+    },
+    "z_metric": 10
+}
+Q3 Reloaded Users Count: 2
+Q4 Serialized Set: {"unique_tags": ["data_science", "pandas", "python"]}
+Q5 ISO Timestamp JSON: {"created_at": "2026-09-11T11:40:00"}
+Q6 Original Keys: [100, 404] -> Types: [<class 'int'>, <class 'int'>]
+   Roundtrip Keys: ['100', '404'] -> Types: [<class 'str'>, <class 'str'>]
+   [WARN] Failed to load 'missing_file.json': [Errno 2] No such file or directory: 'missing_file.json'
+Q7 Missing file fallback: {'status': 'DEFAULT'}
+   [WARN] Failed to load 'q7_corrupt.json': Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+Q7 Corrupt file fallback: {}
+Q8 Extracted Token: BEARER_XYZ_987123 | Missing Path Result: NO_TOKEN
+Q9 Updated In-Place JSON Config: {'app': 'DataApp', 'debug': False, 'version': 1.1}
+
+Q10 Flattened Experiment Summary:
+   run_id: RUN_4091
+   author: Dr. Rao
+   dataset: credit_default_v2
+   algorithm: GradientBoosting
+   learning_rate: 0.05
+   metric_evaluated: roc_auc
+   best_score: 0.94
+   mean_score: 0.918
+
+Temporary practice JSON files cleaned up.
