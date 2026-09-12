@@ -19,7 +19,7 @@ A structured, hands-on repository documenting daily SQL concepts, real-world dat
 | **09** | Date & Time Operations | `CURRENT_DATE`, `DATEADD`, `DATEDIFF`, `EXTRACT` | [Day 09](./Day_09_DateTime_Functions/) | ✅ Completed |
 | **10** | Aggregate Functions | `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`, `NULL` handling | [Day 10](./Day_10_Aggregations/) |  ✅ Completed |
 | **11** | Grouping Data | `GROUP BY` single & multi-column aggregation | [Day 11](./Day_11_Group_By/)| ✅ Completed|
-| **12** | Filtering Aggregations | `HAVING` clause vs `WHERE` clause execution flow | `Day 12` | ⏳ Planned |
+| **12** | Filtering Aggregations | `HAVING` clause vs `WHERE` clause execution flow |[Day 12](./Day_12_Having_Clause/) | ✅ Completed |
 | **13** | Inner Joins & Relational Mapping | Multi-table `INNER JOIN`, FK integrity checks | `Day 13` | ⏳ Planned |
 | **14** | Outer Joins | `LEFT JOIN`, `RIGHT JOIN`, `FULL OUTER JOIN` | `Day 14` | ⏳ Planned |
 | **15** | Special Joins | `CROSS JOIN`, `SELF JOIN` (hierarchical trees) | `Day 15` | ⏳ Planned |
