@@ -1,0 +1,38 @@
+ === 1. DEFINING A CLASS & INSTANTIATING OBJECTS ===
+Instance 1: <__main__.ModelReport object at 0x0000027D841886E0>
+Instance 2: <__main__.ModelReport object at 0x0000027D84178550>
+Are they the same object in memory?: False
+Is report_1 an instance of ModelReport?: True
+
+=== 2. INSTANCE METHODS & THE SELF PARAMETER ===
+Framework: Custom-ML
+Parameters: slope=2.0, intercept=10.0
+Prediction for x=5: 20.0
+
+=== 3. CLASS ATTRIBUTES VS INSTANCE ATTRIBUTES ===
+Run 1 -> Name: Experiment_Alpha, Score: 0.89
+Run 2 -> Name: Experiment_Beta, Score: 0.94
+Total Experiments Run (Class State): 2
+
+=== 4. INSPECTING OBJECT STATE ===
+model_a __dict__: {'slope': 2.0, 'intercept': 10.0}
+Has 'slope'?: True
+Get 'intercept': 10.0
+Get missing 'learning_rate' (fallback): 0.01
+
+========================================
+PRACTICE SOLUTIONS (Q1 - Q10)
+========================================
+Q1 ds1: Iris (150 rows) | ds2: Titanic (891 rows)
+Q2 External id: 2738110368800 | Internal self id: 2738110368800 | Identical: True
+Q3 Total runs logged: 2
+Q4 Final balance for Aman: $1300.0
+Q5 Dynamically assigned attributes: {'status': 'SUCCESS', 'code': 200, 'execution_time': 0.042}
+Q6 Model check: Validation Passed
+Q6 Caught invalid type check: Object is not a valid LinearRegressionBaseline instance!
+Q7 Safe retrieval of lr: 0.005
+Q8 Summary: Metric <F1-Score>: 0.8954
+Q9 Is Model A (0.92) better than Model B (0.88)?: True
+Q10 Caught expected unfitted error: Estimator not fitted yet! Call 'fit' before 'transform'.
+Q10 Fitted Mean: 30.0 | Fitted Std: 14.1421
+Q10 Scaled Data (mean=0, std=1): [-1.4142, -0.7071, 0.0, 0.7071, 1.4142]
