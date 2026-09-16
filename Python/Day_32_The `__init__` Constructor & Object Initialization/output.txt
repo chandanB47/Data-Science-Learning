@@ -1,0 +1,29 @@
+=== 1. INITIALIZING INSTANCE STATE ===
+Model A: RandomForest | Depth: 12 | LR: 0.01
+Model B: LogisticRegression | Depth: 5 | LR: 0.05
+
+=== 2. CONSTRUCTOR VALIDATION & DERIVED ATTRIBUTES ===
+Dataset 'Churn_Data': Train=75.00%, Test=25.00%
+Caught validation error successfully: test_size must be between 0.0 and 1.0. Given: 1.5
+
+=== 3. __STR__ AND __REPR__ ===
+repr(): MetricRecord(name='F1-Score', score=0.912)
+str():  Metric: F1-Score -> 91.20%
+
+========================================
+PRACTICE SOLUTIONS (Q1 - Q10)
+========================================
+Q1 User: alex99 (alex@domain.org)
+Q2 Default DB Connection URL: postgresql://localhost:5432/analytics
+Q3 Player created: Knight with 85 HP
+Q3 Caught invalid health guard: health must be between 0 and 100, got: 150
+Q4 Rectangle 10x5 -> Area: 50, Perimeter: 30
+Q5 Point repr: Point2D(x=4.5, y=-9.2)
+Q6 E1 Tags: ['CV'] | E2 Tags: [] (Independent: True)
+Q7 Assigned IDs: Data Ingestion -> 1001, Model Training -> 1002, Model Deployment -> 1003
+Q8 Unpacked Observation: Sensor=SENS-North, Temp=24.8C, Humidity=62%
+Q9 Caught constructor return violation: __init__() should return None, not 'int'
+
+Q10 KNN Estimator Initialized: KNearestNeighborsStub(k=5, distance_metric='manhattan', is_fitted=False)
+    KNN Estimator After Fitting: KNearestNeighborsStub(k=5, distance_metric='manhattan', is_fitted=True)
+    Expected rejection of even k: k must be an odd positive integer. Given: 4
