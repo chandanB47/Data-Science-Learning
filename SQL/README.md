@@ -22,7 +22,7 @@ A structured, hands-on repository documenting daily SQL concepts, real-world dat
 | **12** | Filtering Aggregations | `HAVING` clause vs `WHERE` clause execution flow |[Day 12](./Day_12_Having_Clause/) | ✅ Completed |
 | **13** | Inner Joins & Relational Mapping | Multi-table `INNER JOIN`, FK integrity checks | [Day 13](./Day_13_Inner_Joins/) | ✅ Completed |
 | **14** | Outer Joins | `LEFT JOIN`, `RIGHT JOIN`, `FULL OUTER JOIN` | [Day 14](./Day_14_Outer_Joins/) | ✅ Completed |
-| **15** | Special Joins | `CROSS JOIN`, `SELF JOIN` (hierarchical trees) | `Day 15` | ⏳ Planned |
+| **15** | Special Joins | `CROSS JOIN`, `SELF JOIN` (hierarchical trees) | [Day 15](./Day_15_Special_Joins/) | ✅ Completed |
 | **16** | Set Operators | `UNION`, `UNION ALL`, `INTERSECT`, `EXCEPT` | `Day 16` | ⏳ Planned |
 | **17** | Subqueries (Scalar & Multi-Row) | Nested queries in `SELECT`, `FROM`, `WHERE` | `Day 17` | ⏳ Planned |
 | **18** | Correlated Subqueries | Row-by-row subqueries, `EXISTS`, `NOT EXISTS` | `Day 18` | ⏳ Planned |
