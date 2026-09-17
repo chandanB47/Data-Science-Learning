@@ -1,0 +1,36 @@
+=== 1. THE THREE METHOD TYPES ===
+Instance Method: Instance ID: OBJ_401 | Class Name: MethodDemo_v1
+Class Method:    Invoked on Class: MethodDemo (Attribute: MethodDemo_v1)
+Static Method:   3.75
+
+=== 2. ALTERNATIVE CONSTRUCTORS (@classmethod) ===
+Direct:    DatasetConfig(name='Direct', rows=100, features=5)
+From Dict: DatasetConfig(name='API_Stream', rows=5000, features=3)
+From CSV:  DatasetConfig(name='Housing_Prices', rows=1460, features=79)
+
+========================================
+PRACTICE SOLUTIONS (Q1 - Q10)
+========================================
+Q1 Instance: Bound to instance (self)
+Q1 Class:    Bound to class: MethodShowcase
+Q1 Static:   Unbound utility method
+Q2 Parsed Date: 2026-09-17 (Year: 2026)
+Q3 Active Workers Count: 3
+Q4 Clamped 125 (0, 100): 100
+Q4 Clamped -15 (0, 100): 0
+Q4 Clamped 42  (0, 100): 42
+Q5 Deserialized Hyperparameters: HyperParameters(n_estimators=250, max_depth=10, lr=0.05)
+Q6 Log Config: Service='payment_gateway', Env='production'
+Q7 'analyst@domain.com' valid?: True
+Q7 'invalid-email.com' valid?:  False
+Q8 Updated AppConfig.TIMEOUT: 60
+Q9 base_obj type:  BaseEstimator
+Q9 child_obj type: SpecializedRegressor (Correctly dispatched via cls)
+
+Q10 Benchmark Runs Registered: 4
+    Top Performer by Accuracy: Benchmark(model='XGBoost', acc=94.00%, latency=75.0ms)
+    Efficiency Scores (Acc * 1000 / Latency):
+      RandomForest        : 19.56
+      XGBoost             : 12.53
+      LightGBM            : 31.0
+      LogisticRegression  : 82.0
