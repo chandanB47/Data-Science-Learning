@@ -41,10 +41,10 @@ The goal of this module is to build practical Excel skills that can be applied t
 | **06** | [Data Cleaning & Validation](./Day_06_Data_Cleaning_Validation/)             | Flash Fill, Text-to-Columns, Duplicates, Data Validation                      | Data Quality Audit             |    ✅ Completed   |
 | **07** | [Conditional Formatting & Sorting](./Day_07_Conditional_Formatting_Sorting/) | Custom Rules, Color Scales, Sorting, Filters                                  | KPI Risk Tracker               |   ✅ Completed   |
 | **08** | [Pivot Tables & Charts](./Day_08_Pivot_Tables_Pivot_Charts/)                 | Grouping, Slicers, Timelines, % of Total                                      | E-Commerce Sales Analysis      |    ✅ Completed    |
-| **09** | [Dashboards & Visualization](./Day_09_Advanced_Visualization_Dashboards/)    | KPI Cards, Combo Charts, Sparklines, Interactive Layouts                      | Executive KPI Dashboard        |    ⏳ Upcoming    |
-| **10** | [Power Query](./Day_10_Power_Query_Transformations/)                         | ETL, Merge, Append, Unpivot, M Transformations                                | Monthly File Consolidation     |    ⏳ Upcoming    |
-| **11** | [Power Pivot & Data Modeling](./Day_11_Data_Modeling_Power_Pivot/)           | Relationships, Star Schema, DAX, `CALCULATE`, `RELATED`                       | Retail Data Model              |    ⏳ Upcoming    |
-| **12** | [What-If Analysis & Solver](./Day_12_What_If_Analysis_Solver/)               | Goal Seek, Data Tables, Scenarios, Solver                                     | Cost & Profit Optimization     |    ⏳ Upcoming    |
+| **09** | [Dashboards & Visualization](./Day_09_Advanced_Visualization_Dashboards/)    | KPI Cards, Combo Charts, Sparklines, Interactive Layouts                      | Executive KPI Dashboard        |     ✅ Completed      |
+| **10** | [Power Query](./Day_10_Power_Query_Transformations/)                         | ETL, Merge, Append, Unpivot, M Transformations                                | Monthly File Consolidation     |     ✅ Completed      |
+| **11** | [Power Pivot & Data Modeling](./Day_11_Data_Modeling_Power_Pivot/)           | Relationships, Star Schema, DAX, `CALCULATE`, `RELATED`                       | Retail Data Model              |     ✅ Completed      |
+| **12** | [What-If Analysis & Solver](./Day_12_What_If_Analysis_Solver/)               | Goal Seek, Data Tables, Scenarios, Solver                                     | Cost & Profit Optimization     |     ✅ Completed      |
 
 ---
 
