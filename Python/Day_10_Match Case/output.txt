@@ -1,0 +1,51 @@
+========== DAY 10 - MATCH CASE ==========
+
+1. Basic Match
+Two
+
+2. Default Case
+Invalid option
+
+3. String Matching
+Here is your Tea
+
+4. Multiple Patterns
+Weekend
+
+5. User Input
+Enter choice (1/2/3): 2
+View Records
+
+6. Numeric User Input
+Enter a number from 1 to 3: 1
+You selected One
+
+7. Calculator
+Enter first number: 34
+Enter operator (+, -, *, /): *
+Enter second number: 4
+Result: 136.0
+
+8. Food Menu
+Enter food: Biryani
+Biryani selected
+
+9. Traffic Signal
+Enter signal: red
+Invalid signal
+
+10. ATM Menu
+1. Check Balance
+2. Withdraw
+3. Deposit
+4. Exit
+Enter choice: 4
+Thank you
+
+11. Match with Condition
+Adult
+
+12. Match vs If
+View
+
+========== DAY 10 COMPLETED ==========
