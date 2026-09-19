@@ -1,0 +1,16 @@
+=== 1. THE LEGB RESOLUTION DEMO ===
+Resolved level: LOCAL
+
+=== 2. GLOBAL VARIABLE MUTATION ===
+[PIPELINE] Execution #1 completed.
+[PIPELINE] Execution #2 completed.
+Global Total Runs: 2
+
+=== 3. CLOSURES WITH NONLOCAL ===
+Accumulator A (+5): 15
+Accumulator A (+20): 35
+Accumulator B (+1): 101
+
+=== 4. DATA TRANSFORMER FACTORY ===
+Scaled 75 (0-100 scale): 0.75
+Scaled 25 (0-100 scale): 0.25
