@@ -1,0 +1,32 @@
+=== 1. SINGLE INHERITANCE & SUPER() ===
+Dataset: 'CustomerChurn' | Rows: 10,000 | Target Column: 'Churned'
+
+=== 2. MULTILEVEL INHERITANCE ===
+Node: NODE-901 | CPU Cores: 32 | GPU: NVIDIA A100 (80 GB VRAM)
+
+=== 3. MULTIPLE INHERITANCE & MIXINS ===
+JSON Mixin Output: {'data': {'run_id': 'EXP_001', 'score': 0.945}}
+HTML Mixin Output: <ul><li>run_id: EXP_001</li><li>score: 0.945</li></ul>
+Method Resolution Order (MRO): ['ExperimentResult', 'JSONSerializableMixin', 'HTMLDisplayMixin', 'object']
+
+========================================
+PRACTICE SOLUTIONS (Q1 - Q10)
+========================================
+Q1 EV: Tesla | Top Speed: 250 km/h | Battery: 75 kWh
+Q2 Manager: Priya, Salary: $120,000, Dept: Data Science
+Q3 TextPreprocessor: 'data engineering'
+Q4 Laptop: Ubuntu 24.04 | Power: 65W | Weight: 1.4kg
+Q5 Dataset: Telecom_Records | Audit ID: AUDIT_2704583134912 | State: {'name': 'Telecom_Records'}
+Q6 D().ping() resolves to: B
+   MRO path for D: ['D', 'B', 'C', 'A', 'object']
+Q7 issubclass(Laptop, Device): True
+   isinstance(lap, Device):   True
+   issubclass(Device, Laptop): False
+Q8 Execution: Base task execution + Custom specialized routine
+Q9 Caught expected abstract error: Subclasses must implement 'predict(X)' method!
+
+Q10 Model Initialized Params: {'model_name': 'LinearClassifier', 'target_column': 'default_payment', 'is_fitted': False, 'learning_rate': 0.05}
+    Fitted Classes: [0, 1]
+    Learned Weights: [0.1, 0.2]
+    Predictions on X_sample: [0, 1, 0]
+    Updated Params: {'model_name': 'LinearClassifier', 'target_column': 'default_payment', 'is_fitted': True, 'learning_rate': 0.05}
