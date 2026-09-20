@@ -1,0 +1,35 @@
+=== 1. DUCK TYPING & INTERCHANGEABLE APIS ===
+[CSVLoader] Loaded tabular rows from 's3://bucket/users.csv'
+[ParquetLoader] Loaded columnar data from 's3://bucket/events.parquet'
+[SQLLoader] Executed query and read tables from 'SELECT * FROM transactions;'
+
+=== 2. ABSTRACT BASE CLASSES (ABC) ===
+LogScaler: [0.0, 2.3026, 4.6052]
+IdentityScaler: [1, 10, 100]
+
+=== 3. OPERATOR OVERLOADING (DUNDER METHODS) ===
+v1 + v2 (Averaged Metrics): MetricVector(acc=0.94, f1=0.92)
+v1 == v3: True
+v1 == v2: False
+
+========================================
+PRACTICE SOLUTIONS (Q1 - Q10)
+========================================
+Q1 Audio playback:
+   Streaming compressed MP3 audio stream
+   Streaming uncompressed high-fidelity WAV audio
+Q2 Shapes rendered: ['Drawing Circle (o)', 'Drawing Square ([])', 'Drawing Triangle (/\\)']
+Q3 JSON: {"exported_json": "model_weights_v1"}
+Q3 Text: TXT >>> model_weights_v1
+Q4 Merged Batch: DatasetBatch(size=5, records=[10, 20, 30, 40, 50])
+Q5 chk1 == chk2: True | chk1 == chk3: False
+Q6 Total Features in Store: 3
+Q7 Database Contract: Connected to PostgreSQL database at port 5432
+Q8 Polymorphic Metric Outputs:
+   Metric: Accuracy  | Value: 93.20%
+   Metric: Log-Loss  | Value: 0.1852
+Q9 Sorted Models (via __lt__): [LogReg(acc=0.81), RandomForest(acc=0.89), XGBoost(acc=0.94)]
+
+Q10 Polymorphic Evaluator Leaderboard:
+    MajorityBaseline      : 50.00%
+    ThresholdClassifier   : 100.00%
