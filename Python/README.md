@@ -25,7 +25,7 @@ the practice material for that topic, such as Python files, exercises,
 solutions, and output files where applicable.
 
 ### Topics covered in the visible repository progress
-
+```
   Days   Topic
   ------ -------------------------------------------------------------
   01     Basics
@@ -63,7 +63,7 @@ solutions, and output files where applicable.
   33     Class, Instance, and Static Methods
   34     Encapsulation and Data Protection
   35+    Continue adding topics and practice as the repository grows
-
+```
 > Progress note: The day-wise folders and their contents are updated
 > over time. This README is a high-level guide; check the folders for
 > the latest exercises and completion status.
