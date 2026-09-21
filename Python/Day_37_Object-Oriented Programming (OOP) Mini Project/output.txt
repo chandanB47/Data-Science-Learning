@@ -1,0 +1,29 @@
+=================================================================
+DAY 37 OOP MINI PROJECT: EXPERIMENT & REGISTRY SYSTEM
+=================================================================
+
+[ABC Guard Passed] Abstract instantiation blocked:
+  -> Can't instantiate abstract class BaseModel without an implementation for abstract methods 'fit', 'predict'
+
+--- Training & Registering Runs ---
+  Registered: ExperimentRun(id='RUN-001', model='MajorityClassifier', acc=75.00%, ts='2026-09-21 11:19:11')
+  Registered: ExperimentRun(id='RUN-002', model='ThresholdClassifier', acc=75.00%, ts='2026-09-21 11:19:11')
+  Registered: ExperimentRun(id='RUN-003', model='ThresholdClassifier', acc=100.00%, ts='2026-09-21 11:19:11')
+
+--- Leaderboard Ranking (Sorted using Overloaded __lt__) ---
+  Rank 1: [RUN-003] ThresholdClassifier  | Accuracy: 100.00%
+  Rank 2: [RUN-001] MajorityClassifier   | Accuracy: 75.00%
+  Rank 3: [RUN-002] ThresholdClassifier  | Accuracy: 75.00%
+
+Top Champion Model: RUN-003 (ThresholdClassifier) with 100.00%
+
+--- Persisting Registry to Disk: registry.json ---
+  Successfully wrote 3 records.
+
+--- Reloading Registry into a Fresh Instance ---
+  Reloaded Registry Name: Alpha_Model_Registry
+  Total Runs Recovered:   3
+  Champion Preserved:     RUN-003 (100.00%)
+
+[SUCCESS] Day 37 OOP Mini Project completed and verified.
+  Cleaned up temporary registry.json artifact.
