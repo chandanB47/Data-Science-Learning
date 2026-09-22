@@ -1,0 +1,61 @@
+=== 1. UNDERSTANDING MODULE ATTRIBUTES & DIR() ===
+Module Name:      math
+Module Docstring: This module provides access to the mathematical fu...
+Public Symbols:   ['acos', 'acosh', 'asin', 'asinh', 'atan', 'atan2', 'atanh', 'cbrt']
+
+=== 2. THE MODULE SEARCH PATH (SYS.PATH) ===
+First 3 entries in sys.path:
+  1. d:\OneDrive\Desktop\Data Science Course Files\GitHub Repo\Python Basics
+  2. C:\Program Files\Python314\python314.zip
+  3. C:\Program Files\Python314\DLLs
+
+=== 3. DYNAMIC MODULE CREATION & PERSISTENCE ===
+Created module 'data_prep.py' on disk.
+
+=== 4. IMPORTING THE CUSTOM MODULE ===
+Imported Module: 'data_prep'
+Documented: 'Feature engineering and preprocessing utility module.'
+Exported symbols (__all__): ['normalize_min_max', 'impute_missing', 'label_encode']
+Original Scores: [12.0, None, 45.0, None, 80.0]
+Imputed Scores:  [12.0, 45.67, 45.0, 45.67, 80.0]
+Scaled Scores:   [0.0, 0.4951, 0.4853, 0.4951, 1.0]
+
+=== 5. MODULE CACHING & RELOADING ===
+Is 'data_prep' in sys.modules?: True
+Reloaded module identity check: True
+
+========================================
+PRACTICE SOLUTIONS (Q1 - Q10)
+========================================
+Q1 Converted 98.6F to C: 37.0
+Q2 Current script executing as __name__ = '__main__'
+   Imported module executing as __name__ = 'data_prep'
+Q3 'math' loaded in memory?: True
+   'unloaded_module' loaded?: False
+Q4 Dynamic path invocation: PONG from custom directory!
+Q5 data_prep exported symbols via __all__: ['normalize_min_max', 'impute_missing', 'label_encode']
+   Is '_internal_debug_helper' in __all__?: False
+Q6 Callable math functions count: 57 (e.g., ['acos', 'acosh', 'asin', 'asinh', 'atan'])
+Q7 Reloaded module version: 2.0
+Q8 math.sqrt(25): 5.0 vs cmath.sqrt(-25): 5j
+Q9 Extracted docstring from data_prep:
+    Feature engineering and preprocessing utility module.
+
+Q10 Running Multi-Step Modular ETL Pipeline...
+Q10 Final Engineered Features:
+    {'id': 'C101', 'norm_age': 0.0, 'norm_income': 0.0, 'city_code': 0}
+    {'id': 'C102', 'norm_age': 0.5, 'norm_income': 0.4286, 'city_code': 2}
+    {'id': 'C103', 'norm_age': 1.0, 'norm_income': 0.4762, 'city_code': 0}
+    {'id': 'C104', 'norm_age': 0.5, 'norm_income': 1.0, 'city_code': 1}
+
+=== CLEANUP TEMPORARY MODULE FILES ===
+Deleted: data_prep.py
+Deleted: temp_converter.py
+Deleted: D:\OneDrive\Desktop\Data Science Course Files\GitHub Repo\Python Basics\custom_libs\runtime_tool.py
+Warning: Windows still has the directory locked.
+
+Temporary practice modules cleaned up successfully.
+
+==========================================
+DAY 38 COMPLETED SUCCESSFULLY
+==========================================
