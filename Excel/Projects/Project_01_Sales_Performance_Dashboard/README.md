@@ -1,181 +1,163 @@
-# 📊 Project 01 — Sales Performance & Executive Dashboard
+# 📊 Sales Performance Dashboard --- Excel
 
-A practical Excel portfolio project using a **10,000-record sales dataset**.
-
----
+An Excel-based sales analytics project that transforms raw sales
+transaction data into cleaned analysis tables, KPIs, and an interactive
+business dashboard.
 
 ## 🎯 Project Objective
 
-Transform raw sales data into a professional **Sales Performance & Executive Dashboard**.
+Analyze sales performance across regions, products, categories, and
+sales channels, then present the results through an executive-style
+Excel dashboard.
 
-The project focuses on:
+## 🗂️ Dataset
 
-* Data preparation
-* Business KPI analysis
-* Regional performance
-* Product and category analysis
-* Sales channel analysis
-* Monthly trends
-* Risk and performance analysis
-* Data visualization
-* Executive dashboard design
-* Business insights
+The sales dataset contains **10,025 transactions**.
 
----
+Key fields include:
+
+-   Sale ID
+-   Sale Date
+-   Customer ID
+-   Customer Name
+-   Product ID
+-   Product
+-   Category
+-   Region
+-   Employee ID
+-   Quantity
+-   Unit Price
+-   Discount %
+-   Payment Mode
+-   Sales Channel
+-   Status
+
+## 🧹 Data Cleaning
+
+The project includes:
+
+-   Product name cleaning using `TRIM()`
+-   Category cleaning using `TRIM()`
+-   Creation of unique product and category lists
+-   Validation of product/category mappings
+-   Recalculation of sales metrics using cleaned data
+
+## 📌 Key KPIs
+
+  KPI                                      Value
+  --------------------------- ------------------
+  Total Gross Sales             \$439,777,559.39
+  Total Quantity                          32,416
+  Total Transactions                      10,025
+  Average Transaction Value          \$43,868.09
+  Completed Sales               \$295,774,025.23
+  Cancelled Transactions                   1,620
+
+## 📊 Analysis Performed
+
+### Regional Analysis
+
+-   Gross Sales by Region
+-   Regional sales comparison
+
+### Product Analysis
+
+-   Gross Sales by Product
+-   Total Quantity by Product
+-   Transaction count by Product
+-   Average Unit Price
+-   Top 5 Products by Gross Sales
+
+### Category Analysis
+
+-   Gross Sales by Category
+-   Total Quantity by Category
+-   Transaction count by Category
+-   Average Unit Price
+-   Category quantity comparison
+
+### Channel Analysis
+
+-   Gross Sales by Sales Channel
+-   Quantity Sold by Sales Channel
+-   Average Transaction Value by Channel
+-   Cancelled Transactions by Channel
+-   Sales Contribution %
+
+## 📈 Dashboard
+
+The final dashboard contains:
+
+-   Total Gross Sales KPI
+-   Total Quantity KPI
+-   Total Transactions KPI
+-   Average Transaction Value KPI
+-   Completed Sales KPI
+-   Cancelled Transactions KPI
+-   Gross Sales by Region
+-   Top 5 Products by Gross Sales
+-   Sales % by Channel
+-   Gross Sales by Category
+-   Gross Sales by Channel
+-   Category by Quantity
+
+## 🛠️ Excel Skills Used
+
+-   Data cleaning
+-   Excel formulas
+-   `SUMIF()`
+-   `COUNTIF()`
+-   `AVERAGEIF()`
+-   `SUMPRODUCT()`
+-   `TRIM()`
+-   Data validation
+-   Sorting and filtering
+-   Number formatting
+-   Data visualization
+-   Chart creation
+-   KPI development
+-   Dashboard design
+
+## 💡 Business Analysis
+
+The dashboard provides a consolidated view of:
+
+-   Regional sales performance
+-   Product revenue contribution
+-   Category-level sales performance
+-   Sales channel contribution
+-   Quantity distribution across categories
+-   Transaction volume
+-   Completed and cancelled transactions
+
+
 
 ## 📁 Project Structure
 
-```text
-Project_01_Sales_Performance_Dashboard/
+``` text
+Sales-Performance-Dashboard/
 │
+├── Sales_Performance_Dashboard.xlsx
 ├── README.md
-├── assignment.md
-├── raw_data.xlsx
-└── Sales_Performance_Dashboard.xlsx
+└── screenshots/
+    └── Sales_Performance_Dashboard.png
 ```
 
----
+## 🎓 Skills Demonstrated
 
-## 📌 Dataset
+This project demonstrates practical experience in:
 
-The project uses the shared **10,000-record Sales_Data dataset**.
+-   Excel Data Analysis
+-   Data Cleaning
+-   Exploratory Data Analysis
+-   KPI Development
+-   Business Reporting
+-   Data Visualization
+-   Dashboard Development
+-   Business-oriented Data Storytelling
 
-### Main Columns
+## 🚀 Project Outcome
 
-* `Sale_ID`
-* `Sale_Date`
-* `Customer_ID`
-* `Customer_Name`
-* `Product_ID`
-* `Product`
-* `Category`
-* `Region`
-* `Employee_ID`
-* `Quantity`
-* `Unit_Price`
-* `Discount_Pct`
-* `Payment_Mode`
-* `Sales_Channel`
-* `Status`
-
-A calculated `Gross_Sales` field will be used for the analysis.
-
----
-
-## 🛠️ Skills Demonstrated
-
-This project combines the Excel skills learned during **Days 1–9**:
-
-* Excel formulas and cell references
-* Mathematical and statistical functions
-* `SUMIFS`
-* `COUNTIFS`
-* `AVERAGEIFS`
-* `IF`
-* `IFS`
-* `AND`
-* `OR`
-* `IFERROR`
-* `XLOOKUP`
-* `VLOOKUP`
-* Data cleaning
-* Data validation
-* Conditional formatting
-* Sorting and filtering
-* Pivot-style analysis
-* Charts
-* KPI analysis
-* Dashboard design
-* Business insights
-
----
-
-## 📊 Final Dashboard
-
-The final workbook should contain an executive-level dashboard with:
-
-* 💰 Total Gross Sales
-* 📦 Total Quantity
-* 🧾 Total Transactions
-* 💵 Average Transaction Value
-* 🏷️ Average Unit Price
-* ❌ Cancelled Transactions
-* 🌍 Regional performance
-* 📂 Category performance
-* 📦 Product performance
-* 📅 Monthly sales trend
-* 🛒 Sales channel comparison
-* 💡 Business insights
-
----
-
-## 📂 Final Workbook Structure
-
-Recommended sheets:
-
-```text
-Sales_Data
-KPI_Analysis
-Regional_Analysis
-Product_Analysis
-Category_Analysis
-Channel_Analysis
-Monthly_Analysis
-Executive_Dashboard
-```
-
----
-
-## 🚀 Workflow
-
-1. Download the dataset.
-2. Read `assignment.md`.
-3. Complete the assignment independently.
-4. Build the required analysis sheets.
-5. Create the Executive Dashboard.
-6. Share the workbook/screenshots for review.
-7. Fix any issues identified during review.
-8. Create the final polished workbook.
-9. Upload the completed project to GitHub.
-
----
-
-## 🏆 Portfolio Goal
-
-The completed project should demonstrate the ability to take raw business data and turn it into:
-
-**Raw Data → Analysis → KPIs → Visualizations → Dashboard → Business Insights**
-
----
-
-## 📌 Project Status
-
-**Status:** 🚧 In Progress
-
-**Level:** Intermediate
-
-**Tool:** Microsoft Excel
-
-**Dataset:** 10,000 Sales Records
-
-**Project Type:** Sales Data Analysis & Executive Dashboard
-
----
-
-## 👨‍💻 Author
-
-**Chandan B**
-
-Data Science Learning Journey
-
-**Learning Areas:**
-
-* 🐍 Python
-* 🗄️ SQL
-* 📊 Excel
-* 📈 Power BI
-* 📐 Statistics
-* 🤖 Machine Learning
-* 🧠 AI
-* ✨ Generative AI
-* 🚀 Agentic AI
+Raw sales transaction data was transformed into a structured analytical
+workflow and a final management-style dashboard that makes key sales
+metrics and patterns easier to understand.
