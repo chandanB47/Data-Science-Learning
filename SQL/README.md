@@ -25,7 +25,7 @@ A structured, hands-on repository documenting daily SQL concepts, real-world dat
 | **15** | Special Joins | `CROSS JOIN`, `SELF JOIN` (hierarchical trees) | [Day 15](./Day_15_Special_Joins/) | ✅ Completed |
 | **16** | Set Operators | `UNION`, `UNION ALL`, `INTERSECT`, `EXCEPT` | [Day 16](./Day_16_Set_Operators/) | ✅ Completed |
 | **17** | Subqueries (Scalar & Multi-Row) | Nested queries in `SELECT`, `FROM`, `WHERE` | [Day 17](./Day_17_Subqueries/) | ✅ Completed |
-| **18** | Correlated Subqueries | Row-by-row subqueries, `EXISTS`, `NOT EXISTS` | `Day 18` | ⏳ Planned |
+| **18** | Correlated Subqueries | Row-by-row subqueries, `EXISTS`, `NOT EXISTS` | [Day 18](./Day_18_Correlated_Subqueries/) | ✅ Completed |
 | **19** | CTEs (Common Table Expressions) | `WITH` clause, Modular query decomposition | `Day 19` | ⏳ Planned |
 | **20** | Recursive CTEs | Hierarchical queries, Organizational trees | `Day 20` | ⏳ Planned |
 | **21** | Window Functions I | `ROW_NUMBER()`, `RANK()`, `DENSE_RANK()`, `OVER()` | `Day 21` | ⏳ Planned |
