@@ -48,7 +48,7 @@ Data Science learning portfolio.
 
 ### Level 1 --- Fundamentals
 
--   [ ] Day 01: Introduction to Power BI and its ecosystem
+-   [x] Day 01: Introduction to Power BI and its ecosystem
 -   [ ] Day 02: Power BI Desktop interface and report workflow
 -   [ ] Day 03: Import data from Excel and CSV
 -   [ ] Day 04: Power Query Editor overview
