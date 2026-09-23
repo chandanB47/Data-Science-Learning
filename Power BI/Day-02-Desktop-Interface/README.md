@@ -3,7 +3,7 @@
 **Level:** Beginner\
 **Day:** 2 of 45\
 **Dataset:** Power BI Master Sales Dataset --- 1,500 rows\
-**Status:** In Progress
+
 
 ------------------------------------------------------------------------
 
