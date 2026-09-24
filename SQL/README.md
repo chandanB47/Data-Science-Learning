@@ -26,8 +26,8 @@ A structured, hands-on repository documenting daily SQL concepts, real-world dat
 | **16** | Set Operators | `UNION`, `UNION ALL`, `INTERSECT`, `EXCEPT` | [Day 16](./Day_16_Set_Operators/) | ✅ Completed |
 | **17** | Subqueries (Scalar & Multi-Row) | Nested queries in `SELECT`, `FROM`, `WHERE` | [Day 17](./Day_17_Subqueries/) | ✅ Completed |
 | **18** | Correlated Subqueries | Row-by-row subqueries, `EXISTS`, `NOT EXISTS` | [Day 18](./Day_18_Correlated_Subqueries/) | ✅ Completed |
-| **19** | CTEs (Common Table Expressions) | `WITH` clause, Modular query decomposition | [Day 19](./Day_19_CTEs/) | ⏳ Planned |
-| **20** | Recursive CTEs | Hierarchical queries, Organizational trees | `Day 20` | ⏳ Planned |
+| **19** | CTEs (Common Table Expressions) | `WITH` clause, Modular query decomposition | [Day 19](./Day_19_CTEs/) | ✅ Completed  |
+| **20** | Recursive CTEs | Hierarchical queries, Organizational trees | [Day 20](./Day_20_Recursive_CTEs/) | ✅ Completed  |
 | **21** | Window Functions I | `ROW_NUMBER()`, `RANK()`, `DENSE_RANK()`, `OVER()` | `Day 21` | ⏳ Planned |
 | **22** | Window Functions II | `LEAD()`, `LAG()`, `FIRST_VALUE()`, Running totals | `Day 22` | ⏳ Planned |
 | **23** | Views & Materialized Views | Virtual tables, View updates, Refresh strategies | `Day 23` | ⏳ Planned |
