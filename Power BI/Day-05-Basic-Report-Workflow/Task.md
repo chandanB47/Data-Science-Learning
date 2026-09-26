@@ -177,10 +177,10 @@ The chart should compare Net Sales across product categories.
 
 Confirm that you have:
 
-- [ ] Total Net Sales Card
-- [ ] Sales Detail Table
-- [ ] Net Sales by City column chart
-- [ ] Net Sales by Category bar chart
+- [x] Total Net Sales Card
+- [x] Sales Detail Table
+- [x] Net Sales by City column chart
+- [x] Net Sales by Category bar chart
 
 ---
 
@@ -331,8 +331,10 @@ Steps:
 Record:
 
 ```text
-Selected City:
+Selected City: Bengaluru
+
 What changed in the visual?
+- The chart was filtered to Bengaluru and displayed the Net Sales for Bengaluru.
 ```
 
 ---
@@ -356,13 +358,13 @@ Record:
 ```text
 Selected City:
 
-Card changed:
+Card changed: Yes
 Yes / No
 
-Category chart changed:
+Category chart changed: Yes
 Yes / No
 
-Sales table changed:
+Sales table changed: Yes
 Yes / No
 ```
 
@@ -386,13 +388,14 @@ Without looking at the previous tasks, explain the workflow:
 Write the process in your own words:
 
 ```text
+
 My Power BI Report Workflow:
 
-1. Import the data into Power BI.
-2. Clean and transform the data using Power Query.
-3. Check the data and make sure the data types are correct.
-4. Create relationships and build the data model.
-5. Create visuals, add DAX measures, and build the final report/dashboard.
+1. Select a visual and add the required fields.
+2. Choose the appropriate aggregation for the data.
+3. Format and arrange the visual clearly.
+4. Apply filters and test how the visuals interact.
+5. Save the completed report.
 ```
 
 
