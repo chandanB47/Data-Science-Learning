@@ -65,12 +65,12 @@ Contains logical values.
 Write one example for each:
 
 ```text
-Text:
-Whole Number:
-Decimal Number:
-Date:
-Date/Time:
-True/False:
+Text: A to Z like names 
+Whole Number : 12334 without point values
+Decimal Number: with point values like 1.2 
+Date: 12/04/2026 
+Date/Time: 18/05/2026, 10:34am 
+True/False: true
 ```
 
 # 🔍 Task 4 — Check Column Quality
