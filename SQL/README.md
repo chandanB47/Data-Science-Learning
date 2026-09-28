@@ -43,7 +43,7 @@ A structured, hands-on repository documenting daily SQL concepts, real-world dat
 
 | Milestone | Project Title | Folder Link | Status |
 | :---: | :--- | :---: | :---: |
-| **Project 01** | Retail Store Operations & Analytics (Days 01–15 Consolidation) | [Project 01](./Milestone_Project_01_Retail_Operations/) | 🔄 In Progress |
+| **Project 01** | Retail Store Operations & Analytics (Days 01–15 Consolidation) | [Project 01](./Milestone_Project_01_Retail_Operations/) | ✅ Completed  |
 
 
 
