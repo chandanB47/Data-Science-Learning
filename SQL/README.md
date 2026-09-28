@@ -30,8 +30,8 @@ A structured, hands-on repository documenting daily SQL concepts, real-world dat
 | **20** | Recursive CTEs | Hierarchical queries, Organizational trees | [Day 20](./Day_20_Recursive_CTEs/) | ✅ Completed  |
 | **21** | Window Functions I | `ROW_NUMBER()`, `RANK()`, `DENSE_RANK()`, `OVER()` | [Day 21](./Day_21_Window_Functions_I/) | ✅ Completed  |
 | **22** | Window Functions II | `LEAD()`, `LAG()`, `FIRST_VALUE()`, Running totals | [Day 22](./Day_22_Window_Functions_II/) | ✅ Completed  |
-| **23** | Views & Materialized Views | Virtual tables, View updates, Refresh strategies | [Day 23](./Day_23_Window_Functions_III/) | ⏳ Planned |
-| **24** | Transactions & TCL | `COMMIT`, `ROLLBACK`, `SAVEPOINT`, Isolation levels | `Day 24` | ⏳ Planned |
+| **23** | Views & Materialized Views | Virtual tables, View updates, Refresh strategies | [Day 23](./Day_23_Window_Functions_III/) | ✅ Completed |
+| **24** | Transactions & TCL | `COMMIT`, `ROLLBACK`, `SAVEPOINT`, Isolation levels | [Day 24](./Day_24_Views_And_Materialized_Views/) | ⏳ Planned |
 | **25** | DCL & Database Security | `GRANT`, `REVOKE`, Role-based access control | `Day 25` | ⏳ Planned |
 | **26** | Indexes & Query Optimization | B-Trees, Execution plans, `EXPLAIN ANALYZE` | `Day 26` | ⏳ Planned |
 | **27** | Interview Patterns I | $N^{\text{th}}$ highest salary, Finding duplicates | `Day 27` | ⏳ Planned |
