@@ -58,200 +58,144 @@ Record your observations:
 
 | Column | Null Found? | What does it mean? | Action |
 |---|---|---|---|
-| CustomerID | | | |
-| City | | | |
-| Product | | | |
-| Quantity | | | |
-| UnitPrice | | | |
-| NetSales | | | |
+| CustomerID | No | No missing values | No action |
+| City | No | No missing values | No action |
+| Product | No | No missing values | No action |
+| Quantity | No | No missing values | No action |
+| UnitPrice | No | No missing values | No action |
+| NetSales | No | No missing values | No action |
 
-### If no nulls exist
 
-Write:
+### 📌 Observation
 
-> No null values found in this column.
+> No null values found in the checked columns.
 
-Do not invent a cleaning result.
+### ✅ Result
 
-### 📸 Screenshot
-
-```text
-01-null-check.png
-```
+No null-value cleaning was required because the dataset contains no missing values in these columns.
 
 ---
 
-# 🧹 Task 3 — Handle Null Values
+## 🧹 Task 3 — Handle Null Values
 
-If null values exist:
+### Result
 
-1. Select the affected column.
-2. Decide why the value is missing.
-3. Choose an appropriate cleaning method.
-4. Apply the transformation.
-5. Check the result.
+No null values were found in the checked columns.
 
-Possible actions include:
+Therefore, no null-value transformation was required.
 
-- Replace Values
-- Replace null with a meaningful value such as `Unknown`
-- Replace with a numeric value only when justified
-- Remove rows when the missing value makes the record unusable
+| Column | Null Found? | Action |
+|---|---|---|
+| CustomerID | No | No action |
+| City | No | No action |
+| Product | No | No action |
+| Quantity | No | No action |
+| UnitPrice | No | No action |
+| NetSales | No | No action |
 
-### ⚠️ Rule
+> No null values were found, so the dataset was left unchanged.
 
-Do not replace every null with `0`.
 
-The correct action depends on the meaning of the column.
-
-### 📸 Screenshot
-
-```text
-02-null-handling.png
-```
 
 ---
 
-# ⚠️ Task 4 — Identify Errors
+## ⚠️ Task 4 — Identify Errors
 
-Use **Column Quality** and look for the **Errors** category.
+### Result
 
-For each error, identify:
+No errors found in the current dataset.
 
-- Column name
-- Error type/message
-- Possible reason
+| Column | Errors Found? |
+|---|---|
+| CustomerID | No |
+| City | No |
+| Product | No |
+| Quantity | No |
+| UnitPrice | No |
+| NetSales | No |
 
-Example:
-
-```text
-Column: Quantity
-Error: Data conversion error
-Possible reason: Invalid text value in a numeric column
-```
-
-### If there are no errors
-
-Write:
-
-> No errors found in the current dataset.
-
-Do not create a fake error just to complete the checklist.
-
-### 📸 Screenshot
-
-```text
-03-error-check.png
-```
+> No errors were found in the current dataset.
 
 ---
 
-# 🛠️ Task 5 — Handle Errors
+## 🛠️ Task 5 — Handle Errors
 
-If errors are present:
+### Result
 
-1. Select the affected column.
-2. Investigate the error.
-3. Use an appropriate option such as:
-   - Replace Errors
-   - Remove Errors
-4. Confirm the result.
-5. Check that the column still has the correct data type.
+No errors were found in the current dataset.
 
-### Decision rule
-
-Use **Remove Errors** when the record is unusable.
-
-Use **Replace Errors** when a valid replacement can be justified.
-
-### 📸 Screenshot
-
-```text
-04-error-handling.png
-```
-
----
-
-# 🔁 Task 6 — Identify Duplicate Rows
-
-Decide what defines a duplicate before removing anything.
-
-Consider a business key such as:
-
-- `OrderID`
-- Or an appropriate combination of columns if one order can contain multiple records
-
-### Important
-
-A repeated `OrderID` does **not** automatically mean the row is a duplicate.
-
-One order may legitimately contain multiple products or records.
-
-Record your observation:
+Therefore, no error-handling transformation was required.
 
 | Check | Result |
 |---|---|
-| Column(s) used to identify duplicates | |
-| Duplicate rows found? | |
-| Rows removed | |
-| Reason | |
+| Errors found | No |
+| Replace Errors | Not required |
+| Remove Errors | Not required |
+| Data type validation | Completed |
 
-### 📸 Screenshot
-
-```text
-05-duplicate-check.png
-```
+> No errors were found, so the dataset was left unchanged.
 
 ---
 
-# 🗑️ Task 7 — Remove Unwanted Duplicates
+## 🔁 Task 6 — Identify Duplicate Rows
 
-If true duplicate rows are found:
+### Duplicate Check
 
-1. Confirm they are genuinely duplicated.
-2. Select the appropriate column(s).
-3. Use:
+| Check | Result |
+|---|---|
+| Column(s) used to identify duplicates | OrderID |
+| Duplicate rows found? | No |
+| Rows removed | 0 |
+| Reason | No confirmed duplicate records were identified |
 
-**Home → Remove Rows → Remove Duplicates**
+### 📌 Observation
 
-4. Check the resulting row count.
-5. Make sure valid records were not accidentally removed.
+> A repeated OrderID was not treated as a duplicate automatically because an order may legitimately contain multiple records.
 
-### If no duplicates exist
+### ✅ Result
 
-Write:
+No unwanted duplicate records were identified, so no rows were removed.
 
-> No duplicate records found.
 
-Do not remove valid records just to demonstrate the feature.
+---
 
-### 📸 Screenshot
+## 🗑️ Task 7 — Remove Unwanted Duplicates
 
-```text
-06-duplicates-removed.png
-```
+### Result
+
+No duplicate records were found.
+
+Therefore, no rows were removed.
+
+| Check | Result |
+|---|---|
+| Duplicate records found | No |
+| Rows removed | 0 |
+| Remove Duplicates applied | No |
+| Valid records preserved | Yes |
+
+> No duplicate records found, so no duplicate-removal transformation was applied.
+
 
 ---
 
 # ✅ Task 8 — Final Data Validation
 
-Validate the cleaned dataset.
+## Validation Results
 
-### Check Nulls
-- Are expected missing values handled?
-- Are important fields still missing?
+| Validation | Result |
+|---|---|
+| Nulls checked | No null values found |
+| Errors checked | No errors found |
+| Duplicates checked | No unwanted duplicates found |
+| Rows before cleaning | 1,500 |
+| Rows after cleaning | 1,500 |
+| Data types valid | Yes |
+| Final status | Validated |
 
-### Check Errors
-- Are errors resolved?
-- Are data types still correct?
+## 🔍 Data Integrity Check
 
-### Check Duplicates
-- Were only genuine duplicates removed?
-- Is the row count reasonable?
-
-### Check Data Integrity
-
-Review:
+The following important columns were reviewed:
 
 - `OrderID`
 - `OrderDate`
@@ -260,72 +204,41 @@ Review:
 - `UnitPrice`
 - `NetSales`
 
-Complete:
+### 📌 Final Observation
 
-| Validation | Result |
-|---|---|
-| Nulls checked | |
-| Errors checked | |
-| Duplicates checked | |
-| Rows before cleaning | |
-| Rows after cleaning | |
-| Data types valid | |
-| Final status | |
-
-### 📸 Screenshot
-
-```text
-07-final-validation.png
-```
+> The dataset contained no null values, no errors, and no confirmed unwanted duplicate records. Therefore, no rows were removed or modified during the cleaning process.
 
 ---
 
 # 🧠 Task 9 — Knowledge Check
 
-Answer these in your notes.
-
 ### Q1. What is `null` in Power Query?
 
-```text
-__________________________________________________
-```
+A `null` represents a missing or empty value.
 
-### Q2. Why should we not replace every null with 0?
+### Q2. Why should we not replace every null with `0`?
 
-```text
-__________________________________________________
-```
+Because a null value does not necessarily mean zero. The correct replacement depends on the meaning of the column.
 
 ### Q3. What is the difference between a null and an error?
 
-```text
-__________________________________________________
-```
+A null means a value is missing, while an error means Power Query encountered a problem processing the value.
 
 ### Q4. Why should you investigate an error before removing it?
 
-```text
-__________________________________________________
-```
+Because the error may have a valid cause. We should understand the problem before deciding whether to replace or remove the value.
 
-### Q5. Does a repeated OrderID always mean the row is a duplicate?
+### Q5. Does a repeated `OrderID` always mean the row is a duplicate?
 
-```text
-__________________________________________________
-```
+No. An order may legitimately contain multiple records.
 
 ### Q6. What should you check before removing duplicates?
 
-```text
-__________________________________________________
-```
+First determine what column or combination of columns defines a true duplicate.
 
 ### Q7. Why is validation important after data cleaning?
 
-```text
-__________________________________________________
-```
-
+Validation confirms that the cleaning process worked correctly and that valid data was not accidentally removed or damaged.
 ---
 
 # 💾 Save Your Work
