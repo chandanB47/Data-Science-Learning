@@ -388,8 +388,8 @@ For each learning day:
 
 | Milestone | Status |
 |---|---|
-| Days 01–05 — Fundamentals | 🟡 In Progress |
-| Days 06–12 — Power Query | ⬜ Not Started |
+| Days 01–05 — Fundamentals | ✅ Completed |
+| Days 06–12 — Power Query | 🟡 In Progress |
 | Days 13–16 — Data Modeling | ⬜ Not Started |
 | Days 17–21 — DAX | ⬜ Not Started |
 | Days 22–27 — Visualization & Analytics | ⬜ Not Started |
