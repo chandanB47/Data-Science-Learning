@@ -4,7 +4,7 @@
 **Database:** MySQL  
 **Project:** Retail Store Operations & Analytics  
 **Level:** Beginner → Intermediate → Advanced  
-**Status:** 🔄 In Progress
+**Status:**  Completed
 
 ---
 
@@ -77,7 +77,7 @@ Display all columns from the `customers` table.
 
 **Concepts:** `SELECT`, `FROM`
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -94,7 +94,7 @@ from `customers`.
 
 **Concepts:** column selection
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -104,7 +104,7 @@ Display customers who live in Bengaluru.
 
 **Concepts:** `WHERE`
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -114,7 +114,7 @@ Display all customers sorted by `signup_date` from newest to oldest.
 
 **Concepts:** `ORDER BY`, `DESC`
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -124,7 +124,7 @@ Display all active stores.
 
 **Concepts:** Boolean filtering
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -134,7 +134,7 @@ Display products where `stock_quantity > 0`.
 
 **Concepts:** comparison operators
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -142,7 +142,7 @@ Display products where `stock_quantity > 0`.
 
 Find products where `stock_quantity = 0`.
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -160,7 +160,7 @@ Use `UPPER()`.
 
 **Concepts:** `UPPER()`, aliases
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -170,7 +170,7 @@ Return all customer emails in lowercase.
 
 Use `LOWER()`.
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -186,7 +186,7 @@ from customer phone numbers.
 
 **Concepts:** nested `REPLACE()`
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -221,7 +221,7 @@ Join `products` and `categories`.
 
 **Concept:** `INNER JOIN`
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -236,7 +236,7 @@ Display:
 
 Join `orders` and `customers`.
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -251,7 +251,7 @@ Display:
 
 Join `orders` and `stores`.
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -300,7 +300,7 @@ Then identify unmatched orders.
 
 **Concept:** Anti-Join
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -316,7 +316,7 @@ Return:
 
 Only customers with zero orders should appear.
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -326,7 +326,7 @@ Find employees where `manager_id` is `NULL`.
 
 **Concept:** `IS NULL`
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -338,7 +338,7 @@ Find the total number of customers.
 
 **Concept:** `COUNT()`
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -346,7 +346,7 @@ Find the total number of customers.
 
 Find the total number of orders.
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -356,7 +356,7 @@ Calculate total quantity sold from `order_items`.
 
 **Concept:** `SUM()`
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -366,7 +366,7 @@ Calculate the average retail price of all products.
 
 **Concept:** `AVG()`
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -376,7 +376,7 @@ Find the highest retail price.
 
 **Concept:** `MAX()`
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -386,7 +386,7 @@ Find the lowest retail price.
 
 **Concept:** `MIN()`
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -398,7 +398,7 @@ Count customers in each city.
 
 **Concepts:** `GROUP BY`, `COUNT()`
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -406,7 +406,7 @@ Count customers in each city.
 
 Count products in each category.
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -414,7 +414,7 @@ Count products in each category.
 
 Count orders for each `order_status`.
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -432,7 +432,7 @@ quantity × unit_sale_price - discount_amount
 - `GROUP BY`
 - joins
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -446,7 +446,7 @@ Show only stores whose calculated revenue is at least:
 
 **Concept:** `HAVING`
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -463,7 +463,7 @@ shipped_date
 
 **Concept:** date arithmetic
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -479,7 +479,7 @@ Standard / Delayed Delivery
 
 Use `CASE`.
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -491,7 +491,7 @@ Calculate fulfillment time only for orders with:
 order_status = 'DELIVERED'
 ```
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -514,7 +514,7 @@ For each product category calculate:
 - `SUM()`
 - `GROUP BY`
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -534,7 +534,7 @@ quantity × unit_cost
 
 **Concept:** multi-table business calculation
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -555,7 +555,7 @@ Then filter stores with revenue >= `15000`.
 - `ORDER BY`
 - `LIMIT`
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -569,7 +569,7 @@ active store × in-stock product
 
 **Concept:** `CROSS JOIN`
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -583,7 +583,7 @@ stock_quantity = 0
 
 Then explain why these products would matter to a retail operations team.
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -611,7 +611,7 @@ Map employees to their managers and stores.
 
 Identify customers who have never placed an order.
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -619,7 +619,7 @@ Identify customers who have never placed an order.
 
 Calculate shipping turnaround time and classify fulfillment performance.
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -634,7 +634,7 @@ Calculate:
 
 by category.
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -642,7 +642,7 @@ by category.
 
 Identify active stores meeting the required revenue threshold.
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -650,7 +650,7 @@ Identify active stores meeting the required revenue threshold.
 
 Generate active-store and in-stock-product combinations using `CROSS JOIN`.
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -660,7 +660,7 @@ Generate active-store and in-stock-product combinations using `CROSS JOIN`.
 
 Which customer has placed the most orders?
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -668,7 +668,7 @@ Which customer has placed the most orders?
 
 Which product generated the highest net revenue?
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -676,7 +676,7 @@ Which product generated the highest net revenue?
 
 Which category generated the highest estimated profit?
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -684,7 +684,7 @@ Which category generated the highest estimated profit?
 
 Which store generated the highest revenue?
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -694,7 +694,7 @@ Find customers who placed more than one order.
 
 **Hint:** `GROUP BY` + `HAVING`
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -704,7 +704,7 @@ Find employees who report directly to Aarav Sharma.
 
 **Concepts:** `SELF JOIN`, filtering
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -714,7 +714,7 @@ Find products that have never appeared in an order.
 
 **Concept:** Anti-Join
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -728,7 +728,7 @@ Calculate the average order value.
 Total Net Revenue / Number of Orders
 ```
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -742,7 +742,7 @@ Calculate total discount percentage against gross sales.
 Total Discounts / Gross Sales × 100
 ```
 
-- [ ] Completed
+- [x] Completed
 
 ---
 
@@ -760,8 +760,8 @@ Create one business report query that shows, for each active store:
 
 Sort by net revenue descending.
 
-- [ ] Completed
-- [ ] Reviewed
+- [x] Completed
+- [x] Reviewed
 
 ---
 
@@ -785,24 +785,24 @@ SQL/
 
 Before marking this project complete:
 
-- [ ] Schema created successfully
-- [ ] All constraints understood
-- [ ] Seed data inserted successfully
-- [ ] Basic SQL tasks completed
-- [ ] String/data-cleaning tasks completed
-- [ ] JOIN tasks completed
-- [ ] Anti-Join understood
-- [ ] `SELF JOIN` understood
-- [ ] Aggregation tasks completed
-- [ ] `GROUP BY` and `HAVING` understood
-- [ ] Date/`CASE` analysis completed
-- [ ] Advanced analytical queries completed
-- [ ] Business challenges completed
-- [ ] `analytical_queries.sql` cleaned and organized
-- [ ] README updated
-- [ ] Project pushed to GitHub
+- [x] Schema created successfully
+- [x] All constraints understood
+- [x] Seed data inserted successfully
+- [x] Basic SQL tasks completed
+- [x] String/data-cleaning tasks completed
+- [x] JOIN tasks completed
+- [x] Anti-Join understood
+- [x] `SELF JOIN` understood
+- [x] Aggregation tasks completed
+- [x] `GROUP BY` and `HAVING` understood
+- [x] Date/`CASE` analysis completed
+- [x] Advanced analytical queries completed
+- [x] Business challenges completed
+- [x] `analytical_queries.sql` cleaned and organized
+- [x] README updated
+- [x] Project pushed to GitHub
 
 ---
 
 
-**Next guided task:** Q3 — Customer Inactive Accounts / Anti-Join.
+
