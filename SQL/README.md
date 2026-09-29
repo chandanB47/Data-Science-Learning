@@ -32,8 +32,8 @@ A structured, hands-on repository documenting daily SQL concepts, real-world dat
 | **22** | Window Functions II | `LEAD()`, `LAG()`, `FIRST_VALUE()`, Running totals | [Day 22](./Day_22_Window_Functions_II/) | ✅ Completed  |
 | **23** | Views & Materialized Views | Virtual tables, View updates, Refresh strategies | [Day 23](./Day_23_Window_Functions_III/) | ✅ Completed |
 | **24** | Transactions & TCL | `COMMIT`, `ROLLBACK`, `SAVEPOINT`, Isolation levels | [Day 24](./Day_24_Views_And_Materialized_Views/) | ✅ Completed |
-| **25** | DCL & Database Security | `GRANT`, `REVOKE`, Role-based access control | [Day 25](./Day_25_DCL_Database_Security/) | ⏳ Planned |
-| **26** | Indexes & Query Optimization | B-Trees, Execution plans, `EXPLAIN ANALYZE` | `Day 26` | ⏳ Planned |
+| **25** | DCL & Database Security | `GRANT`, `REVOKE`, Role-based access control | [Day 25](./Day_25_DCL_Database_Security/) | ✅ Completed |
+| **26** | Indexes & Query Optimization | B-Trees, Execution plans, `EXPLAIN ANALYZE` | [Day 26](./Day_26_Indexes_And_Query_Optimization/) | ⏳ Planned |
 | **27** | Interview Patterns I | $N^{\text{th}}$ highest salary, Finding duplicates | `Day 27` | ⏳ Planned |
 | **28** | Interview Patterns II | Retention cohorts, Rolling averages, YoY growth | `Day 28` | ⏳ Planned |
 | **29** | Project 1: E-Commerce Analytics | Schema design, RFM segmentation, Sales breakdown | `Day 29` | ⏳ Planned |
