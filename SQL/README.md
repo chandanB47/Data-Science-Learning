@@ -35,8 +35,8 @@ A structured, hands-on repository documenting daily SQL concepts, real-world dat
 | **25** | DCL & Database Security | `GRANT`, `REVOKE`, Role-based access control | [Day 25](./Day_25_DCL_Database_Security/) | ✅ Completed |
 | **26** | Indexes & Query Optimization | B-Trees, Execution plans, `EXPLAIN ANALYZE` | [Day 26](./Day_26_Indexes_And_Query_Optimization/) |✅ Completed  |
 | **27** | Interview Patterns I | $N^{\text{th}}$ highest salary, Finding duplicates | [Day 27](./Day_27_Interview_Patterns_I/) | ✅ Completed  |
-| **28** | Interview Patterns II | Retention cohorts, Rolling averages, YoY growth | [Day 28](./Day_28_Interview_Patterns_II/) | ⏳ Planned |
-| **29** | Project 1: E-Commerce Analytics | Schema design, RFM segmentation, Sales breakdown | [Day 29](./Day_29_Project_Ecommerce_Analytics/) | ⏳ Planned |
+| **28** | Interview Patterns II | Retention cohorts, Rolling averages, YoY growth | [Day 28](./Day_28_Interview_Patterns_II/) | ✅ Completed |
+| **29** | Project 1: E-Commerce Analytics | Schema design, RFM segmentation, Sales breakdown | [Day 29](./Day_29_Project_Ecommerce_Analytics/) | ✅ Completed |
 | **30** | Project 2: Fraud Detection | Suspicious transfer patterns, Anomaly reporting | `Day 30` | ⏳ Planned |
 
 ---
