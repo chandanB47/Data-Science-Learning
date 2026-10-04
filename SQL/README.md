@@ -37,7 +37,7 @@ A structured, hands-on repository documenting daily SQL concepts, real-world dat
 | **27** | Interview Patterns I | $N^{\text{th}}$ highest salary, Finding duplicates | [Day 27](./Day_27_Interview_Patterns_I/) | ✅ Completed  |
 | **28** | Interview Patterns II | Retention cohorts, Rolling averages, YoY growth | [Day 28](./Day_28_Interview_Patterns_II/) | ✅ Completed |
 | **29** | Project 1: E-Commerce Analytics | Schema design, RFM segmentation, Sales breakdown | [Day 29](./Day_29_Project_Ecommerce_Analytics/) | ✅ Completed |
-| **30** | Project 2: Fraud Detection | Suspicious transfer patterns, Anomaly reporting | `Day 30` | ⏳ Planned |
+| **30** | Project 2: Fraud Detection | Suspicious transfer patterns, Anomaly reporting | [Day 30](./Day_30_Project_Fraud_Detection/) | ✅ Completed |
 
 ---
 
