@@ -66,66 +66,125 @@ Your result should contain the original sales columns plus the selected customer
 
 ## Part E — Validate
 
-### Task 6
-Check:
-1. The Left Outer Merge preserves the left/sales table row count.
-2. CustomerID values remain unchanged.
-3. CustomerType and City contain expected values.
-4. Filter the expanded fields for nulls.
-5. Investigate nulls instead of immediately deleting them.
+## 🔎 Task 6 — Merge Validation
 
-Possible causes:
-- CustomerID is missing from the lookup.
-- Data types differ.
-- Formatting/spaces differ.
-- Lookup does not contain every customer.
-- Lookup key is not unique.
+| Validation | Result |
+|---|---|
+| Left table rows preserved | Yes — 145 |
+| CustomerID unchanged | Yes |
+| CustomerType expanded | Yes |
+| City expanded | Yes |
+| Nulls in expanded fields | None |
+| Unmatched CustomerID | None |
+| Final status | Validated |
+
+### 📌 Observation
+
+> The Left Outer Merge preserved all rows from the sales query. CustomerType and City were successfully expanded from the customer lookup table. All 145 sales rows matched a CustomerID in the lookup.
+
 
 ## Part F — Understand the Key
 
-### Task 7
+### 🔑Task 7
 Open the Merge dialog and think about what would happen if `CustomerID` were matched to an unrelated field such as `Category`.
+
+
+### Correct Join Key
+
+The merge uses:
+
+```text
+Sales_Merged_Customer → CustomerID
+Customer_Lookup_Practice → CustomerID
+```
 
 Do not permanently change your final query. The purpose is to understand that a merge is meaningful only when the selected columns represent the same relationship.
 
 ## Part G — Merge or Append?
 
-### Task 8
-Choose **Merge** or **Append**:
+## 🔀 Task 8 — Merge or Append?
 
-1. Add CustomerType to sales using CustomerID.
-2. Combine January transactions with February transactions.
-3. Bring Product Category from a product lookup into orders.
-4. Combine two tables containing the same type of monthly transactions.
+| Scenario | Choice | Reason |
+|---|---|---|
+| Add CustomerType to sales using CustomerID | **Merge** | Related tables with a matching key |
+| Combine January transactions with February transactions | **Append** | Same type of data; adding rows |
+| Bring Product Category from a product lookup into orders | **Merge** | Related tables with a matching key |
+| Combine two tables containing the same type of monthly transactions | **Append** | Similar tables; adding rows |
 
-Rule:
+### 📌 Rule
+
 ```text
 Related tables + matching key → MERGE
+
 Similar tables + additional rows → APPEND
+
 ```
 
 ## Part H — Save
 
-### Task 9
+### 💾 Task 9 — Review & Save
 1. Review Applied Steps.
+
+Before saving, check **Query Settings → Applied Steps** for `Sales_Merged_Customer`.
+
+You should see steps related to:
+
+```text
+Source
+Merged Queries
+Expanded Customer_Lookup_Practice
+```
+
 2. Confirm the Merge and Expand steps.
 3. Check for errors.
 4. Select **Close & Apply**.
 5. Save as `Day11_Merge_Queries.pbix`.
 
 
-## 🧠 Knowledge Check
-Answer in your own words:
-1. What is Merge Queries used for?
-2. What is a join key?
-3. Why did we use CustomerID?
-4. What does Left Outer Join preserve?
-5. Why should the lookup table have unique CustomerID values?
-6. What does Expand do after a merge?
-7. What can cause nulls after a merge?
-8. What is the difference between Merge and Append?
-9. What could happen with an unrelated join key?
-10. Why keep the original detailed query?
+# 🧠 Day 11 — Knowledge Check
+
+### Q1. What is Merge Queries used for?
+
+Merge Queries is used to combine related data from two queries by matching a common key.
+
+### Q2. What is a join key?
+
+A join key is a column used to match related records between two tables or queries.
+
+### Q3. Why did we use `CustomerID`?
+
+We used `CustomerID` because it identifies the same customer in both the sales query and the customer lookup query.
+
+### Q4. What does a Left Outer Join preserve?
+
+A Left Outer Join preserves all rows from the first (left) table and brings matching records from the second table.
+
+### Q5. Why should the lookup table have unique `CustomerID` values?
+
+A lookup table should have one row per CustomerID to prevent one sales record from matching multiple lookup records and creating unwanted duplication.
+
+### Q6. What does Expand do after a merge?
+
+Expand extracts selected fields from the merged table column and adds them as normal columns.
+
+### Q7. What can cause nulls after a merge?
+
+Nulls can occur when a CustomerID has no match in the lookup, data types differ, formatting or spaces differ, or the lookup does not contain every customer.
+
+### Q8. What is the difference between Merge and Append?
+
+Merge combines related tables using a matching key and adds related columns. Append combines similar tables by adding rows.
+
+### Q9. What could happen with an unrelated join key?
+
+An unrelated join key can produce incorrect matches, unmatched records, or meaningless results.
+
+### Q10. Why keep the original detailed query?
+
+The original detailed query should be preserved so transaction-level data remains available for validation and future transformations.
+
+
+
 
 ## ✅ Completion Checklist
 - [x] Two related queries prepared.
