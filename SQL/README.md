@@ -39,12 +39,6 @@ A structured, hands-on repository documenting daily SQL concepts, real-world dat
 | **29** | Project 1: E-Commerce Analytics | Schema design, RFM segmentation, Sales breakdown | [Day 29](./Day_29_Project_Ecommerce_Analytics/) | ✅ Completed |
 | **30** | Project 2: Fraud Detection | Suspicious transfer patterns, Anomaly reporting | [Day 30](./Day_30_Project_Fraud_Detection/) | ✅ Completed |
 
----
-
-| Milestone | Project Title | Folder Link | Status |
-| :---: | :--- | :---: | :---: |
-| **Project 01** | Retail Store Operations & Analytics (Days 01–15 Consolidation) | [Project 01](./Milestone_Project_01_Retail_Operations/) | ✅ Completed  |
-
 
 
 ---
