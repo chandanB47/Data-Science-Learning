@@ -125,36 +125,59 @@ NetSales
 
 ### Task 8
 Check:
-- [ ] CustomerID unique in DimCustomer.
-- [ ] CustomerID may repeat in Sales.
-- [ ] No unexplained blank key.
-- [ ] NetSales numeric.
-- [ ] Quantity numeric.
-- [ ] Relationship uses CustomerID.
-- [ ] Cardinality 1:*.
-- [ ] Cross filter Single.
-- [ ] Relationship Active.
+- [x] CustomerID unique in DimCustomer.
+- [x] CustomerID may repeat in Sales.
+- [x] No unexplained blank key.
+- [x] NetSales numeric.
+- [x] Quantity numeric.
+- [x] Relationship uses CustomerID.
+- [x] Cardinality 1:*.
+- [x] Cross filter Single.
+- [x] Relationship Active.
 
-## 🧠 Knowledge Check
-Answer in your own words:
-1. What is a Power BI data model?
-2. What is a fact table?
-3. What is a dimension table?
-4. What is a primary key?
-5. What is a foreign key?
-6. Why is CustomerID unique in the customer table but repeated in Sales?
-7. Why is the relationship 1:*?
-8. What does Single cross-filter direction mean?
-9. Why should unnecessary bidirectional relationships be avoided?
-10. What happens when a dimension filter reaches a fact table?
-11. Why is a clean model better than putting everything into one table?
+
+
+## 🧠 Day 13 — Knowledge Check Answers
+
+What is a Power BI data model?
+A Power BI data model is the structure that organizes tables and defines relationships between them so the data can be analyzed correctly.
+
+What is a fact table?
+A fact table contains transaction or business-event data, usually including numeric values that can be analyzed. In this project, Sales_Appended is the fact-style sales table.
+
+What is a dimension table?
+A dimension table contains descriptive information used to filter, categorize, and analyze data. In this project, DimCustomer contains CustomerID, CustomerType, and City.
+
+What is a primary key?
+A primary key is a column that uniquely identifies each record in a table. Here, DimCustomer[CustomerID] is the primary key.
+
+What is a foreign key?
+A foreign key is a column that references a key in another table and is used to establish a relationship. Here, Sales_Appended[CustomerID] is the foreign key.
+
+Why is CustomerID unique in the customer table but repeated in Sales?
+DimCustomer stores each customer only once, so CustomerID must be unique. Sales_Appended contains transactions, so one customer can have multiple transactions and therefore the same CustomerID can appear multiple times.
+
+Why is the relationship 1:*?
+The relationship is one-to-many because one customer exists once in DimCustomer, while that customer can have many sales transactions in Sales_Appended.
+
+What does Single cross-filter direction mean?
+Single cross-filter direction means filters flow from the one-side dimension table to the many-side sales table.
+
+Why should unnecessary bidirectional relationships be avoided?
+Bidirectional relationships can make the model more complicated and may create ambiguous or unexpected filtering behavior. Single direction is preferred when it is sufficient.
+
+What happens when a dimension filter reaches a fact table?
+The filter travels through the relationship and restricts the related rows in the fact table. For example, selecting a CustomerType in DimCustomer filters the corresponding sales in Sales_Appended.
+
+Why is a clean model better than putting everything into one table?
+A clean model separates transaction data from descriptive dimension data and connects them through relationships. This improves organization, reduces redundancy, makes filtering easier, and provides a better foundation for a star schema.
 
 ## 📸 Screenshot Checklist
-- [ ] `01-model-tables.png` — Model view with tables.
-- [ ] `02-create-relationship.png` — Relationship dialog.
-- [ ] `03-model-view.png` — Final relationship diagram.
-- [ ] `04-relationship-properties.png` — Cardinality/direction/active status.
-- [ ] `05-validation-visual.png` — Visual using both tables.
+- [x] `01-model-tables.png` — Model view with tables.
+- [x] `02-create-relationship.png` — Relationship dialog.
+- [x] `03-model-view.png` — Final relationship diagram.
+- [x] `04-relationship-properties.png` — Cardinality/direction/active status.
+- [x] `05-validation-visual.png` — Visual using both tables.
 
 ## ✅ Completion Checklist
 
