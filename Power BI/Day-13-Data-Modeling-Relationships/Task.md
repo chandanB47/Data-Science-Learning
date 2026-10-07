@@ -139,38 +139,75 @@ Check:
 
 ## 🧠 Day 13 — Knowledge Check Answers
 
-What is a Power BI data model?
+1. What is a Power BI data model?
+
+```text
 A Power BI data model is the structure that organizes tables and defines relationships between them so the data can be analyzed correctly.
+```
 
-What is a fact table?
+2. What is a fact table?
+   
+```text
 A fact table contains transaction or business-event data, usually including numeric values that can be analyzed. In this project, Sales_Appended is the fact-style sales table.
+```
 
-What is a dimension table?
+3. What is a dimension table?
+
+```text
 A dimension table contains descriptive information used to filter, categorize, and analyze data. In this project, DimCustomer contains CustomerID, CustomerType, and City.
+```
 
-What is a primary key?
+4. What is a primary key?
+
+```text
 A primary key is a column that uniquely identifies each record in a table. Here, DimCustomer[CustomerID] is the primary key.
+```
 
-What is a foreign key?
+5. What is a foreign key?
+
+```text
 A foreign key is a column that references a key in another table and is used to establish a relationship. Here, Sales_Appended[CustomerID] is the foreign key.
+```
 
-Why is CustomerID unique in the customer table but repeated in Sales?
+
+6. Why is CustomerID unique in the customer table but repeated in Sales?
+
+```text
 DimCustomer stores each customer only once, so CustomerID must be unique. Sales_Appended contains transactions, so one customer can have multiple transactions and therefore the same CustomerID can appear multiple times.
+```
 
-Why is the relationship 1:*?
+
+7. Why is the relationship 1:*?
+
+```text
 The relationship is one-to-many because one customer exists once in DimCustomer, while that customer can have many sales transactions in Sales_Appended.
+```
 
-What does Single cross-filter direction mean?
+8. What does Single cross-filter direction mean?
+
+```text
 Single cross-filter direction means filters flow from the one-side dimension table to the many-side sales table.
+```
 
-Why should unnecessary bidirectional relationships be avoided?
+
+9. Why should unnecessary bidirectional relationships be avoided?
+
+```text
 Bidirectional relationships can make the model more complicated and may create ambiguous or unexpected filtering behavior. Single direction is preferred when it is sufficient.
+```
 
-What happens when a dimension filter reaches a fact table?
+
+10. What happens when a dimension filter reaches a fact table?
+
+```text
 The filter travels through the relationship and restricts the related rows in the fact table. For example, selecting a CustomerType in DimCustomer filters the corresponding sales in Sales_Appended.
+```
 
-Why is a clean model better than putting everything into one table?
+11. Why is a clean model better than putting everything into one table?
+
+```text
 A clean model separates transaction data from descriptive dimension data and connects them through relationships. This improves organization, reduces redundancy, makes filtering easier, and provides a better foundation for a star schema.
+```
 
 ## 📸 Screenshot Checklist
 - [x] `01-model-tables.png` — Model view with tables.
