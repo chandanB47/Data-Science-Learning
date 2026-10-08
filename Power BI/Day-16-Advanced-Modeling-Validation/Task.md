@@ -307,83 +307,54 @@ A filter from each dimension should affect the relevant sales visuals.
 ## Task 14
 
 ### FactSales
-- [ ] Transaction-level table.
-- [ ] Numeric sales fields are correctly typed.
-- [ ] Foreign keys can repeat.
+- [x] Transaction-level table.
+- [x] Numeric sales fields are correctly typed.
+- [x] Foreign keys can repeat.
 
 ### DimCustomer
-- [ ] CustomerID unique.
-- [ ] Descriptive attributes available.
+- [x] CustomerID unique.
+- [x] Descriptive attributes available.
 
 ### DimProduct
-- [ ] Product key unique.
-- [ ] Category descriptive.
+- [x] Product key unique.
+- [x] Category descriptive.
 
 ### DimDate
-- [ ] Date unique.
-- [ ] Continuous calendar.
-- [ ] Covers FactSales date range.
-- [ ] Month sorting correct.
+- [x] Date unique.
+- [x] Continuous calendar.
+- [x] Covers FactSales date range.
+- [x] Month sorting correct.
 
 ### Relationships
-- [ ] Customer = 1:*.
-- [ ] Product = 1:*.
-- [ ] Date = 1:*.
-- [ ] Single direction.
-- [ ] Active.
-- [ ] No unnecessary relationships.
+- [x] Customer = 1:*.
+- [x] Product = 1:*.
+- [x] Date = 1:*.
+- [x] Single direction.
+- [x] Active.
+- [x] No unnecessary relationships.
+
+
 
 ---
 
-# 🧠 Knowledge Check
-
-Answer in your own words:
-
-1. What is filter propagation?
-2. What is an active relationship?
-3. What is an inactive relationship?
-4. Why is 1:* the normal pattern for a dimension-to-fact relationship?
-5. What is the risk of unnecessary bidirectional relationships?
-6. What is an ambiguous relationship path?
-7. Why should dimension keys be unique?
-8. What can cause unmatched foreign keys?
-9. Why should you avoid unnecessary many-to-many relationships?
-10. Why is model validation important before writing DAX?
-11. What happens when a Customer Type filter reaches FactSales?
-12. What happens when a Date filter reaches FactSales?
-13. Why is a star schema easier to troubleshoot?
-
----
-
-# 📸 Screenshot Checklist
-
-Save:
-
-- [ ] `01-final-model.png` — Clean final star-schema Model view.
-- [ ] `02-relationship-properties.png` — Relationship properties.
-- [ ] `03-customer-filter-test.png` — Customer filter affecting sales.
-- [ ] `04-product-date-filter-test.png` — Product/date filters affecting sales.
-- [ ] `05-model-validation.png` — Final validation report page.
-
----
 
 # ✅ Completion Checklist
 
-- [ ] Day 15 PBIX copied.
-- [ ] Customer relationship audited.
-- [ ] Product relationship audited.
-- [ ] Date relationship audited.
-- [ ] Customer filter tested.
-- [ ] Product filter tested.
-- [ ] Date filter tested.
-- [ ] Dimension key uniqueness checked.
-- [ ] Blank/unmatched keys investigated.
-- [ ] Unnecessary relationships checked.
-- [ ] Model layout cleaned.
-- [ ] Final validation page created.
-- [ ] Knowledge check answered.
-- [ ] Screenshots saved.
-- [ ] PBIX saved as `Day16_Advanced_Modeling_Validation.pbix`.
+- [x] Day 15 PBIX copied.
+- [x] Customer relationship audited.
+- [x] Product relationship audited.
+- [x] Date relationship audited.
+- [x] Customer filter tested.
+- [x] Product filter tested.
+- [x] Date filter tested.
+- [x] Dimension key uniqueness checked.
+- [x] Blank/unmatched keys investigated.
+- [x] Unnecessary relationships checked.
+- [x] Model layout cleaned.
+- [x] Final validation page created.
+- [x] Knowledge check answered.
+- [x] Screenshots saved.
+- [x] PBIX saved as `Day16_Advanced_Modeling_Validation.pbix`.
 
 # 📦 Final Folder Structure
 
@@ -393,13 +364,7 @@ Power BI/
     ├── README.md
     ├── TASK.md
     ├── Day16_Advanced_Modeling_Validation.pbix
-    └── Screenshots/
-        ├── 01-final-model.png
-        ├── 02-relationship-properties.png
-        ├── 03-customer-filter-test.png
-        ├── 04-product-date-filter-test.png
-        └── 05-model-validation.png
-```
+   
 
 # 🏆 Phase Completion
 
