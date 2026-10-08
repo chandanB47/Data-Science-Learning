@@ -150,16 +150,16 @@ Dimension filter → Relationship → FactSales → NetSales
 ## Part J — Model Quality Review
 ### Task 13
 Check:
-- [ ] FactSales has transaction-level rows.
-- [ ] CustomerID is unique in DimCustomer.
-- [ ] Product is unique in DimProduct.
-- [ ] DimDate Date is unique.
-- [ ] DimDate covers the sales date range.
-- [ ] All relationships are 1:*.
-- [ ] Dimensions are on the 1 side.
-- [ ] FactSales is on the * side.
-- [ ] Cross-filter direction is Single.
-- [ ] Relationships are active.
+- [x] FactSales has transaction-level rows.
+- [x] CustomerID is unique in DimCustomer.
+- [x] Product is unique in DimProduct.
+- [x] DimDate Date is unique.
+- [x] DimDate covers the sales date range.
+- [x] All relationships are 1:*.
+- [x] Dimensions are on the 1 side.
+- [x] FactSales is on the * side.
+- [x] Cross-filter direction is Single.
+- [x] Relationships are active.
 
 ## Knowledge Check
 Answer in your own words:
@@ -177,25 +177,25 @@ Answer in your own words:
 12. Why should dimensions generally filter the fact table?
 
 ## Screenshot Checklist
-- [ ] `01-fact-dimension-identification.png`
-- [ ] `02-dimension-tables.png`
-- [ ] `03-star-schema-model.png`
-- [ ] `04-relationship-properties.png`
-- [ ] `05-validation-report.png`
+- [x] `01-fact-dimension-identification.png`
+- [x] `02-dimension-tables.png`
+- [x] `03-star-schema-model.png`
+- [x] `04-relationship-properties.png`
+- [x] `05-validation-report.png`
 
 ## Completion Checklist
-- [ ] FactSales identified.
-- [ ] DimCustomer verified.
-- [ ] DimProduct created/verified.
-- [ ] DimDate created.
-- [ ] Customer, Product, and Date relationships created.
-- [ ] All relationships 1:* / Single / Active.
-- [ ] Model arranged as a star.
-- [ ] Validation report created.
-- [ ] Filter tests completed.
-- [ ] Knowledge check answered.
-- [ ] Screenshots saved.
-- [ ] PBIX saved as `Day14_Star_Schema_Dimensions.pbix`.
+- [x] FactSales identified.
+- [x] DimCustomer verified.
+- [x] DimProduct created/verified.
+- [x] DimDate created.
+- [x] Customer, Product, and Date relationships created.
+- [x] All relationships 1:* / Single / Active.
+- [x] Model arranged as a star.
+- [x] Validation report created.
+- [x] Filter tests completed.
+- [x] Knowledge check answered.
+- [x] Screenshots saved.
+- [x] PBIX saved as `Day14_Star_Schema_Dimensions.pbix`.
 
 ## Folder Structure
 ```text
