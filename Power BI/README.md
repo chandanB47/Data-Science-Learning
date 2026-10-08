@@ -367,18 +367,18 @@ Create each day's folder as the work is completed.
 
 For each learning day:
 
-- [ ] Study the topic
-- [ ] Understand the key concepts
-- [ ] Complete the hands-on exercise
-- [ ] Save the `.pbix` file when applicable
-- [ ] Capture screenshots
-- [ ] Record mistakes
-- [ ] Record important concepts
-- [ ] Record questions
-- [ ] Write key takeaways
-- [ ] Update `Progress-Tracker.md`
-- [ ] Commit changes
-- [ ] Push work to GitHub
+- [x] Study the topic
+- [x] Understand the key concepts
+- [x] Complete the hands-on exercise
+- [x] Save the `.pbix` file when applicable
+- [x] Capture screenshots
+- [x] Record mistakes
+- [x] Record important concepts
+- [x] Record questions
+- [x] Write key takeaways
+- [x] Update `Progress-Tracker.md`
+- [x] Commit changes
+- [x] Push work to GitHub
 
 ---
 
@@ -389,8 +389,8 @@ For each learning day:
 | Milestone | Status |
 |---|---|
 | Days 01–05 — Fundamentals | ✅ Completed |
-| Days 06–12 — Power Query | 🟡 In Progress |
-| Days 13–16 — Data Modeling | ⬜ Not Started |
+| Days 06–12 — Power Query | ✅ Completed |
+| Days 13–16 — Data Modeling | 🟡 In Progress |
 | Days 17–21 — DAX | ⬜ Not Started |
 | Days 22–27 — Visualization & Analytics | ⬜ Not Started |
 | Days 28–30 — Project & Portfolio | ⬜ Not Started |
