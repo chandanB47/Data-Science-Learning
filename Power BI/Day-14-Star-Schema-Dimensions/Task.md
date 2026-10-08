@@ -161,20 +161,149 @@ Check:
 - [x] Cross-filter direction is Single.
 - [x] Relationships are active.
 
-## Knowledge Check
-Answer in your own words:
+
+
+
+## POWER BI — DAY 14 KNOWLEDGE CHECK
+
+### Star Schema & Dimension Tables
+
 1. What is a star schema?
+
+A star schema is a data model where one central fact table is connected to multiple dimension tables. The structure looks like a star because the dimensions surround the central fact table.
+
+
 2. Why is FactSales in the center?
+
+FactSales contains the transaction-level sales data such as OrderID, CustomerID, Product, OrderDate, Quantity, and NetSales. The dimension tables connect to FactSales and provide information for filtering and analyzing the transactions.
+
+
 3. What is the purpose of DimCustomer?
+
+DimCustomer stores customer-related descriptive information such as CustomerID, CustomerType, and City. It allows sales to be analyzed and filtered by customer characteristics.
+
+
 4. What is the purpose of DimProduct?
+
+DimProduct stores product-related information such as Product and Category. It allows sales to be analyzed by product and category.
+
+
 5. Why should dimension keys be unique?
+
+Dimension keys should be unique because each key must identify one specific record on the one side of the relationship. This allows Power BI to create a correct 1:* relationship.
+
+
 6. Why can foreign keys repeat in FactSales?
+
+Foreign keys can repeat because FactSales contains transaction-level records. For example, the same customer can make multiple purchases, so the same CustomerID can appear many times in FactSales.
+
+
 7. Why is DimDate useful?
+
+DimDate provides a consistent calendar for analyzing sales by Year, Month, Quarter, and Date. It also provides the foundation for future time-intelligence calculations.
+
+
 8. Why use 1:* relationships here?
+
+A 1:* relationship is used because each dimension contains one unique record for a key, while the fact table can contain many transactions using that same key.
+
+Example:
+
+DimProduct                 FactSales
+
+Product A       1 ---- *   Product A
+                            Product A
+                            Product A
+
+
 9. What does Single cross-filter direction accomplish?
+
+Single cross-filter direction allows filters to flow from the dimension table to the fact table.
+
+Example:
+
+DimProduct
+    |
+    v
+Relationship
+    |
+    v
+FactSales
+    |
+    v
+NetSales
+
+Selecting a product category therefore filters the related sales transactions.
+
+
 10. Why is a star schema easier to work with than one huge flat table?
+
+A star schema separates descriptive information from transaction data.
+
+It provides:
+- Better organization
+- Less unnecessary duplication
+- Easier filtering
+- Clear relationships
+- Easier maintenance
+- More predictable analysis
+
+
 11. What happens if DimProduct contains duplicate Product values?
+
+Duplicate Product values can prevent DimProduct from being a proper one-side table. This can cause relationship and cardinality problems and may result in incorrect or ambiguous filtering behavior.
+
+Therefore, the Product key should be unique in DimProduct.
+
+
 12. Why should dimensions generally filter the fact table?
+
+Dimensions describe how we want to analyze the transactions. Therefore, filters should generally flow from the dimension to the fact table.
+
+The normal flow is:
+
+Dimension
+    |
+    v
+Relationship
+    |
+    v
+FactSales
+    |
+    v
+Measures / NetSales
+
+
+DAY 14 SUMMARY
+
+Model created:
+
+DimCustomer  1 ---- *  FactSales  * ---- 1  DimProduct
+                           |
+                           |
+                           *
+                           |
+                           1
+                        DimDate
+
+
+
+
+### Key concepts learned:
+
+- Star Schema
+- Fact Table
+- Customer Dimension
+- Product Dimension
+- Date Dimension
+- Primary Key
+- Foreign Key
+- 1:* Relationships
+- Single Cross-Filtering
+- Dimension-to-Fact Filtering
+- Multi-dimension Analysis
+
+
 
 ## Screenshot Checklist
 - [x] `01-fact-dimension-identification.png`
