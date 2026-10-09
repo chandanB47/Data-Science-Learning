@@ -75,23 +75,24 @@ Total Quantity = SUM(FactSales[Quantity])
 5. If the measure does not respond, inspect the relationship between `DimCustomer` and `FactSales`; do not fix it by creating an arbitrary many-to-many relationship.
 
 ## Part G — Validate
-- [ ] No DAX formula errors.
-- [ ] `Calculated Sales` is a column, not a measure.
-- [ ] `Total Net Sales`, `Average Net Sales`, and `Total Quantity` are measures.
-- [ ] The Card total agrees with the expected total when no slicers are applied.
-- [ ] Customer Type slicer changes the measure when applicable.
-- [ ] Existing relationships remain active and unchanged.
-- [ ] Save the PBIX file.
+- [x] No DAX formula errors.
+- [x] `Calculated Sales` is a column, not a measure.
+- [x] `Total Net Sales`, `Average Net Sales`, and `Total Quantity` are measures.
+- [x] The Card total agrees with the expected total when no slicers are applied.
+- [x] Customer Type slicer changes the measure when applicable.
+- [x] Existing relationships remain active and unchanged.
+- [x] Save the PBIX file.
 
 ## Screenshot checklist
 Save screenshots in the `Screenshots/` folder:
 
-- [ ] `01-model-relationships.png` — Model view showing the existing relationships.
-- [ ] `02-calculated-column.png` — `Calculated Sales` formula and column result.
-- [ ] `03-basic-measures.png` — measures visible in the Fields/Data pane or formula bar.
-- [ ] `04-report-measure-card.png` — Card with Total Net Sales and Total Quantity.
-- [ ] `05-measure-by-category.png` — category chart using Total Net Sales.
-- [ ] `06-filter-context-test.png` — Customer Type slicer selected and changed measure result.
+- [x] `01-model-relationships.png` — Model view showing the existing relationships.
+- [x] `02-calculated-column.png` — `Calculated Sales` formula and column result.
+- [x] `03-basic-measures.png` — measures visible in the Fields/Data pane or formula bar.
+- [x] `04-report-measure-card.png` — Card with Total Net Sales and Total Quantity.
+- [x] `05-measure-by-category.png` — category chart using Total Net Sales.
+- [x] `06-filter-context-test.png` — Customer Type slicer selected and changed measure result.
+
 
 ## Knowledge check
 Answer these in your own words:
@@ -102,10 +103,10 @@ Answer these in your own words:
 4. Why should `Calculated Sales` not automatically be treated as the official net-sales value?
 
 ## Completion checklist
-- [ ] Saved `Day17_Measures_vs_Calculated_Columns.pbix`.
-- [ ] Completed all tasks.
-- [ ] Captured the screenshots.
-- [ ] Answered the knowledge-check questions.
-- [ ] Shared screenshots here for review before starting Day 18.
+- [x] Saved `Day17_Measures_vs_Calculated_Columns.pbix`.
+- [x] Completed all tasks.
+- [x] Captured the screenshots.
+- [x] Answered the knowledge-check questions.
+
 
 **GitHub folder:** `Power BI/Day-17-Measures-vs-Calculated-Columns/`
