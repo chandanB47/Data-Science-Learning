@@ -391,7 +391,7 @@ For each learning day:
 | Days 01–05 — Fundamentals | ✅ Completed |
 | Days 06–12 — Power Query | ✅ Completed |
 | Days 13–16 — Data Modeling | 🟡 In Progress |
-| Days 17–21 — DAX | ⬜ Not Started |
+| Days 17–21 — DAX | 🟡 In Progress |
 | Days 22–27 — Visualization & Analytics | ⬜ Not Started |
 | Days 28–30 — Project & Portfolio | ⬜ Not Started |
 
