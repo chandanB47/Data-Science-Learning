@@ -98,9 +98,29 @@ Save screenshots in the `Screenshots/` folder:
 Answer these in your own words:
 
 1. What is the main difference between a measure and a calculated column?
-2. Why is `Total Net Sales` usually better as a measure than as a calculated column?
+
+```text
+A calculated column calculates and stores a value for each row in a table. A measure calculates an aggregated result dynamically based on the current filter context.
+```
+
+2. Why is Total Net Sales usually better as a measure than as a calculated column?
+
+```text
+Total Net Sales is an aggregation of sales values. A measure calculates the total dynamically and responds to report filters and slicers without storing a repeated total in every row.
+```
+
 3. What does filter context mean in the example you tested?
-4. Why should `Calculated Sales` not automatically be treated as the official net-sales value?
+
+```text
+Filter context is the set of filters affecting a calculation. In this project, selecting a Customer Type slicer filters the related sales records, causing the Total Net Sales measure and category chart to update.
+```
+
+4. Why should Calculated Sales not automatically be treated as the official net-sales value?
+
+```text
+Calculated Sales uses Quantity multiplied by UnitPrice. Official NetSales may account for discounts or other business rules, so the two values may differ.
+```
+
 
 ## Completion checklist
 - [x] Saved `Day17_Measures_vs_Calculated_Columns.pbix`.
