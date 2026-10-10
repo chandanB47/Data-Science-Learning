@@ -71,26 +71,26 @@ Add a Card. This counts distinct customer IDs in the current filter context; it 
 6. If results do not change, inspect the existing relationship between the dimension and fact table. Do not create an arbitrary many-to-many relationship.
 
 ## Part H — Validate
-- [ ] `Total Net Sales` uses `SUM`.
-- [ ] `Average Net Sales` uses `AVERAGE`.
-- [ ] `Order ID Count` uses `COUNT` only if the column's data type supports it.
-- [ ] `Nonblank Order IDs` uses `COUNTA`.
-- [ ] `Unique Customers` uses `DISTINCTCOUNT`.
-- [ ] No formula errors.
-- [ ] Cards display values with no filters selected.
-- [ ] The Customer Type slicer changes results when the model relationship supports that filter path.
-- [ ] Existing relationships remain unchanged.
-- [ ] Save the PBIX file.
+- [x] `Total Net Sales` uses `SUM`.
+- [x] `Average Net Sales` uses `AVERAGE`.
+- [x] `Order ID Count` uses `COUNT` only if the column's data type supports it.
+- [x] `Nonblank Order IDs` uses `COUNTA`.
+- [x] `Unique Customers` uses `DISTINCTCOUNT`.
+- [x] No formula errors.
+- [x] Cards display values with no filters selected.
+- [x] The Customer Type slicer changes results when the model relationship supports that filter path.
+- [x] Existing relationships remain unchanged.
+- [x] Save the PBIX file.
 
 ## Screenshot checklist
 Save screenshots in the `Screenshots/` folder:
 
-- [ ] `01-total-and-average-measures.png` — Total Net Sales and Average Net Sales Cards.
-- [ ] `02-count-and-counta.png` — COUNT and COUNTA measures/results, with any data-type limitation noted.
-- [ ] `03-distinctcount-customers.png` — Unique Customers measure and Card.
-- [ ] `04-sales-by-category.png` — Category chart using Total Net Sales.
-- [ ] `05-slicer-filter-test.png` — Customer Type slicer selected and updated results.
-- [ ] `06-measures-list.png` — All Day 18 measures visible in the Fields/Data pane.
+- [x] `01-total-and-average-measures.png` — Total Net Sales and Average Net Sales Cards.
+- [x] `02-count-and-counta.png` — COUNT and COUNTA measures/results, with any data-type limitation noted.
+- [x] `03-distinctcount-customers.png` — Unique Customers measure and Card.
+- [x] `04-sales-by-category.png` — Category chart using Total Net Sales.
+- [x] `05-slicer-filter-test.png` — Customer Type slicer selected and updated results.
+- [x] `06-measures-list.png` — All Day 18 measures visible in the Fields/Data pane.
 
 ## Knowledge check
 Answer in your own words:
@@ -101,10 +101,10 @@ Answer in your own words:
 5. Why can a measure return a different result after selecting a slicer?
 
 ## Completion checklist
-- [ ] Saved `Day18_Basic_DAX_Functions.pbix`.
-- [ ] Created and tested the measures.
-- [ ] Captured the screenshots.
-- [ ] Answered the knowledge-check questions.
-- [ ] Shared screenshots here for review before starting Day 19.
+- [x] Saved `Day18_Basic_DAX_Functions.pbix`.
+- [x] Created and tested the measures.
+- [x] Captured the screenshots.
+- [x] Answered the knowledge-check questions.
+
 
 **GitHub folder:** `Power BI/Day-18-Basic-DAX-Functions/`
