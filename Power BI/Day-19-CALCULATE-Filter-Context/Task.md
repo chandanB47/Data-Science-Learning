@@ -66,36 +66,52 @@ Add this measure to a Card. Do not leave `Office Supplies` in the formula if it 
 4. Note unexpected interactions. A filter applied by `CALCULATE` to a column can replace an existing filter on that same column unless the expression is designed to preserve it.
 
 ## Part G — Validate
-- [ ] No DAX errors.
-- [ ] `[Total Net Sales]` works without filters.
-- [ ] Both category measures use values that exist in the data.
-- [ ] The category chart displays values by category.
-- [ ] Customer Type slicer affects results where relationships allow it.
-- [ ] Existing relationships remain active and unchanged.
-- [ ] Save the PBIX file.
+- [x] No DAX errors.
+- [x] `[Total Net Sales]` works without filters.
+- [x] Both category measures use values that exist in the data.
+- [x] The category chart displays values by category.
+- [x] Customer Type slicer affects results where relationships allow it.
+- [x] Existing relationships remain active and unchanged.
+- [x] Save the PBIX file.
 
 ## Screenshot checklist
 Save screenshots in `Screenshots/`:
 
-- [ ] `01-base-total-sales.png` — Card showing Total Net Sales.
-- [ ] `02-calculate-category-measure.png` — Formula bar for the first `CALCULATE` measure.
-- [ ] `03-category-measures-cards.png` — Cards comparing overall and category-specific sales.
-- [ ] `04-sales-by-category.png` — Bar chart of Total Net Sales by category.
-- [ ] `05-filter-context-slicer.png` — Customer Type slicer selected and updated visual values.
+- [x] `01-base-total-sales.png` — Card showing Total Net Sales.
+- [x] `02-calculate-category-measure.png` — Formula bar for the first `CALCULATE` measure.
+- [x] `03-category-measures-cards.png` — Cards comparing overall and category-specific sales.
+- [x] `04-sales-by-category.png` — Bar chart of Total Net Sales by category.
+- [x] `05-filter-context-slicer.png` — Customer Type slicer selected and updated visual values.
 
 ## Knowledge check
+
 Answer in your own words:
-1. What does `CALCULATE` do?
+
+1.  What does CALCULATE do?
+
+CALCULATE evaluates an expression under a modified filter context. In this project, it calculates Total Net Sales after applying a specified product category filter.
+
 2. What is filter context?
-3. Why can `[Total Net Sales]` show different values for different category bars?
-4. How is a category-specific `CALCULATE` measure different from the base sales measure?
+
+Filter context is the set of filters that determine which data a measure evaluates. Filters can come from chart axes, slicers, report filters, and DAX expressions.
+
+3. Why can Total Net Sales show different values for different category bars?
+
+Each category on the chart axis creates a different filter context. The measure calculates sales only for the category represented by that bar.
+
+4. How is a category-specific CALCULATE measure different from the base sales measure?
+
+Total Net Sales sums sales under the current report and visual filters. Electronics Sales and Accessories Sales use CALCULATE to explicitly apply their respective category filters.
+
 5. What should you check if a filtered measure returns blank?
 
+Check the category spelling, confirm that the category exists in the data, verify the relationship between DimProduct and Fact_Sales, and inspect any other active filters.
+
 ## Completion checklist
-- [ ] Saved `Day19_CALCULATE_Filter_Context.pbix`.
-- [ ] Created and tested the measures.
-- [ ] Captured the screenshots.
-- [ ] Answered the knowledge-check questions.
-- [ ] Shared screenshots here for review before starting Day 20.
+- [x] Saved `Day19_CALCULATE_Filter_Context.pbix`.
+- [x] Created and tested the measures.
+- [x] Captured the screenshots.
+- [x] Answered the knowledge-check questions.
+- [x] Shared screenshots here for review before starting Day 20.
 
 **GitHub folder:** `Power BI/Day-19-CALCULATE-Filter-Context/`
