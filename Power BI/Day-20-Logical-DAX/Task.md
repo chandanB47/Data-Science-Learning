@@ -106,38 +106,15 @@ Add `[High Value Alert]` to a Card. These thresholds are practice values, not un
 5. If a label does not change, check the underlying measure and relationships before changing formulas.
 
 ## Part H — Validate
-- [ ] No DAX errors.
-- [ ] `Sales Level` uses `IF`.
-- [ ] `Sales Tier` uses `SWITCH(TRUE(), ...)` and checks thresholds in descending order.
-- [ ] `High Value Condition` requires both conditions through `AND`.
-- [ ] `High Value Alert` is true when either condition is met through `OR`.
-- [ ] Cards respond to relevant filter selections.
-- [ ] Existing relationships remain unchanged.
-- [ ] Save the PBIX file.
+- [x] No DAX errors.
+- [x] `Sales Level` uses `IF`.
+- [x] `Sales Tier` uses `SWITCH(TRUE(), ...)` and checks thresholds in descending order.
+- [x] `High Value Condition` requires both conditions through `AND`.
+- [x] `High Value Alert` is true when either condition is met through `OR`.
+- [x] Cards respond to relevant filter selections.
+- [x] Existing relationships remain unchanged.
+- [x] Save the PBIX file.
 
-## Screenshot checklist
-Save screenshots in `Screenshots/`:
 
-- [ ] `01-if-sales-level.png` — Sales Level measure and Card.
-- [ ] `02-switch-sales-tier.png` — Sales Tier measure and Card.
-- [ ] `03-and-condition.png` — High Value Condition measure and Card.
-- [ ] `04-or-alert.png` — High Value Alert measure and Card.
-- [ ] `05-logical-measures-filter-test.png` — Cards with a slicer selection applied.
-- [ ] `06-measures-list.png` — Day 20 measures visible in the Fields/Data pane.
-
-## Knowledge check
-Answer in your own words:
-1. When would you use `IF`?
-2. Why is `SWITCH(TRUE(), ...)` useful for checking multiple thresholds?
-3. What is the difference between `AND` and `OR`?
-4. Why can a logical measure change when a slicer is selected?
-5. Why are the thresholds in this task considered practice rules?
-
-## Completion checklist
-- [ ] Saved `Day20_Logical_DAX.pbix`.
-- [ ] Created and tested all four logical measures.
-- [ ] Captured the screenshots.
-- [ ] Answered the knowledge-check questions.
-- [ ] Shared screenshots here for review before starting Day 21.
 
 **GitHub folder:** `Power BI/Day-20-Logical-DAX/`
