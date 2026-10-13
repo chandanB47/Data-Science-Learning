@@ -96,40 +96,50 @@ This measure accumulates sales from the beginning of the year through the date i
 6. If your dataset covers only a short date range, note that limitation.
 
 ## Part I — Validate
-- [ ] Date column has Date data type.
-- [ ] Date table has unique, contiguous dates for the required range.
-- [ ] Date relationship is one-to-many, Single direction, and Active.
-- [ ] Year, Quarter, Month Number, and Month Name are available.
-- [ ] Month Name is sorted by Month Number.
-- [ ] Date table is marked correctly.
-- [ ] `Total Net Sales` and `Net Sales YTD` have no DAX errors.
-- [ ] Year filtering works and visuals respond correctly.
-- [ ] Existing relationships remain unchanged.
-- [ ] Save the PBIX file.
 
-## Screenshot checklist
-Save screenshots in `Screenshots/`:
-- [ ] `01-dimdate-columns.png` — Date table showing date attributes.
-- [ ] `02-date-relationship.png` — Model view showing the date relationship.
-- [ ] `03-mark-date-table.png` — Date table setting or confirmation.
-- [ ] `04-month-sort.png` — Month Name sorted by Month Number.
-- [ ] `05-sales-by-month.png` — Sales by month with year context.
-- [ ] `06-ytd-measure.png` — YTD formula and report result.
+- [x] Date column has Date data type.
+- [x] Date table has unique, contiguous dates for the required range.
+- [x] Date relationship is one-to-many, Single direction, and Active.
+- [x] Year, Quarter, Month Number, and Month Name are available.
+- [x] Month Name is sorted by Month Number.
+- [x] Date table is marked correctly.
+- [x] `Total Net Sales` and `Net Sales YTD` have no DAX errors.
+- [x] Year filtering works and visuals respond correctly.
+- [x] Existing relationships remain unchanged.
+- [x] Save the PBIX file.
+
+
 
 ## Knowledge check
+
 Answer in your own words:
+
 1. Why use a dedicated date table?
+
+A dedicated date table provides a consistent calendar for analyzing sales by year, quarter, month, and day. It supports date filtering and time-intelligence calculations.
+
 2. Why must Month Name be sorted by Month Number?
+
+Month names are text values and may sort alphabetically by default. Sorting by Month Number ensures that January through December appear in chronological order.
+
 3. What does marking a table as a date table do?
+
+It tells Power BI to recognize the selected column as the date column of a dedicated date table. This supports reliable time-intelligence analysis when the date column and relationships are configured correctly.
+
 4. What does YTD mean?
+
+YTD stands for Year-to-Date. It calculates a cumulative value from the beginning of the year through the current date in the evaluation context.
+
 5. What should you check if a YTD measure returns blank or unexpected values?
 
+Check the date column's data type, the date table's coverage and continuity, the active relationship between DimDate and Fact_Sales, the selected year or date filters, and the base sales measure. Also confirm that the date table is marked correctly.
+
+
 ## Completion checklist
-- [ ] Saved `Day21_Date_Tables_Time_Intelligence.pbix`.
-- [ ] Validated the date table and relationship.
-- [ ] Created or verified date attributes and the YTD measure.
-- [ ] Captured screenshots.
-- [ ] Answered the knowledge-check questions.
-- [ ] Shared screenshots here for review.
+- [x] Saved `Day21_Date_Tables_Time_Intelligence.pbix`.
+- [x] Validated the date table and relationship.
+- [x] Created or verified date attributes and the YTD measure.
+- [x] Captured screenshots.
+- [x] Answered the knowledge-check questions.
 
 **GitHub folder:** `Power BI/Day-21-Date-Tables-Time-Intelligence/`
