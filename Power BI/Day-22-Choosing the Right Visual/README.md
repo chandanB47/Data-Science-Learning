@@ -92,16 +92,16 @@ Build a clustered column chart showing `[Total Net Sales]` by `Region` or `Payme
 Prioritize readability over fitting every visual on one page.
 
 ## Validation checklist
-- [ ] Each visual answers a specific business question.
-- [ ] Card shows one overall sales value.
-- [ ] Category bars are sorted usefully.
-- [ ] Line chart uses a true date or correctly sorted Year-Month axis.
-- [ ] Donut categories represent parts of the same whole.
-- [ ] Table shows exact values with readable column names.
-- [ ] Matrix rows, columns, and totals make sense.
-- [ ] Titles clearly explain each visual.
-- [ ] No visual is unnecessarily crowded.
-- [ ] PBIX file is saved.
+- [x] Each visual answers a specific business question.
+- [x] Card shows one overall sales value.
+- [x] Category bars are sorted usefully.
+- [x] Line chart uses a true date or correctly sorted Year-Month axis.
+- [x] Donut categories represent parts of the same whole.
+- [x] Table shows exact values with readable column names.
+- [x] Matrix rows, columns, and totals make sense.
+- [x] Titles clearly explain each visual.
+- [x] No visual is unnecessarily crowded.
+- [x] PBIX file is saved.
 
 ## Screenshot checklist
 Save screenshots in `Screenshots/`:
