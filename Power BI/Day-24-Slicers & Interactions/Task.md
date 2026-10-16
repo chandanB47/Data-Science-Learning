@@ -43,38 +43,31 @@ Add slicers and verify that the report responds correctly to user selections.
 3. Review the interaction icons over other visuals.
 4. Choose the intended behavior: Filter, Highlight (where supported), or None.
 
-- [ ] Main KPI responds appropriately.
-- [ ] Category and trend charts respond appropriately.
-- [ ] Table and matrix behave as expected.
-- [ ] Unwanted interactions are set to None.
-- [ ] Selecting a bar produces the expected filter/highlight behavior.
-- [ ] Exit Edit interactions and test again.
+- [x] Main KPI responds appropriately.
+- [x] Category and trend charts respond appropriately.
+- [x] Table and matrix behave as expected.
+- [x] Unwanted interactions are set to None.
+- [x] Selecting a bar produces the expected filter/highlight behavior.
+- [x] Exit Edit interactions and test again.
 
 **Question:** Give one example of an interaction you kept and explain why.
 
 ## Part F — Validate
-- [ ] Slicers use the correct fields.
-- [ ] Relationships support expected filtering.
-- [ ] No unrelated visual goes blank unexpectedly.
-- [ ] Clearing selections restores the full report.
-- [ ] PBIX saved successfully.
+- [x] Slicers use the correct fields.
+- [x] Relationships support expected filtering.
+- [x] No unrelated visual goes blank unexpectedly.
+- [x] Clearing selections restores the full report.
+- [x] PBIX saved successfully.
 
-## Part G — Screenshots
-Save in `Screenshots/`:
-- [ ] `01-region-slicer.png`
-- [ ] `02-year-or-date-slicer.png`
-- [ ] `03-filtered-report-example.png`
-- [ ] `04-edit-interactions.png`
-- [ ] `05-full-report-reset.png`
 
-## Part H — GitHub
+## Part G — GitHub
 Create `Power BI/Day-24-Slicers-and-Interactions/` and include `README.md`, `TASK.md`, screenshots, and the PBIX if appropriate for your repository size.
 
 ## Completion status
-- [ ] All tasks completed
-- [ ] Questions answered
-- [ ] Screenshots captured
-- [ ] PBIX saved
-- [ ] GitHub files prepared
+- [x] All tasks completed
+- [x] Questions answered
+- [x] Screenshots captured
+- [x] PBIX saved
+- [x] GitHub files prepared
 
 Next -  Day 25 — Drill-Down, Drill-Through & Tooltips.
