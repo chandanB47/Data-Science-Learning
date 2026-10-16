@@ -59,15 +59,15 @@ Make your report interactive by adding slicers and checking how visuals filter o
 - If a visual does not respond, check Edit interactions, relationships, and whether the measure uses related fields.
 
 ## Final checklist
-- [ ] Saved as `Day24_Slicers_and_Interactions.pbix`.
-- [ ] Region slicer added and tested.
-- [ ] Year or Date slicer added and tested.
-- [ ] Single/multiple selection behavior checked.
-- [ ] Visual interactions tested.
-- [ ] Unwanted interactions set to None where appropriate.
-- [ ] Clear-selection behavior tested.
-- [ ] Full report returns after clearing selections.
-- [ ] PBIX saved.
+- [x] Saved as `Day24_Slicers_and_Interactions.pbix`.
+- [x] Region slicer added and tested.
+- [x] Year or Date slicer added and tested.
+- [x] Single/multiple selection behavior checked.
+- [x] Visual interactions tested.
+- [x] Unwanted interactions set to None where appropriate.
+- [x] Clear-selection behavior tested.
+- [x] Full report returns after clearing selections.
+- [x] PBIX saved.
 
 
 
