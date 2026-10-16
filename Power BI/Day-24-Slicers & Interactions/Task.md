@@ -7,33 +7,33 @@
 Add slicers and verify that the report responds correctly to user selections.
 
 ## Part A — Open and save
-- [ ] Open your completed Day 23 PBIX.
-- [ ] Choose **File → Save As**.
-- [ ] Save as `Day24_Slicers_and_Interactions.pbix`.
+- [x] Open your completed Day 23 PBIX.
+- [x] Choose **File → Save As**.
+- [x] Save as `Day24_Slicers_and_Interactions.pbix`.
 
 ## Part B — Create a Region slicer
-- [ ] Add a Slicer visual.
-- [ ] Add `Region`.
-- [ ] Choose list or dropdown style.
-- [ ] Set title to **Filter by Region**.
-- [ ] Select a region and verify that the KPI and relevant visuals update.
+- [x] Add a Slicer visual.
+- [x] Add `Region`.
+- [x] Choose list or dropdown style.
+- [x] Set title to **Filter by Region**.
+- [x] Select a region and verify that the KPI and relevant visuals update.
 
 **Question:** Which values or visuals changed when you selected a region?
 
 ## Part C — Create a Year or Date slicer
-- [ ] Add a second Slicer visual.
-- [ ] Use `DimDate[Year]` or `DimDate[Date]`.
-- [ ] Choose a suitable style, such as a year list or date range.
-- [ ] Set a clear title.
-- [ ] Select a year/date range and verify the result.
+- [x] Add a second Slicer visual.
+- [x] Use `DimDate[Year]` or `DimDate[Date]`.
+- [x] Choose a suitable style, such as a year list or date range.
+- [x] Set a clear title.
+- [x] Select a year/date range and verify the result.
 
 **Question:** How did the report change after you filtered the date?
 
 ## Part D — Test selection behavior
-- [ ] Test selecting one region.
-- [ ] Test selecting another region.
-- [ ] Test single-select or multi-select behavior where available.
-- [ ] Clear the selection and confirm the report returns to the full view.
+- [x] Test selecting one region.
+- [x] Test selecting another region.
+- [x] Test single-select or multi-select behavior where available.
+- [x] Clear the selection and confirm the report returns to the full view.
 
 **Question:** What is the difference between filtering to one selection and allowing multiple selections?
 
