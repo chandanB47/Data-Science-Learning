@@ -62,14 +62,14 @@ Help report users move from summarized results to detailed analysis using drill-
 - Existing slicers continue to work.
 
 ## Final checklist
-- [ ] Saved as `Day25_Drilldown_Drillthrough_Tooltips.pbix`.
-- [ ] Date hierarchy added or validated.
-- [ ] Drill-down tested from Year to Quarter to Month.
-- [ ] `Region Details` page created.
-- [ ] Drill-through tested from the main page.
-- [ ] Back navigation tested.
-- [ ] Tooltips enabled and tested.
-- [ ] PBIX saved.
+- [x] Saved as `Day25_Drilldown_Drillthrough_Tooltips.pbix`.
+- [x] Date hierarchy added or validated.
+- [x] Drill-down tested from Year to Quarter to Month.
+- [x] `Region Details` page created.
+- [x] Drill-through tested from the main page.
+- [x] Back navigation tested.
+- [x] Tooltips enabled and tested.
+- [x] PBIX saved.
 
 
 
