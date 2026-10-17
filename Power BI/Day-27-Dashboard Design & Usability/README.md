@@ -60,27 +60,20 @@ Write three short observations supported by your actual report:
 Do not guess or invent findings. If your visuals do not support a conclusion, state what additional analysis is needed.
 
 ## Final usability checklist
-- [ ] Saved as `Day27_Dashboard_Design_Usability.pbix`.
-- [ ] Clear title and reading order.
-- [ ] KPI cards are easy to find.
-- [ ] Main analysis visuals are prominent.
-- [ ] Slicers are easy to locate and use.
-- [ ] Buttons and bookmarks work.
-- [ ] Drill-down and drill-through work.
-- [ ] Tooltips show relevant information.
-- [ ] Titles, fonts, colors, and number formats are consistent.
-- [ ] Visuals are aligned with consistent spacing.
-- [ ] Unnecessary clutter is removed.
-- [ ] Three data-supported observations are recorded.
-- [ ] PBIX saved successfully.
+- [x] Saved as `Day27_Dashboard_Design_Usability.pbix`.
+- [x] Clear title and reading order.
+- [x] KPI cards are easy to find.
+- [x] Main analysis visuals are prominent.
+- [x] Slicers are easy to locate and use.
+- [x] Buttons and bookmarks work.
+- [x] Drill-down and drill-through work.
+- [x] Tooltips show relevant information.
+- [x] Titles, fonts, colors, and number formats are consistent.
+- [x] Visuals are aligned with consistent spacing.
+- [x] Unnecessary clutter is removed.
+- [x] Three data-supported observations are recorded.
+- [x] PBIX saved successfully.
 
-## Screenshot checklist
-Save in `Screenshots/`:
-- `01-dashboard-overview.png`
-- `02-kpi-and-main-visuals.png`
-- `03-slicers-and-interactions.png`
-- `04-drillthrough-or-tooltip.png`
-- `05-final-usability-review.png`
 
 ## GitHub folder
 Suggested folder: `Power BI/Day-27-Dashboard-Design-Usability/`
