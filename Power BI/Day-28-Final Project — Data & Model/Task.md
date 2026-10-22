@@ -27,21 +27,21 @@ Suggested questions:
 
 ## Part C — Validate the data
 Open **Home → Transform data**.
-- [ ] Confirm `OrderDate` is Date.
-- [ ] Confirm `Quantity` is Whole Number.
-- [ ] Confirm `NetSales`, `GrossSales`, `DiscountAmount`, and `UnitPrice` are numeric.
-- [ ] Confirm `Region`, `Category`, `Product`, and `Channel` are Text.
-- [ ] Check for errors and blank key fields.
-- [ ] Inspect duplicate `OrderID` values; determine whether they are valid order line items.
-- [ ] Select **Close & Apply** if you changed anything.
+- [x] Confirm `OrderDate` is Date.
+- [x] Confirm `Quantity` is Whole Number.
+- [x] Confirm `NetSales`, `GrossSales`, `DiscountAmount`, and `UnitPrice` are numeric.
+- [x] Confirm `Region`, `Category`, `Product`, and `Channel` are Text.
+- [x] Check for errors and blank key fields.
+- [x] Inspect duplicate `OrderID` values; determine whether they are valid order line items.
+- [x] Select **Close & Apply** if you changed anything.
 
 ## Part D — Check the model
 In **Model view**:
-- [ ] Identify the sales table and any dimension tables.
-- [ ] Check the date-table relationship if you created `DimDate`.
-- [ ] Confirm the date relationship is active and uses the correct date fields.
-- [ ] Avoid adding unnecessary tables or duplicate relationships.
-- [ ] Capture a screenshot of Model view.
+- [x] Identify the sales table and any dimension tables.
+- [x] Check the date-table relationship if you created `DimDate`.
+- [x] Confirm the date relationship is active and uses the correct date fields.
+- [x] Avoid adding unnecessary tables or duplicate relationships.
+- [x] Capture a screenshot of Model view.
 
 ## Part E — Create or verify measures
 Replace `'YourSalesTable'` with your actual table name. Reuse existing measures rather than making duplicates.
