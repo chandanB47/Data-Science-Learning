@@ -48,11 +48,24 @@ Suggested summary:
 Edit the summary so it describes only what you actually completed.
 
 ## Part E — Final reflection
+
 Answer briefly:
+
 1. Which Power BI skill improved most?
+
+I improved most in data modeling, DAX measures, and building interactive dashboards.
+
 2. What was the most challenging task?
+
+Validating data relationships, checking measure accuracy, and ensuring that slicers and visuals worked correctly together.
+
 3. What would you improve next?
+
+I would improve dashboard design, advanced DAX calculations, performance optimization, and business storytelling.
+
 4. What will you study next?
+
+I will focus on SQL, advanced DAX, and practical Data Analyst projects that combine Power BI, Python, statistics, and data analysis.
 
 
 
