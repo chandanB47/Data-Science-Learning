@@ -3,43 +3,43 @@
 **Estimated time:** 60–90 minutes
 
 ## Part A — Final quality check
-- [ ] Open `Day29_Final_Project_Dashboard_Insights.pbix`.
-- [ ] Review data types, errors/blanks, relationships, and key measures.
-- [ ] Check that the date relationship works if a date table is used.
-- [ ] Test at least one slicer and verify that the KPIs and charts respond.
-- [ ] Confirm all numbers, dates, titles, and labels are formatted clearly.
-- [ ] Check that month labels sort chronologically.
-- [ ] Remove unused visuals and clutter.
-- [ ] Test bookmarks/buttons, drill-down, drill-through, Back button, and tooltips that are present.
-- [ ] Save a final reviewed copy as `Sales_Performance_Analysis_Final.pbix`.
+- [x] Open `Day29_Final_Project_Dashboard_Insights.pbix`.
+- [x] Review data types, errors/blanks, relationships, and key measures.
+- [x] Check that the date relationship works if a date table is used.
+- [x] Test at least one slicer and verify that the KPIs and charts respond.
+- [x] Confirm all numbers, dates, titles, and labels are formatted clearly.
+- [x] Check that month labels sort chronologically.
+- [x] Remove unused visuals and clutter.
+- [x] Test bookmarks/buttons, drill-down, drill-through, Back button, and tooltips that are present.
+- [x] Save a final reviewed copy as `Sales_Performance_Analysis_Final.pbix`.
 
 ## Part B — Check your business insights
-- [ ] Review the three insights from Day 29.
-- [ ] Verify every number against the report.
-- [ ] State the visual/filter context supporting each insight.
-- [ ] Remove unsupported causal claims.
-- [ ] Include one practical business follow-up action.
+- [x] Review the three insights from Day 29.
+- [x] Verify every number against the report.
+- [x] State the visual/filter context supporting each insight.
+- [x] Remove unsupported causal claims.
+- [x] Include one practical business follow-up action.
 
 ## Part C — Organize GitHub
 In your existing `Data-Science-Learning/Power BI/` folder:
-- [ ] Create `Day-28-Final-Project-Data-Model/`.
-- [ ] Create `Day-29-Final-Project-Dashboard-Insights/`.
-- [ ] Create `Day-30-Final-Review-GitHub-Portfolio/`.
-- [ ] Put each day's `README.md` and `TASK.md` in its matching folder.
-- [ ] Create a `Screenshots/` folder for each day and add relevant images.
-- [ ] Update `progress-tracker.md` to mark Days 28–30 complete when finished.
-- [ ] Keep existing daily files; do not overwrite them.
-- [ ] Check PBIX file size before uploading. Keep it locally if it is too large.
-- [ ] Never publish private or confidential data.
+- [x] Create `Day-28-Final-Project-Data-Model/`.
+- [x] Create `Day-29-Final-Project-Dashboard-Insights/`.
+- [x] Create `Day-30-Final-Review-GitHub-Portfolio/`.
+- [x] Put each day's `README.md` and `TASK.md` in its matching folder.
+- [x] Create a `Screenshots/` folder for each day and add relevant images.
+- [x] Update `progress-tracker.md` to mark Days 28–30 complete when finished.
+- [x] Keep existing daily files; do not overwrite them.
+- [x] Check PBIX file size before uploading. Keep it locally if it is too large.
+- [x] Never publish private or confidential data.
 
 ## Part D — Project README summary
 Write a short portfolio summary with:
-- [ ] Project title: Sales Performance Analysis — Power BI
-- [ ] Business objective
-- [ ] Tools: Power BI Desktop, Power Query, DAX, data modeling
-- [ ] Work completed
-- [ ] Three actual findings from your report
-- [ ] Screenshots and PBIX link, if available
+- [x] Project title: Sales Performance Analysis — Power BI
+- [x] Business objective
+- [x] Tools: Power BI Desktop, Power Query, DAX, data modeling
+- [x] Work completed
+- [x] Three actual findings from your report
+- [x] Screenshots and PBIX link, if available
 
 Suggested summary:
 
@@ -54,18 +54,14 @@ Answer briefly:
 3. What would you improve next?
 4. What will you study next?
 
-## Final screenshot checklist
-- [ ] Full final dashboard
-- [ ] Filtered dashboard view
-- [ ] Model view or measure evidence
-- [ ] One interaction working (drill-through, bookmark, or tooltip)
+
 
 ## Final completion checklist
-- [ ] Final PBIX saved
-- [ ] Dashboard and measures checked
-- [ ] Three real insights documented
-- [ ] GitHub README and screenshots organized
-- [ ] Progress tracker updated
-- [ ] Reflection completed
+- [x] Final PBIX saved
+- [x] Dashboard and measures checked
+- [x] Three real insights documented
+- [x] GitHub README and screenshots organized
+- [x] Progress tracker updated
+- [x] Reflection completed
 
 **30-day journey complete.** Keep your original daily PBIX files as evidence of your learning progression.
