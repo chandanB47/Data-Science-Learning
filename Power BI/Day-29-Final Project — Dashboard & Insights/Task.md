@@ -31,33 +31,33 @@ Build a clear, interactive sales dashboard from the validated Day 28 model.
 - [x] Check visual interactions.
 
 ## Part D — Improve usability
-- [ ] Align charts and KPI cards.
-- [ ] Use consistent fonts, colors, titles, and number formats.
-- [ ] Ensure month labels sort chronologically.
-- [ ] Remove clutter and redundant visuals.
-- [ ] Verify labels and chart titles are readable.
-- [ ] Test bookmark/button, drill-down, drill-through, and tooltip features that are relevant to the report.
+- [x] Align charts and KPI cards.
+- [x] Use consistent fonts, colors, titles, and number formats.
+- [x] Ensure month labels sort chronologically.
+- [x] Remove clutter and redundant visuals.
+- [x] Verify labels and chart titles are readable.
+- [x] Test bookmark/button, drill-down, drill-through, and tooltip features that are relevant to the report.
 
 ## Part E — Write three insights
 Use the real values shown in your report. Do not invent figures.
-- [ ] Insight 1: overall sales performance or trend.
-- [ ] Insight 2: strongest/weakest region, category, or channel.
-- [ ] Insight 3: a practical business action to investigate.
-- [ ] Note the visual or filter context supporting each insight.
+- [x] Insight 1: overall sales performance or trend.
+- [x] Insight 2: strongest/weakest region, category, or channel.
+- [x] Insight 3: a practical business action to investigate.
+- [x] Note the visual or filter context supporting each insight.
 
 ## Screenshot checklist
-- [ ] Full dashboard
-- [ ] One filtered dashboard view
-- [ ] Trend and category/region comparisons
-- [ ] Working drill-through, bookmark, or tooltip
-- [ ] Supporting matrix/table
+- [x] Full dashboard
+- [x] One filtered dashboard view
+- [x] Trend and category/region comparisons
+- [x] Working drill-through, bookmark, or tooltip
+- [x] Supporting matrix/table
 
 ## Completion checklist
-- [ ] Saved as `Day29_Final_Project_Dashboard_Insights.pbix`
-- [ ] All KPI cards and visuals work
-- [ ] Slicers and interactions tested
-- [ ] Three evidence-based insights written
-- [ ] README/TASK and screenshots organized in `Power BI/Day-29-Final-Project-Dashboard-Insights/`
+- [x] Saved as `Day29_Final_Project_Dashboard_Insights.pbix`
+- [x] All KPI cards and visuals work
+- [x] Slicers and interactions tested
+- [x] Three evidence-based insights written
+- [x] README/TASK and screenshots organized in `Power BI/Day-29-Final-Project-Dashboard-Insights/`
 
 ## Review questions
 1. Which visual best explains the monthly sales trend, and why?
