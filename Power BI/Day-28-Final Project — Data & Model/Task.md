@@ -6,16 +6,17 @@
 Prepare and validate the data model for your final **Sales Performance Analysis** report.
 
 ## Part A — Create your project copy
-- [ ] Open your latest Day 27 PBIX.
-- [ ] Use **File → Save As**.
-- [ ] Save as `Day28_Final_Project_Data_Model.pbix`.
-- [ ] Keep the Day 27 file unchanged.
+- [x] Open your latest Day 27 PBIX.
+- [x] Use **File → Save As**.
+- [x] Save as `Day28_Final_Project_Data_Model.pbix`.
+- [x] Keep the Day 27 file unchanged.
 
 ## Part B — Define the business problem
+
 Write a short answer in your notes or a text box:
-- [ ] Who will use the report?
-- [ ] What business problem will it help solve?
-- [ ] List at least four questions the report should answer.
+- [x] Who will use the report?
+- [x] What business problem will it help solve?
+- [x] List at least four questions the report should answer.
 
 Suggested questions:
 1. What is total net sales?
