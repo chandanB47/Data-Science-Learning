@@ -93,10 +93,10 @@ Save the PBIX. Record the table names, relationships, measures, data-quality che
 - A short note describing the business problem and data model
 
 ## Screenshot checklist
-- [ ] Model view showing tables and relationships
-- [ ] Power Query/data view showing checked data types or validation
-- [ ] KPI cards showing the core measures
-- [ ] Full report page with the business questions or project scope
+- [x] Model view showing tables and relationships
+- [x] Power Query/data view showing checked data types or validation
+- [x] KPI cards showing the core measures
+- [x] Full report page with the business questions or project scope
 
 ## GitHub folder
 Create `Power BI/Day-28-Final-Project-Data-Model/` and place:
