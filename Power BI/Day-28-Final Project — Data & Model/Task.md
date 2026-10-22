@@ -58,35 +58,62 @@ Total Quantity = SUM('YourSalesTable'[Quantity])
 Average Net Sales = AVERAGE('YourSalesTable'[NetSales])
 ```
 
-- [ ] Create or verify all five measures.
-- [ ] Format sales measures as currency.
-- [ ] Format counts and quantity as whole numbers.
-- [ ] Add Card visuals for Total Net Sales, Total Orders, Unique Customers, and Total Quantity.
-- [ ] Filter by one Region or Category and confirm the cards respond.
-- [ ] Clear the filter and confirm the original totals return.
+- [x] Create or verify all five measures.
+- [x] Format sales measures as currency.
+- [x] Format counts and quantity as whole numbers.
+- [x] Add Card visuals for Total Net Sales, Total Orders, Unique Customers, and Total Quantity.
+- [x] Filter by one Region or Category and confirm the cards respond.
+- [x] Clear the filter and confirm the original totals return.
 
 ## Part F — Validate and save
-- [ ] Compare Total Net Sales with the source dataset total.
-- [ ] Investigate any mismatch before moving on.
-- [ ] Save the PBIX.
-- [ ] Record the data-quality checks and model decisions.
+- [x] Compare Total Net Sales with the source dataset total.
+- [x] Investigate any mismatch before moving on.
+- [x] Save the PBIX.
+- [x] Record the data-quality checks and model decisions.
 
+      
 ## Screenshot checklist
-- [ ] Model view and relationships
-- [ ] Data types or data validation
-- [ ] KPI cards
-- [ ] Final project scope/business questions
+- [x] Model view and relationships
+- [x] Data types or data validation
+- [x] KPI cards
+- [x] Final project scope/business questions
 
 ## Completion checklist
-- [ ] PBIX saved as `Day28_Final_Project_Data_Model.pbix`
-- [ ] Core measures validated
-- [ ] No unresolved critical data/model issue
-- [ ] README and TASK saved in `Power BI/Day-28-Final-Project-Data-Model/`
+- [x] PBIX saved as `Day28_Final_Project_Data_Model.pbix`
+- [x] Core measures validated
+- [x] No unresolved critical data/model issue
+- [x] README and TASK saved in `Power BI/Day-28-Final-Project-Data-Model/`
+
 
 ## Questions to answer
-1. What is the grain of your sales table (what does one row represent)?
-2. Why might `OrderID` repeat in a sales dataset?
-3. What relationship connects your date table to the sales table?
-4. Which check helped you trust the Total Net Sales measure?
+
+### 1. What is the grain of your sales table?
+
+The grain of Fact_Sales is one row per sales record. In our dataset, no repeated OrderID values were found, so each row appears to represent one unique order.
+
+### 2. Why might OrderID repeat in a sales dataset?
+
+An OrderID may repeat when a single order contains multiple products or line items. Each row represents a different item within the same order, so several rows can share the same order ID.
+
+### 3. What relationship connects your date table to the sales table?
+
+The relationship is:
+
+DimDate[Date] → Fact_Sales[OrderDate]
+- Cardinality: One-to-many (1:*)
+- Relationship status: Active
+- Filter direction: Single direction, from DimDate to Fact_Sales
+This relationship enables date-based analysis, such as monthly sales and year-to-date calculations.
+
+
+### 4. Which check helped you trust the Total Net Sales measure?
+
+The most important check was comparing the Power BI Total Net Sales result with the sum of the NetSales column in the original CSV file. Both totals matched.
+
+Additional checks strengthened confidence in the result:
+- Verified the NetSales column's data type.
+- Checked for missing values and Power Query errors.
+- Confirmed the data model relationships.
+- Tested that KPI cards responded to the Region slicer.
 
 **Stop here when complete.** Day 29 will use this validated model to build the final dashboard and communicate insights.
