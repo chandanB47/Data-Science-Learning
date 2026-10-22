@@ -60,9 +60,21 @@ Use the real values shown in your report. Do not invent figures.
 - [x] README/TASK and screenshots organized in `Power BI/Day-29-Final-Project-Dashboard-Insights/`
 
 ## Review questions
+
 1. Which visual best explains the monthly sales trend, and why?
+
+The line chart, because it makes monthly peaks, declines, and changes in sales easy to identify.
+
 2. What changes when you apply both Region and Category slicers?
+
+The report shows sales for the selected region-category combination. The KPIs, charts, and product table update according to the active filters.
+
 3. What is one insight your dashboard supports?
+
+South has the highest displayed regional Net Sales, while East has the lowest, suggesting that East's sales performance deserves further investigation.
+
 4. What would you improve if a manager used this report every week?
 
-**Stop here when complete.** Day 30 is the final quality check and GitHub portfolio packaging day.
+Add a previous-month comparison, a year-over-year comparison when suitable historical data is available, and a clearly displayed data-refresh date.
+
+
