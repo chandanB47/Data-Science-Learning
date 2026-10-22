@@ -107,11 +107,11 @@ Write a short reflection:
 - Final reflection and next learning goal
 
 ## Completion criteria
-- [ ] Final report opens and works.
-- [ ] Data/model and measures have been checked.
-- [ ] Slicers and relevant interactions work.
-- [ ] Three data-supported insights are documented.
-- [ ] GitHub folders and screenshots are organized.
-- [ ] Existing daily files have not been overwritten.
+- [x] Final report opens and works.
+- [x] Data/model and measures have been checked.
+- [x] Slicers and relevant interactions work.
+- [x] Three data-supported insights are documented.
+- [x] GitHub folders and screenshots are organized.
+- [x] Existing daily files have not been overwritten.
 
-Congratulations on completing the 30-day Power BI learning journey. Your next step is to keep improving this project based on feedback and add only features you can explain confidently.
+Congratulations on completing the  Power BI learning journey. Your next step is to keep improving this project based on feedback and add only features you can explain confidently.
