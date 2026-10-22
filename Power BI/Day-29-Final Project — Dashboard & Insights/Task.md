@@ -6,29 +6,29 @@
 Build a clear, interactive sales dashboard from the validated Day 28 model.
 
 ## Part A — Save a new version
-- [ ] Open `Day28_Final_Project_Data_Model.pbix`.
-- [ ] Select **File → Save As**.
-- [ ] Save as `Day29_Final_Project_Dashboard_Insights.pbix`.
+- [x] Open `Day28_Final_Project_Data_Model.pbix`.
+- [x] Select **File → Save As**.
+- [x] Save as `Day29_Final_Project_Dashboard_Insights.pbix`.
 
 ## Part B — Create the dashboard page
-- [ ] Rename or create a page called `Sales Performance Dashboard`.
-- [ ] Add a clear report title and subtitle.
-- [ ] Add KPI cards for Total Net Sales, Total Orders, Unique Customers, and Average Net Sales (or a verified alternative).
-- [ ] Add a monthly Net Sales line chart.
-- [ ] Add Net Sales by Region.
-- [ ] Add Net Sales by Category.
-- [ ] Add Net Sales by Channel.
-- [ ] Add a supporting matrix or product detail table.
+- [x] Rename or create a page called `Sales Performance Dashboard`.
+- [x] Add a clear report title and subtitle.
+- [x] Add KPI cards for Total Net Sales, Total Orders, Unique Customers, and Average Net Sales (or a verified alternative).
+- [x] Add a monthly Net Sales line chart.
+- [x] Add Net Sales by Region.
+- [x] Add Net Sales by Category.
+- [x] Add Net Sales by Channel.
+- [x] Add a supporting matrix or product detail table.
 
 ## Part C — Add filters
-- [ ] Add Date/Year slicer.
-- [ ] Add Region slicer.
-- [ ] Add Category slicer.
-- [ ] Add Channel slicer if space allows.
-- [ ] Test each slicer.
-- [ ] Test two slicers together.
-- [ ] Clear filters and verify the full report returns.
-- [ ] Check visual interactions.
+- [x] Add Date/Year slicer.
+- [x] Add Region slicer.
+- [x] Add Category slicer.
+- [x] Add Channel slicer if space allows.
+- [x] Test each slicer.
+- [x] Test two slicers together.
+- [x] Clear filters and verify the full report returns.
+- [x] Check visual interactions.
 
 ## Part D — Improve usability
 - [ ] Align charts and KPI cards.
