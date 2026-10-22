@@ -92,11 +92,11 @@ Save the PBIX and capture the dashboard, slicers in use, and at least one drill-
 - Screenshots of the dashboard and interactions
 
 ## Screenshot checklist
-- [ ] Full dashboard with KPI cards and charts
-- [ ] Dashboard filtered by a Region or Category
-- [ ] Monthly trend and region/category comparisons
-- [ ] Drill-through, bookmark, or tooltip feature working
-- [ ] Supporting matrix/table
+- [x] Full dashboard with KPI cards and charts
+- [x] Dashboard filtered by a Region or Category
+- [x] Monthly trend and region/category comparisons
+- [x] Drill-through, bookmark, or tooltip feature working
+- [x] Supporting matrix/table
 
 ## GitHub folder
 Create `Power BI/Day-29-Final-Project-Dashboard-Insights/` with `README.md`, `TASK.md`, and `Screenshots/`. Include the PBIX only if repository file-size limits allow.
