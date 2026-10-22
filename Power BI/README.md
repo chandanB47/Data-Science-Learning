@@ -392,8 +392,8 @@ For each learning day:
 | Days 06–12 — Power Query | ✅ Completed |
 | Days 13–16 — Data Modeling | ✅ Completed |
 | Days 17–21 — DAX | ✅ Completed |
-| Days 22–27 — Visualization & Analytics | 🟡 In Progress |
-| Days 28–30 — Project & Portfolio | ⬜ Not Started |
+| Days 22–27 — Visualization & Analytics | ✅ Completed |
+| Days 28–30 — Project & Portfolio | 🟡 In Progress |
 
 > Progress will be updated as each stage is completed.
 
