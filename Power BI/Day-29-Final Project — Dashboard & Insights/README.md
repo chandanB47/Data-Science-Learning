@@ -1,6 +1,6 @@
 # Power BI — Day 29: Final Project — Dashboard & Insights
 
-**Level:** Beginner to Intermediate  
+
 **Estimated time:** 90–120 minutes  
 **Phase:** Final Project (Day 29 of 30)
 
