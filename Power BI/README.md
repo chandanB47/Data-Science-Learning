@@ -393,7 +393,7 @@ For each learning day:
 | Days 13–16 — Data Modeling | ✅ Completed |
 | Days 17–21 — DAX | ✅ Completed |
 | Days 22–27 — Visualization & Analytics | ✅ Completed |
-| Days 28–30 — Project & Portfolio | 🟡 In Progress |
+| Days 28–30 — Project & Portfolio |  ✅ Completed |
 
 > Progress will be updated as each stage is completed.
 
