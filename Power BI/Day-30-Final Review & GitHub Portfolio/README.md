@@ -104,7 +104,7 @@ Write a short reflection:
 - Project README with objective, tools, work completed, and real findings
 - Organized screenshots
 - Updated `progress-tracker.md`
-- Final reflection and next learning goal
+- Final reflection and next learning goals
 
 ## Completion criteria
 - [x] Final report opens and works.
