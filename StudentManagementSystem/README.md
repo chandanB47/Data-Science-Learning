@@ -53,7 +53,7 @@ The system allows users to add, view, search, and manage student information thr
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Structures
 
 ```text
 StudentManagementSystem/
