@@ -49,7 +49,7 @@ A common standardized score is:
 
 `z = (amount - rolling_mean) / rolling_standard_deviation`
 
-A high absolute Z-score can flag unusual activity relative to an account's own history. Sparse histories, zero variance, seasonality, and changing customer behavior require careful treatment.
+A high absolute Z-score can flag unusual activity relative to an account's own history. Sparse histories, zero variance, seasonality, and changing customer behavior require careful treatments.
 
 ## 6. Responsible Use
 
