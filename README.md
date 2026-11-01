@@ -493,27 +493,27 @@ Data-Science-Learning/
 
 ### Python
 
-* [ ] Fundamentals — Days 1–5
-* [ ] Control Flow — Days 6–10
-* [ ] Student Management System
-* [ ] Core Python — Days 11–20
-* [ ] Advanced Functions — Days 21–26
-* [ ] Error Handling — Day 27
-* [ ] File Handling — Day 28
-* [ ] CSV & JSON — Days 29–30
-* [ ] OOP — Days 31–36
-* [ ] OOP Mini Project — Day 37
-* [ ] Modules & Environments — Days 38–41
+* [x] Fundamentals — Days 1–5
+* [x] Control Flow — Days 6–10
+* [x] Student Management System
+* [x] Core Python — Days 11–20
+* [x] Advanced Functions — Days 21–26
+* [x] Error Handling — Day 27
+* [x] File Handling — Day 28
+* [x] CSV & JSON — Days 29–30
+* [x] OOP — Days 31–36
+* [x] OOP Mini Project — Day 37
+* [x] Modules & Environments — Days 38–41
 * [ ] NumPy — Days 42–44
 * [ ] Pandas — Days 45–49
 * [ ] Pandas Analytics Capstone — Day 50
 
 ### Data Science Stack
 
-* [ ] SQL
-* [ ] Statistics
-* [ ] Excel
-* [ ] Power BI
+* [x] SQL
+* [] Statistics
+* [x] Excel
+* [x] Power BI
 * [ ] Machine Learning
 * [ ] Artificial Intelligence
 * [ ] Generative AI
