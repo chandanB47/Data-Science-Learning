@@ -61,9 +61,10 @@ A structured **50-day Python roadmap** covering fundamentals, control flow, func
 | OOP                    |      31–36 | Classes, constructors, methods, encapsulation, inheritance, polymorphism |
 | Milestone Project      |     Day 37 | OOP Mini Project                                                         |
 | Modules & Environments |      38–41 | Modules, standard library, pip, virtual environments                     |
-| NumPy                  |      42–44 | Arrays, operations, broadcasting                                         |
-| Pandas                 |      45–49 | Series, DataFrames, selection, cleaning, transformation, GroupBy         |
-| Capstone               |     Day 50 | Pandas CSV Analytics Project                                             |
+| NumPy                  |      42–56 | Arrays, indexing, operations, broadcasting, vectorization, statistics |
+| Pandas                 |      57–91 | Series, DataFrames, cleaning, transformation, analysis, merging, advanced operations |
+| Matplotlib             |     92–101 | Data visualization, charts, customization, analytical storytelling |
+| Integrated Projects    |    102–116 | Real-world Data Analysis projects using all three libraries |
 
 ---
 
