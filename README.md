@@ -481,27 +481,57 @@ Planned areas:
 
 # 🚀 Projects
 
-## Project 01 — Student Management System
+## ✅ Project 01 — Student Management System
 
-**Technology:** Python
+**Status:** Completed  
+**Technology:** Python  
 
-A command-line application for managing student records.
-
----
-
-## Project 02 — OOP Mini Project
-
-**Technology:** Python, OOP, File Handling
-
-An object-oriented application demonstrating core OOP concepts and persistence.
+A command-line application for managing student records using functions, lists, dictionaries, and CRUD operations.
 
 ---
 
-## Project 03 — Pandas CSV Analytics
+## 🔄 Project 02 — OOP Mini Project
 
-**Technology:** Python, NumPy, Pandas
+**Status:** Planned  
+**Technology:** Python, OOP  
 
-An end-to-end data analysis project using a real-world dataset.
+Practice classes, objects, inheritance, polymorphism, and file handling.
+
+---
+
+## 📊 Project 03 — NumPy Data Analysis
+
+**Status:** Planned  
+**Technology:** Python, NumPy  
+
+Analyze numerical data using arrays, statistics, filtering, and vectorization.
+
+---
+
+## 🍽️ Project 04 — Zomato Restaurant EDA
+
+**Status:** Planned  
+**Technology:** Python, Pandas, NumPy, Matplotlib  
+
+Clean, analyze, and visualize restaurant data to generate insights.
+
+---
+
+## 🛒 Project 05 — Retail Sales Analysis
+
+**Status:** Planned  
+**Technology:** Python, Pandas, NumPy, Matplotlib  
+
+Analyze sales trends, product performance, and business insights.
+
+---
+
+## 🔍 Project 06 — Independent Data Analysis
+
+**Status:** Planned  
+**Technology:** Python, Pandas, NumPy, Matplotlib  
+
+Complete an end-to-end analysis of an unfamiliar real-world dataset.
 
 ---
 
@@ -532,7 +562,7 @@ Data-Science-Learning/
 │   ├── day-02-strings/
 │   ├── day-03-lists/
 │   ├── ...
-│   └── day-50-pandas-csv-analytics-project/
+│   └── pandas-csv-analytics-project/
 │
 ├── StudentManagementSystem/
 │
