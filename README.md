@@ -210,56 +210,121 @@ Object-oriented Python application demonstrating:
 
 </details>
 
-<details>
-<summary><strong>Phase 10 — NumPy (Days 42–44)</strong></summary>
 
-| Day | Topic            | Key Concepts                                        |
-| --- | ---------------- | --------------------------------------------------- |
-| 42  | NumPy Basics     | `ndarray`, dimensions, shape, `dtype`               |
-| 43  | NumPy Operations | Vectorization, indexing, `sum()`, `mean()`, `min()` |
-| 44  | NumPy Advanced   | Broadcasting, reshaping, masking, random operations |
+<details>
+<summary><strong>Phase 10 — NumPy for Data Science (Days 42–56)</strong></summary>
+
+| Day | Topic | Key Concepts |
+| --- | --- | --- |
+| 42 | NumPy Introduction | NumPy, `ndarray`, advantages over Python lists |
+| 43 | Creating Arrays | `array()`, `zeros()`, `ones()`, `arange()`, `linspace()` |
+| 44 | Array Properties | `shape`, `size`, `ndim`, `dtype` |
+| 45 | Indexing | Accessing 1D and 2D array elements |
+| 46 | Slicing | Array slicing and subarrays |
+| 47 | Array Operations | Arithmetic operations and universal functions |
+| 48 | Aggregation | `sum()`, `mean()`, `min()`, `max()`, axes |
+| 49 | Boolean Indexing | Conditions, masking, filtering |
+| 50 | Reshaping Arrays | `reshape()`, `flatten()`, transpose |
+| 51 | Combining Arrays | `concatenate()`, stacking, splitting |
+| 52 | Broadcasting | Operations between different array shapes |
+| 53 | Vectorization | Efficient operations without unnecessary loops |
+| 54 | Random Data | Random numbers and simulated datasets |
+| 55 | Statistical Operations | Percentiles, standard deviation, correlation |
+| 56 | NumPy Practice Project | Student Performance Data Analysis |
+
 
 </details>
 
 <details>
-<summary><strong>Phase 11 — Pandas (Days 45–49)</strong></summary>
+<summary><strong>Phase 11 — Pandas for Data Science (Days 57–91)</strong></summary>
 
-| Day | Topic                  | Key Concepts                                       |
-| --- | ---------------------- | -------------------------------------------------- |
-| 45  | Pandas Introduction    | Series, DataFrame, datasets                        |
-| 46  | Data Selection         | `.loc[]`, `.iloc[]`, boolean filtering             |
-| 47  | Data Cleaning          | Missing values, `dropna()`, `fillna()`, duplicates |
-| 48  | Data Transformation    | `.apply()`, `.map()`, sorting, column mutations    |
-| 49  | GroupBy & Aggregations | `.groupby()`, aggregation, multi-index             |
+| Day | Topic | Key Concepts |
+| --- | --- | --- |
+| 57 | Pandas Introduction | Pandas, Series, DataFrames |
+| 58 | Pandas Series | Creating, indexing, and manipulating Series |
+| 59 | Pandas DataFrames | Creating DataFrames from Python objects |
+| 60 | Loading Data | `read_csv()`, Excel files, dataset basics |
+| 61 | Data Inspection | `head()`, `tail()`, `shape`, `columns` |
+| 62 | Understanding Data | `info()`, `describe()`, data types |
+| 63 | Pandas Revision | Dataset exploration challenge |
+| 64 | Column Selection | Single and multiple columns |
+| 65 | Row Selection | `.loc[]` and `.iloc[]` |
+| 66 | Boolean Filtering | Filtering rows with conditions |
+| 67 | Multiple Conditions | `&`, `|`, `isin()` |
+| 68 | Sorting Data | `sort_values()` and ranking |
+| 69 | Missing Data | `isnull()`, `notnull()` |
+| 70 | Handling Missing Values | `dropna()`, `fillna()` |
+| 71 | Duplicate Data | `duplicated()`, `drop_duplicates()` |
+| 72 | Data Types | `astype()` and type conversion |
+| 73 | Text Cleaning | Pandas `.str` methods |
+| 74 | Renaming and Replacing | Column and value standardization |
+| 75 | Data Cleaning Challenge | Clean a messy dataset |
+| 76 | Counting Data | `value_counts()` |
+| 77 | GroupBy Basics | Grouping and summarizing |
+| 78 | Aggregation | `sum()`, `mean()`, `count()`, `min()`, `max()` |
+| 79 | Multiple Aggregations | `.agg()` |
+| 80 | Pivot Tables | Creating analytical summaries |
+| 81 | Crosstab Analysis | Comparing categorical variables |
+| 82 | Concatenation | Combining datasets with `concat()` |
+| 83 | Merging Data | `merge()` fundamentals |
+| 84 | Advanced Merging | Inner, left, right, and outer joins |
+| 85 | Date and Time | `to_datetime()` and `.dt` |
+| 86 | Reshaping Data | `pivot()`, `melt()` |
+| 87 | Apply and Map | Custom transformations |
+| 88 | Transform Operations | Group-level transformations |
+| 89 | Rolling Calculations | Moving averages and rolling analysis |
+| 90 | Exploratory Data Analysis | Complete data analysis workflow |
+| 91 | Pandas Final Project | Zomato Restaurant EDA |
 
 </details>
 
-### 🏆 Capstone — Day 50
 
-**Pandas CSV Analytics Project**
+<details>
+<summary><strong>Phase 12 — Matplotlib for Data Science (Days 92–101)</strong></summary>
 
-An end-to-end data analysis project using a real-world CSV dataset.
+| Day | Topic | Key Concepts |
+| --- | --- | --- |
+| 92 | Matplotlib Introduction | Figure, axes, basic plotting |
+| 93 | Line Charts | Trends and time-based data |
+| 94 | Bar Charts | Comparing categories |
+| 95 | Histograms | Understanding data distributions |
+| 96 | Scatter Plots | Relationships between variables |
+| 97 | Chart Customization | Titles, labels, legends, annotations |
+| 98 | Choosing Visualizations | Selecting charts for analytical questions |
+| 99 | Multiple Visualizations | Organizing related analytical charts |
+| 100 | Saving Figures | Exporting charts for reports and portfolios |
+| 101 | Visualization Project | Zomato Data Visualization |
 
-Expected workflow:
+</details>
+
+
+
+### 🏆 Final Portfolio Projects — Days 102–116
+
+| Days | Project | Focus |
+| --- | --- | --- |
+| 102–106 | Project 1 — Zomato EDA | Pandas, NumPy, Matplotlib |
+| 107–111 | Project 2 — Retail Sales Analysis | Data cleaning, analysis, visualization |
+| 112–116 | Project 3 — Independent Data Analysis | Complete end-to-end analysis |
+
+### Project Workflow
 
 ```text
-Dataset
-   ↓
+Business Question
+      ↓
 Data Loading
-   ↓
-Data Exploration
-   ↓
+      ↓
+Data Inspection
+      ↓
 Data Cleaning
-   ↓
+      ↓
 Data Transformation
-   ↓
-Statistical Analysis
-   ↓
-GroupBy & Aggregation
-   ↓
-Insights
-   ↓
-Final Report
+      ↓
+Exploratory Data Analysis
+      ↓
+Visualization
+      ↓
+Insights and Conclusions
 ```
 
 ---
@@ -504,15 +569,16 @@ Data-Science-Learning/
 * [x] CSV & JSON — Days 29–30
 * [x] OOP — Days 31–36
 * [x] OOP Mini Project — Day 37
-* [x] Modules & Environments — Days 38–41
-* [ ] NumPy — Days 42–44
-* [ ] Pandas — Days 45–49
-* [ ] Pandas Analytics Capstone — Day 50
+* [x] Modules & Environments — Days 38-41
+* [ ] NumPy for Data Science — Days 42-56
+* [ ] Pandas for Data Science — Days 57-91
+* [ ] Matplotlib for Data Science — Days 92-101
+* [ ] Integrated Data Science Projects — Days 102-116
 
 ### Data Science Stack
 
 * [x] SQL
-* [] Statistics
+* [ ] Statistics
 * [x] Excel
 * [x] Power BI
 * [ ] Machine Learning
