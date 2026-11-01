@@ -42,9 +42,9 @@ The goal is not only to complete a course, but to build practical skills through
 
 ---
 
-# 🐍 Python — 50 Day Roadmap
+# 🐍 Python — Roadmap
 
-A structured **50-day Python roadmap** covering fundamentals, control flow, functions, OOP, file handling, modules, NumPy, Pandas, and data analysis.
+A structured **Python roadmap** covering fundamentals, control flow, functions, OOP, file handling, modules, NumPy, Pandas, and data analysis.
 
 ## Roadmap Overview
 
@@ -595,6 +595,7 @@ Python
 SQL
 NumPy
 Pandas
+Matplotlib
 Excel
 Power BI
 Git
