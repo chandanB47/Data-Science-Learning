@@ -119,10 +119,10 @@ The project will include:
 
 - [x] Day 01 — Pandas Introduction
 - [x] Day 02 — Loading and Inspecting Data
-- [ ] Day 03 — Pandas DataFrames
-- [ ] Day 04 — Loading Data
-- [ ] Day 05 — Data Inspection
-- [ ] Day 06 — Understanding Data
+- [x] Day 03 — Pandas DataFrames
+- [x] Day 04 — Loading Data
+- [x] Day 05 — Data Inspection
+- [x] Day 06 — Understanding Data
 - [ ] Day 07 — Revision Challenge
 
 ### 🔵 Selection & Filtering
