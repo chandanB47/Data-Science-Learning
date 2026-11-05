@@ -109,10 +109,10 @@ From your dataset:
 
 You are ready for Day 08 if you can independently:
 
-- [ ] Create a Series
-- [ ] Create a DataFrame
-- [ ] Load a CSV file
-- [ ] Use `head()` and `tail()`
-- [ ] Check `shape` and `columns`
-- [ ] Understand `info()`
-- [ ] Understand `describe()`
+- [x] Create a Series
+- [x] Create a DataFrame
+- [x] Load a CSV file
+- [x] Use `head()` and `tail()`
+- [x] Check `shape` and `columns`
+- [x] Understand `info()`
+- [x] Understand `describe()`
