@@ -83,13 +83,26 @@ Use `describe()` to generate a statistical summary.
 ## ⭐ Challenge
 
 Answer these questions in your own words:
+```
+### 1. What is the difference between a Series and a DataFrame?
+A Series is a one-dimensional structure that contains a single column of data. A DataFrame is a two-dimensional structure with rows and multiple columns.
 
-1. What is the difference between a Series and a DataFrame?
-2. Why should you inspect a dataset before analyzing it?
-3. What information does `df.info()` provide?
-4. What information does `df.describe()` provide?
-5. Which column has the highest average value in this dataset?
+### 2. Why should you inspect a dataset before analyzing it?
+We inspect a dataset to understand its structure, columns, data types, missing values, and overall data before starting the analysis.
 
+### 3. What information does df.info() provide?
+df.info() provides information about the DataFrame, including column names, data types, non-null values, and memory usage.
+
+### 4. What information does df.describe() provide?
+df.describe() provides a statistical summary of numerical columns, including count, mean, standard deviation, minimum, maximum, and percentiles.
+
+### 5. Which column has the highest average value in this dataset?
+The Salary column has the highest average value.
+
+From your dataset:
+- Average Age = 28.4
+- Average Salary = 60,000
+```
 ---
 
 ## 🎯 Completion Check
