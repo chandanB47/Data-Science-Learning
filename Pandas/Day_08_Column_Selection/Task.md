@@ -101,7 +101,7 @@ Then complete the following:
 
 You are ready for Day 09 if you can independently:
 
-- [ ] Select one column.
-- [ ] Select multiple columns.
-- [ ] Explain the difference between a Series and a DataFrame.
-- [ ] Use column selection to focus on relevant data.
+- [x] Select one column.
+- [x] Select multiple columns.
+- [x] Explain the difference between a Series and a DataFrame.
+- [x] Use column selection to focus on relevant data.
