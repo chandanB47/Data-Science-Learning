@@ -123,11 +123,11 @@ The project will include:
 - [x] Day 04 — Loading Data
 - [x] Day 05 — Data Inspection
 - [x] Day 06 — Understanding Data
-- [ ] Day 07 — Revision Challenge
+- [x] Day 07 — Revision Challenge
 
 ### 🔵 Selection & Filtering
 
-- [ ] Day 08 — Column Selection
+- [x] Day 08 — Column Selection
 - [ ] Day 09 — Row Selection
 - [ ] Day 10 — Boolean Filtering
 - [ ] Day 11 — Multiple Conditions
