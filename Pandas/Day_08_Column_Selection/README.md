@@ -122,7 +122,7 @@ This helps you focus on the information relevant to your analysis.
 - Multiple selected columns return a **DataFrame**.
 - Column selection helps focus your analysis on relevant data.
 
-## ➡️ Next Step
+### ➡️ Next Step
 
 Complete the exercises in `TASK.md`.
 
