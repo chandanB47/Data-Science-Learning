@@ -66,13 +66,33 @@ Answer in your own words:
 
 **What is the main difference between `.loc[]` and `.iloc[]`, and when would you use each one?**
 
+```text
+
+.loc[] selects data using labels or names,
+
+.iloc[] selects data using integer positions.
+
+- I would use .loc[] when I know the row or column label I want to select.
+
+- I would use .iloc[] when I want to select data based on its numerical position in the DataFrame.
+```
+
+## Example :-
+
+### Select using an index label
+df.loc[2]
+
+### Select using an integer position
+df.iloc[2]
+
+
 ---
 
 ## ✅ Completion Checklist
 
-- [ ] Created the DataFrame
-- [ ] Selected a single column
-- [ ] Selected multiple columns
-- [ ] Used `.loc[]`
-- [ ] Used `.iloc[]`
-- [ ] Completed the challenge question
+- [x] Created the DataFrame
+- [x] Selected a single column
+- [x] Selected multiple columns
+- [x] Used `.loc[]`
+- [x] Used `.iloc[]`
+- [x] Completed the challenge question
