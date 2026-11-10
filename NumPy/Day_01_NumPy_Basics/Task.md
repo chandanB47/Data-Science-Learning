@@ -129,13 +129,25 @@ Explain in your own words:
 
 > What is vectorization, and why can it be useful in Data Science?
 
+```text
+
+Vectorization means performing an operation on an entire NumPy array at once instead of writing a loop to process each value individually.
+
+```
+
+Example
+
+```
+profits = np.array([500, 750, 1000])
+forecasted_profits = profits * 1.20
+```
 ---
 
 # ✅ Completion Checklist
 
-- [ ] I can import NumPy.
-- [ ] I can create a basic NumPy array.
-- [ ] I understand what `ndarray` means.
-- [ ] I can perform a basic vectorized operation.
-- [ ] I understand one advantage of NumPy over Python lists.
+- [x] I can import NumPy.
+- [x] I can create a basic NumPy array.
+- [x] I understand what `ndarray` means.
+- [x] I can perform a basic vectorized operation.
+- [x] I understand one advantage of NumPy over Python lists.
 - [ ] I completed the challenge task.
