@@ -1,4 +1,4 @@
-# 🐼 Day 07 — Pandas Revision Challenge ( Day 3 to 6 ) Includes
+# 🐼 Pandas Revision Challenge 
 
 ## 🎯 Learning Objective
 
