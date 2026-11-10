@@ -1,4 +1,4 @@
-# 📝 Day 07 — Revision Challenge
+# 📝  Revision Challenge
 
 ## Part 1 — Series Practice
 
