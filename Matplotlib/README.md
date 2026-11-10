@@ -1,40 +1,52 @@
 # 📊 Matplotlib for Data Science
 
-A structured learning journey for creating clear and meaningful data visualizations.
+A practical learning journey for mastering data visualization and communicating insights through charts.
 
 ## 🎯 Learning Goal
 
-Learn to visualize data effectively and communicate analytical findings through appropriate charts.
+Learn to create clear and meaningful visualizations for data analysis and Data Science projects.
 
-## 📅 Learning Roadmap — Days 92–101
+## 📅 10-Day Learning Roadmap
 
 | Day | Topic | Key Concepts |
 |---|---|---|
-| 92 | Introduction | Figure, axes, basic plotting |
-| 93 | Line Charts | Trends and time-series data |
-| 94 | Bar Charts | Comparing categories |
-| 95 | Histograms | Understanding distributions |
-| 96 | Scatter Plots | Relationships between variables |
-| 97 | Customization | Titles, labels, legends, annotations |
-| 98 | Choosing Charts | Selecting the right visualization |
-| 99 | Multiple Charts | Combining related visualizations |
-| 100 | Saving Figures | Exporting charts |
-| 101 | Visualization Project | Real-world data visualization |
+| 1 | Matplotlib Introduction | `pyplot`, first chart |
+| 2 | Line Charts | Trends and time-series data |
+| 3 | Bar Charts | Category comparison |
+| 4 | Histograms | Data distributions |
+| 5 | Scatter Plots | Relationships between variables |
+| 6 | Chart Customization | Titles, labels, legends, grid |
+| 7 | Multiple Plots | Figure size and subplots |
+| 8 | Pandas Visualization | Plotting DataFrames and Series |
+| 9 | Visualization Challenge | Choose appropriate charts |
+| 10 | Final Project | Data visualization project |
 
-## 📈 Project
+## 📊 Key Skills
 
-Create meaningful visualizations using a real-world dataset.
+- Line charts
+- Bar charts
+- Histograms
+- Scatter plots
+- Chart customization
+- Multiple visualizations
+- Plotting Pandas data
+- Choosing appropriate charts
 
-Focus on:
+## 🚀 Final Project
 
-- Trends
-- Comparisons
-- Distributions
-- Relationships
-- Clear communication of insights
+Create a data visualization report using a real-world dataset.
+
+The project will include:
+
+- Data exploration
+- Chart selection
+- Trend analysis
+- Distribution analysis
+- Relationship analysis
+- Clear visual communication
 
 ## 🎯 Final Goal
 
-Create visualizations that answer analytical questions rather than simply making charts.
+Create professional visualizations that help communicate data insights clearly.
 
-**Status:** 🔵 Planned
+**Status:** ⚪ Not Started
