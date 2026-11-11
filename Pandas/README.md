@@ -32,8 +32,8 @@ Use this checklist to track your learning progress.
 
 ### 🟢 Foundations
 
-- [ ] Day 01 — Pandas Basics
-- [ ] Day 02 — Loading & Inspection
+- [x] Day 01 — Pandas Basics
+- [x] Day 02 — Loading & Inspection
 - [ ] Day 03 — Data Selection
 
 ### 🔵 Selection & Analysis
