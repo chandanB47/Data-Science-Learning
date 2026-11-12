@@ -68,14 +68,23 @@ Unknown
 
 ---
 
-## 🎯 Challenge Questions
+## 🎯 Challenge Questions and Answers
 
-Answer in your own words:
+### 1. What does `isnull()` return?
 
-1. What does `isnull()` return?
-2. What is the difference between `dropna()` and `fillna()`?
-3. Why can blindly removing missing data be a problem?
-4. When might filling a missing value be better than removing the row?
+`isnull()` returns a Boolean result showing whether each value is missing. It returns `True` for missing values and `False` for available values.
+
+### 2. What is the difference between `dropna()` and `fillna()`?
+
+`dropna()` removes rows or columns that contain missing values. `fillna()` replaces missing values with a specified value, such as the mean, median, or a custom value.
+
+### 3. Why can blindly removing missing data be a problem?
+
+Blindly removing missing data can cause the loss of important information and reduce the size of the dataset. This may affect the accuracy and reliability of the analysis.
+
+### 4. When might filling a missing value be better than removing the row?
+
+Filling a missing value is better when the row contains useful information and removing it would result in losing valuable data. The missing value can be replaced with an appropriate value based on the data and the analysis.
 
 ---
 
