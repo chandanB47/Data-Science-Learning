@@ -34,12 +34,12 @@ Use this checklist to track your learning progress.
 
 - [x] Day 01 — Pandas Basics
 - [x] Day 02 — Loading & Inspection
-- [ ] Day 03 — Data Selection
+- [x] Day 03 — Data Selection
 
 ### 🔵 Selection & Analysis
 
-- [ ] Day 04 — Filtering
-- [ ] Day 05 — Sorting & Counting
+- [x] Day 04 — Filtering
+- [x] Day 05 — Sorting & Counting
 - [ ] Day 06 — Missing Data
 
 ### 🟡 Data Cleaning
