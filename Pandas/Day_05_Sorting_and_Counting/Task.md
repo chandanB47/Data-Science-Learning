@@ -54,14 +54,23 @@ Use `value_counts()` to identify which city appears most frequently.
 
 ---
 
-## 🎯 Challenge Questions
+## 🎯 Challenge Questions and Answers
 
-Answer in your own words:
+### 1. What is the difference between ascending and descending sorting?
 
-1. What is the difference between ascending and descending sorting?
-2. Why would you sort data using multiple columns?
-3. What does `value_counts()` do?
-4. How can sorting help during data analysis?
+Ascending sorting arranges data from the lowest to the highest value, or from A to Z. Descending sorting arranges data from the highest to the lowest value, or from Z to A.
+
+### 2. Why would you sort data using multiple columns?
+
+Sorting by multiple columns helps organize data based on more than one condition. For example, we can first sort employees by city and then sort their salaries within each city.
+
+### 3. What does `value_counts()` do?
+
+`value_counts()` counts how many times each unique value appears in a column.
+
+### 4. How can sorting help during data analysis?
+
+Sorting helps organize data and makes it easier to identify patterns, compare values, and find the highest or lowest values.
 
 ---
 
