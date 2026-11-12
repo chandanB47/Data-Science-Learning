@@ -73,9 +73,9 @@ Answer in your own words:
 
 ## ✅ Completion Checklist
 
-- [ ] Created the DataFrame
-- [ ] Filtered using one condition
-- [ ] Used comparison operators
-- [ ] Used `&` for multiple conditions
-- [ ] Used `|` for multiple conditions
-- [ ] Completed the challenge questions
+- [x] Created the DataFrame
+- [x] Filtered using one condition
+- [x] Used comparison operators
+- [x] Used `&` for multiple conditions
+- [x] Used `|` for multiple conditions
+- [x] Completed the challenge questions
