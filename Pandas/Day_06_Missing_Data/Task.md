@@ -90,10 +90,10 @@ Filling a missing value is better when the row contains useful information and r
 
 ## ✅ Completion Checklist
 
-- [ ] Created the DataFrame
-- [ ] Identified missing values using `isnull()`
-- [ ] Counted missing values
-- [ ] Used `notnull()`
-- [ ] Used `dropna()`
-- [ ] Used `fillna()`
-- [ ] Completed the challenge questions
+- [x] Created the DataFrame
+- [x] Identified missing values using `isnull()`
+- [x] Counted missing values
+- [x] Used `notnull()`
+- [x] Used `dropna()`
+- [x] Used `fillna()`
+- [x] Completed the challenge questions
