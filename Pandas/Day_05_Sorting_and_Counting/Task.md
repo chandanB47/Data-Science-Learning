@@ -76,9 +76,9 @@ Sorting helps organize data and makes it easier to identify patterns, compare va
 
 ## ✅ Completion Checklist
 
-- [ ] Created the DataFrame
-- [ ] Sorted data in ascending order
-- [ ] Sorted data in descending order
-- [ ] Sorted using multiple columns
-- [ ] Used `value_counts()`
-- [ ] Completed the challenge questions
+- [x] Created the DataFrame
+- [x] Sorted data in ascending order
+- [x] Sorted data in descending order
+- [x] Sorted using multiple columns
+- [x] Used `value_counts()`
+- [x] Completed the challenge questions
