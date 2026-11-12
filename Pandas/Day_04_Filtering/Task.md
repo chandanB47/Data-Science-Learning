@@ -61,13 +61,21 @@ Use the `|` operator.
 
 ---
 
-## 🎯 Challenge
+# 🎯 Challenge Questions and Answers
 
-Answer in your own words:
+## 1. What happens when you use a Boolean condition to filter a DataFrame?
 
-1. What happens when you use a Boolean condition to filter a DataFrame?
-2. What is the difference between `&` and `|` when filtering data?
-3. Why should each condition be placed inside parentheses?
+A Boolean condition checks each row and returns either `True` or `False`. When used to filter a DataFrame, Pandas displays only the rows where the condition is `True`.
+
+## 2. What is the difference between `&` and `|` when filtering data?
+
+The `&` operator means **AND**, so both conditions must be `True` for a row to be selected.
+
+The `|` operator means **OR**, so at least one condition must be `True` for a row to be selected.
+
+## 3. Why should each condition be placed inside parentheses?
+
+Each condition should be placed inside parentheses to ensure that Python evaluates the comparison conditions correctly before applying the `&` or `|` operator. This helps avoid errors caused by operator precedence.
 
 ---
 
