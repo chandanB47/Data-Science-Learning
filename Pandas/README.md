@@ -40,7 +40,7 @@ Use this checklist to track your learning progress.
 
 - [x] Day 04 — Filtering
 - [x] Day 05 — Sorting & Counting
-- [ ] Day 06 — Missing Data
+- [x] Day 06 — Missing Data
 
 ### 🟡 Data Cleaning
 
