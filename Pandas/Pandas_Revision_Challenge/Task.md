@@ -206,19 +206,47 @@ Replace missing `Department` values with `"Unknown"`.
 
 # ⭐ Final Challenge — Test Your Understanding
 
-Answer the following questions in your own words.
+## Question 1 — Series vs DataFrame
 
-## Question 1
+### What is the difference between a Series and a DataFrame?
 
-What is the difference between a **Series** and a **DataFrame**?
+**Answer:**
 
-## Question 2
+A **Series** is a one-dimensional labeled data structure, similar to a single column of data.
 
-What is the difference between `.loc[]` and `.iloc[]`?
+A **DataFrame** is a two-dimensional data structure with rows and columns. A DataFrame can contain multiple Series.
 
-## Question 3
+**Example:** In an employee dataset, the `Salary` column is a Series, while the complete employee table is a DataFrame.
 
-What happens when you filter a DataFrame using a Boolean condition?
+---
+
+## Question 2 — `.loc[]` vs `.iloc[]`
+
+### What is the difference between `.loc[]` and `.iloc[]`?
+
+**Answer:**
+
+`.loc[]` selects data using **labels or names**.
+
+`.iloc[]` selects data using **integer positions**.
+
+For example:
+
+```python
+# Selects rows using index labels
+df.loc[2:5]
+
+# Selects rows using integer positions
+df.iloc[2:5]
+```
+
+An important difference is that `.iloc[]` follows normal Python slicing, so the ending position is excluded.
+
+---
+
+## Question 3 — Boolean Filtering
+
+### What happens when you filter a DataFrame using a Boolean condition?
 
 For example:
 
@@ -228,23 +256,91 @@ df[df["Salary"] > 60000]
 
 Explain what happens to the rows that meet and do not meet the condition.
 
-## Question 4
+**Answer:**
 
-What is the difference between `&` and `|` when filtering data?
+When we filter a DataFrame using a Boolean condition, Pandas checks each row and produces either `True` or `False`.
 
-## Question 5
+- Rows where the condition is `True` are included in the result.
+- Rows where the condition is `False` are excluded.
 
-Why might `dropna()` be a bad choice for some datasets?
+In the example above, only employees with a salary greater than `60,000` are returned.
 
-## Question 6
+The original DataFrame remains unchanged unless we explicitly modify it.
 
-You have a dataset with **100,000 rows**. Why is it a good practice to keep the original DataFrame unchanged?
+---
+
+## Question 4 — `&` vs `|`
+
+### What is the difference between `&` and `|` when filtering data?
+
+**Answer:**
+
+`&` means **AND**. Both conditions must be `True` for a row to be selected.
+
+`|` means **OR**. At least one condition must be `True` for a row to be selected.
+
+For example:
+
+```python
+# Both conditions must be True
+df[(df["Age"] > 25) & (df["Salary"] > 60000)]
+
+# At least one condition must be True
+df[(df["Age"] > 25) | (df["Salary"] > 60000)]
+```
+
+---
+
+## Question 5 — Using `dropna()`
+
+### Why might `dropna()` be a bad choice for some datasets?
+
+**Answer:**
+
+`dropna()` removes rows or columns containing missing values. This can be a bad choice because it may remove useful data.
+
+For example, if many rows contain only one missing value, using `dropna()` could remove a large amount of valuable information and affect the analysis.
+
+Before using `dropna()`, we should understand why the data is missing and decide whether removing or filling the missing values is the better option.
+
+---
+
+## Question 6 — Keeping the Original DataFrame
+
+### You have a dataset with 100,000 rows. Why is it a good practice to keep the original DataFrame unchanged?
 
 Think about:
 
 - Data safety
 - Recovering from mistakes
 - Comparing original and cleaned data
+
+**Answer:**
+
+Keeping the original DataFrame unchanged protects the raw data.
+
+If we make a mistake while cleaning or transforming the data, we can return to the original dataset. It also allows us to compare the original data with the cleaned version and understand what changes were made.
+
+For example:
+
+```python
+df_clean = df.dropna()
+```
+
+This creates a new cleaned DataFrame while keeping the original `df` unchanged.
+
+This is especially important when working with a large dataset, such as one containing **100,000 rows**, where incorrectly modifying or losing data can be difficult to recover.
+
+---
+
+## 🎯 Key Takeaways
+
+- A **Series** is one-dimensional, while a **DataFrame** has rows and columns.
+- `.loc[]` uses labels, while `.iloc[]` uses integer positions.
+- Boolean filtering returns rows where the condition is `True`.
+- `&` means **AND**, while `|` means **OR**.
+- `dropna()` can cause unnecessary data loss if used without analysis.
+- Keeping the original DataFrame unchanged protects your raw data and makes it easier to recover from mistakes.
 
 ---
 
