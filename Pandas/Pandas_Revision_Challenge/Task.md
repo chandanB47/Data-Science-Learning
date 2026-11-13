@@ -1,16 +1,26 @@
-# 📝  Revision Challenge
+# 📝 Pandas Revision Challenge — Tasks
 
-## Part 1 — Series Practice
+## 🎯 Objective
 
-### Task 1
+Test your understanding of the Pandas concepts covered in **Days 01–06**.
 
-Create a Pandas Series containing the following monthly sales:
+Try to complete all tasks without looking at previous notes or solutions.
+
+---
+
+# Part 1 — Series and DataFrame Basics
+
+## Task 1 — Create a Series
+
+Create a Pandas Series containing these quarterly sales values:
 
 ```text
-1200, 1500, 1800, 2000, 2200
+15000, 22000, 18000, 25000
 ```
 
-### Task 2
+---
+
+## Task 2 — Access Series Values
 
 Print:
 
@@ -20,99 +30,244 @@ Print:
 
 ---
 
-## Part 2 — DataFrame Practice
+## Task 3 — Create and Display the DataFrame
 
-Use the following data:
+Use the following dataset:
 
 ```python
+import pandas as pd
+import numpy as np
+
 data = {
-    "Name": ["Amit", "Sneha", "Ravi", "Priya", "Kiran"],
-    "Age": [25, 28, 30, 27, 32],
-    "Department": ["Sales", "IT", "HR", "IT", "Finance"],
-    "Salary": [50000, 60000, 55000, 65000, 70000]
+    "Employee": ["Arjun", "Meera", "Rahul", "Divya", "Vikram", "Neha", "Rohan", "Pooja"],
+    "Age": [26, 31, np.nan, 29, 35, 27, np.nan, 32],
+    "Department": ["IT", "HR", "IT", "Sales", "HR", "IT", "Sales", np.nan],
+    "Experience": [2, 7, 4, 5, np.nan, 3, 6, 8],
+    "Salary": [45000, 72000, 55000, 60000, 85000, np.nan, 58000, 78000]
 }
+
+df = pd.DataFrame(data)
 ```
 
-### Task 3
-
-Create a Pandas DataFrame using the data above.
-
-### Task 4
-
-Print the complete DataFrame.
-
-### Task 5
-
-Check the data type of each column.
+Display the complete DataFrame.
 
 ---
 
-## Part 3 — Data Inspection
+# Part 2 — Data Inspection
 
-Using your DataFrame, complete the following:
+## Task 4
 
-### Task 6
+Display the first **4 rows** of the DataFrame.
 
-Display the first three rows.
+## Task 5
 
-### Task 7
+Display the last **3 rows** of the DataFrame.
 
-Display the last two rows.
+## Task 6
 
-### Task 8
+Find the number of:
 
-Find:
+- Rows
+- Columns
 
-- Number of rows
-- Number of columns
-
-### Task 9
+## Task 7
 
 Display all column names.
 
-### Task 10
+## Task 8
+
+Check the data type of every column.
+
+## Task 9
 
 Use `info()` to inspect the DataFrame.
 
-### Task 11
+## Task 10
 
 Use `describe()` to generate a statistical summary.
 
 ---
 
-## ⭐ Challenge
+# Part 3 — Data Selection
 
-Answer these questions in your own words:
-```
-### 1. What is the difference between a Series and a DataFrame?
-A Series is a one-dimensional structure that contains a single column of data. A DataFrame is a two-dimensional structure with rows and multiple columns.
+## Task 11
 
-### 2. Why should you inspect a dataset before analyzing it?
-We inspect a dataset to understand its structure, columns, data types, missing values, and overall data before starting the analysis.
+Select only the `Employee` column.
 
-### 3. What information does df.info() provide?
-df.info() provides information about the DataFrame, including column names, data types, non-null values, and memory usage.
+## Task 12
 
-### 4. What information does df.describe() provide?
-df.describe() provides a statistical summary of numerical columns, including count, mean, standard deviation, minimum, maximum, and percentiles.
+Select the following columns:
 
-### 5. Which column has the highest average value in this dataset?
-The Salary column has the highest average value.
+- `Employee`
+- `Department`
+- `Salary`
 
-From your dataset:
-- Average Age = 28.4
-- Average Salary = 60,000
-```
+## Task 13
+
+Using `.loc[]`, select rows with index labels **2 to 5**.
+
+## Task 14
+
+Using `.iloc[]`, select the **first 3 rows**.
+
+## Task 15 — Challenge
+
+Using `.iloc[]`, select:
+
+- Rows at positions **1 to 4**
+- The first **3 columns**
+
+⚠️ Remember: the ending position in `.iloc[]` is excluded.
+
 ---
 
-## 🎯 Completion Check
+# Part 4 — Filtering Data
 
-You are ready for Day 08 if you can independently:
+## Task 16
 
-- [x] Create a Series
-- [x] Create a DataFrame
-- [x] Load a CSV file
-- [x] Use `head()` and `tail()`
-- [x] Check `shape` and `columns`
-- [x] Understand `info()`
-- [x] Understand `describe()`
+Display employees whose salary is greater than **60,000**.
+
+## Task 17
+
+Display employees who work in the **IT** department.
+
+## Task 18
+
+Display employees who:
+
+- Are older than 28
+- Have a salary greater than or equal to 60,000
+
+Use the `&` operator.
+
+## Task 19
+
+Display employees who:
+
+- Work in the Sales department
+- **OR** have more than 7 years of experience
+
+Use the `|` operator.
+
+---
+
+# Part 5 — Sorting and Counting
+
+## Task 20
+
+Sort the DataFrame by `Salary` from lowest to highest.
+
+## Task 21
+
+Sort the DataFrame by `Experience` from highest to lowest.
+
+## Task 22
+
+Sort the DataFrame by:
+
+1. `Department` in ascending order
+2. `Salary` in descending order
+
+## Task 23
+
+Count how many employees belong to each department.
+
+### Bonus
+
+Include missing department values in your count.
+
+---
+
+# Part 6 — Missing Data
+
+## Task 24
+
+Display which values are missing in the DataFrame.
+
+## Task 25
+
+Count the missing values in each column.
+
+## Task 26
+
+Create a new DataFrame called `df_clean` by removing rows containing missing values.
+
+**Do not modify the original `df`.**
+
+## Task 27
+
+Fill missing `Age` values using the mean age.
+
+## Task 28
+
+Replace missing `Department` values with `"Unknown"`.
+
+---
+
+# ⭐ Final Challenge — Test Your Understanding
+
+Answer the following questions in your own words.
+
+## Question 1
+
+What is the difference between a **Series** and a **DataFrame**?
+
+## Question 2
+
+What is the difference between `.loc[]` and `.iloc[]`?
+
+## Question 3
+
+What happens when you filter a DataFrame using a Boolean condition?
+
+For example:
+
+```python
+df[df["Salary"] > 60000]
+```
+
+Explain what happens to the rows that meet and do not meet the condition.
+
+## Question 4
+
+What is the difference between `&` and `|` when filtering data?
+
+## Question 5
+
+Why might `dropna()` be a bad choice for some datasets?
+
+## Question 6
+
+You have a dataset with **100,000 rows**. Why is it a good practice to keep the original DataFrame unchanged?
+
+Think about:
+
+- Data safety
+- Recovering from mistakes
+- Comparing original and cleaned data
+
+---
+
+# 🎯 Completion Checklist
+
+You should be able to independently:
+
+- [ ] Create a Series
+- [ ] Create and inspect a DataFrame
+- [ ] Check rows, columns, and data types
+- [ ] Use `head()`, `tail()`, `info()`, and `describe()`
+- [ ] Select columns and rows
+- [ ] Understand `.loc[]` and `.iloc[]`
+- [ ] Filter data using one or multiple conditions
+- [ ] Use `&` and `|` correctly
+- [ ] Sort data using `sort_values()`
+- [ ] Count categorical values using `value_counts()`
+- [ ] Identify missing values
+- [ ] Use `dropna()` and `fillna()` appropriately
+- [ ] Preserve the original DataFrame while cleaning data
+
+---
+
+## ➡️ Next Step
+
+After completing this revision challenge, review any mistakes you made before moving to the next topic in your Pandas learning roadmap.
