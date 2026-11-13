@@ -348,19 +348,19 @@ This is especially important when working with a large dataset, such as one cont
 
 You should be able to independently:
 
-- [ ] Create a Series
-- [ ] Create and inspect a DataFrame
-- [ ] Check rows, columns, and data types
-- [ ] Use `head()`, `tail()`, `info()`, and `describe()`
-- [ ] Select columns and rows
-- [ ] Understand `.loc[]` and `.iloc[]`
-- [ ] Filter data using one or multiple conditions
-- [ ] Use `&` and `|` correctly
-- [ ] Sort data using `sort_values()`
-- [ ] Count categorical values using `value_counts()`
-- [ ] Identify missing values
-- [ ] Use `dropna()` and `fillna()` appropriately
-- [ ] Preserve the original DataFrame while cleaning data
+- [x] Create a Series
+- [x] Create and inspect a DataFrame
+- [x] Check rows, columns, and data types
+- [x] Use `head()`, `tail()`, `info()`, and `describe()`
+- [x] Select columns and rows
+- [x] Understand `.loc[]` and `.iloc[]`
+- [x] Filter data using one or multiple conditions
+- [x] Use `&` and `|` correctly
+- [x] Sort data using `sort_values()`
+- [x] Count categorical values using `value_counts()`
+- [x] Identify missing values
+- [x] Use `dropna()` and `fillna()` appropriately
+- [x] Preserve the original DataFrame while cleaning data
 
 ---
 
