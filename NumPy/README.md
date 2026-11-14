@@ -32,7 +32,7 @@ Use this checklist to track your learning progress.
 
 ### 🟢 Foundations
 
-- [ ] Day 01 — NumPy Basics
+- [x] Day 01 — NumPy Basics
 - [ ] Day 02 — Creating Arrays
 - [ ] Day 03 — Array Properties
 - [ ] Day 04 — Indexing & Slicing
